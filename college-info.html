@@ -258,362 +258,1518 @@
                     </nav>
                 </div>
             </div>
-            <div class=" row tab-content py-3 px-3 px-sm-0" id="nav-tabContent " style="background-color:#e5e5e5">
-
-                <div class=" col-8 fade mx-5 my-4  tab-pane show active" id="nav-info" role="tabpanel"
-                    aria-labelledby="nav-info-tab">
-
-                    <div class="overall-rating">
-                        <div class="row my-5">
-                            <div class="col-md-2 mt-3">
-                                <div style="border: 3px solid yellow; height: 100px; width: 100px; border-radius: 50%; text-align: center;"
-                                    class="my-4 ml-4">
-                                    <div class="mt-4 overall-rating-text">8.0</div>
+            <div class=" row tab-content py-3 px-3 px-sm-0" id="nav-tabContent "
+                style="background-color:rgba(250, 250, 250, 1)">
+                <div class="row">
+                    <div class=" col-8 fade mx-5 my-4  tab-pane show active" id="nav-info" role="tabpanel"
+                        aria-labelledby="nav-info-tab">
+                        <!----------------------overall rating---------------------------------------------->
+                        <div class="overall-rating my-2 pb-4">
+                            <div class="row mt-2">
+                                <div class="col-md-2 mt-3">
+                                    <div style="border: 3px solid yellow; height: 100px; width: 100px; border-radius: 50%; text-align: center;"
+                                        class="my-4 ml-4">
+                                        <div class="mt-4 pt-2 overall-rating-text">8.0</div>
+                                    </div>
+                                    <div class="text-center overall-rating-text pl-4">overall rating</div>
                                 </div>
-                                <div class="text-center overall-rating-text pl-4">overall rating</div>
+                                <div class="col-md-5">
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Academics</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-2" style="border-radius: 5px;
+                                    height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount2" readonly
+                                                class="overall-slider-input">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Diversity</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-3" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount3" readonly
+                                                class="overall-slider-input"></div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Athletics</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-4" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount4" readonly
+                                                class="overall-slider-input"></div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Value</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-5" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount5" readonly
+                                                class="overall-slider-input"></div>
+                                        <hr>
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="col-md-5 pl-5 pr-5">
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Professors</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-6" style="border-radius: 5px;
+                                    height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount6" readonly
+                                                class="overall-slider-input">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Campus</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-7" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount7" readonly
+                                                class="overall-slider-input"></div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Location</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-8" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount8" readonly
+                                                class="overall-slider-input"></div>
+                                    </div>
+                                    <div class="row my-4">
+                                        <div class="col-3 pr-5">
+                                            <div class="overall-slider-text">Dorms</div>
+                                        </div>
+                                        <div class="col-md-7 overall-slider mt-2 pl-4">
+                                            <div id="slider-range-min-9" style="border-radius: 5px;
+                                            height: 9px;"></div>
+                                        </div>
+                                        <div class="col-2"><input type="text" id="amount9" readonly
+                                                class="overall-slider-input"></div>
+
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col-md-5">
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Academics</div>
-                                    </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-2" style="border-radius: 5px;
-                                    height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount2" readonly
-                                            class="overall-slider-input">
-                                    </div>
-                                </div>
+                            <div class="text-center "><a href="#"><span class="overall-view-more mx-2">View
+                                        more</span><img src="assets/images/Vector 1.png" alt=""> </div></a>
+                        </div>
+                        <!--------------------------end of overall rating-------------------------------->
+                        <div class="tab-pane-overview my-5">
+                            <h6 class="px-5 pt-4 ">Overview</h6>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                                Duis
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
+                                Duis
+
+                            </p>
 
 
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Diversity</div>
+                            <div class="text-center py-3"><a href="#">View More</a></div>
+
+                        </div>
+                        <!--------------------------------------------------------IIT Madras Top Courses & Fees--------------------------->
+                        <div class="container-fluid course-fee py-3">
+                            <h2 class="my-3 mx-4">IIT Madras Top Courses & Fees</h2>
+                            <div class="row mx-4">
+                                <div class="col-lg-6 ">
+                                    <div class="row fee-courses-bg py-3 px-3">
+                                        <div class="col-12">
+                                            <h2>Bachelor of Technology (B.Tech)</h2>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6">
+                                                <span><a href=""> 8 Courses Offered
+                                                    </a>
+                                                </span></div>
+                                            <div class="col-6 d-flex justify-content-end">
+                                                <span>Annual Fee
+                                                </span></div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 pl-1">
+                                                <div class="d-flex justify-content-start" style="height: 40px;">
+                                                    <fieldset class="rating"> <input type="radio" id="star5"
+                                                            name="rating" value="5" />
+                                                        <label class="full" for="star5"
+                                                            title="Awesome - 5 stars"></label>
+                                                        <input type="radio" id="star4half" name="rating" value="4.5" />
+                                                        <label class="half" for="star4half"
+                                                            title="Pretty good - 4.5 stars"></label>
+                                                        <input type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full" for="star4"
+                                                            title="Pretty good - 4 stars"></label>
+                                                        <input type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half" for="star3half"
+                                                            title="Meh - 3.5 stars"></label>
+                                                        <input type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                        <input type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half" for="star2half"
+                                                            title="Kinda bad - 2.5 stars"></label>
+                                                        <input type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full" for="star2"
+                                                            title="Kinda bad - 2 stars"></label>
+                                                        <input type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half" for="star1half"
+                                                            title="Meh - 1.5 stars"></label>
+                                                        <input type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full" for="star1"
+                                                            title="Sucks big time - 1 star"></label>
+                                                        <input type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half" for="starhalf"
+                                                            title="Sucks big time - 0.5 stars"></label>
+                                                        <input type="radio" class="reset-option" value="3" name="rating"
+                                                            value="reset" />
+                                                    </fieldset>
+                                                    <div class="card-body">
+                                                        <div class="myratings review">(4.5) Review</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs</div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-8">
+                                                <div>JEE Advanced </div>
+                                                <span>03 May 2020 Registration Date | 17 May 2020 Exam Date</span>
+
+                                            </div>
+                                            <div class="col-4 text-right my-4">
+                                                <button class="btn ">
+                                                    <div class=" px-3">Apply</div>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-3" style="border-radius: 5px;
-                                            height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount3" readonly
-                                            class="overall-slider-input"></div>
+
                                 </div>
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Athletics</div>
+                                <div class="col-lg-6">
+                                    <div class="row fee-courses-bg py-3 px-3  ml-2">
+                                        <div class="col-12">
+                                            <h2>Bachelor of Technology (B.Tech)</h2>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6">
+                                                <span><a href=""> 8 Courses Offered
+                                                    </a>
+                                                </span></div>
+                                            <div class="col-6 d-flex justify-content-end">
+                                                <span>Annual Fee
+                                                </span></div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 pl-1">
+                                                <div class="d-flex justify-content-start" style="height: 40px;">
+                                                    <fieldset class="rating"> <input type="radio" id="star5"
+                                                            name="rating" value="5" />
+                                                        <label class="full" for="star5"
+                                                            title="Awesome - 5 stars"></label>
+                                                        <input type="radio" id="star4half" name="rating" value="4.5" />
+                                                        <label class="half" for="star4half"
+                                                            title="Pretty good - 4.5 stars"></label>
+                                                        <input type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full" for="star4"
+                                                            title="Pretty good - 4 stars"></label>
+                                                        <input type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half" for="star3half"
+                                                            title="Meh - 3.5 stars"></label>
+                                                        <input type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                        <input type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half" for="star2half"
+                                                            title="Kinda bad - 2.5 stars"></label>
+                                                        <input type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full" for="star2"
+                                                            title="Kinda bad - 2 stars"></label>
+                                                        <input type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half" for="star1half"
+                                                            title="Meh - 1.5 stars"></label>
+                                                        <input type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full" for="star1"
+                                                            title="Sucks big time - 1 star"></label>
+                                                        <input type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half" for="starhalf"
+                                                            title="Sucks big time - 0.5 stars"></label>
+                                                        <input type="radio" class="reset-option" value="3" name="rating"
+                                                            value="reset" />
+                                                    </fieldset>
+                                                    <div class="card-body">
+                                                        <div class="myratings review">(4.5) Review</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs</div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-8">
+                                                <div>JEE Advanced </div>
+                                                <span>03 May 2020 Registration Date | 17 May 2020 Exam Date</span>
+
+                                            </div>
+                                            <div class="col-4 text-right my-4">
+                                                <button class="btn ">
+                                                    <div class=" px-3">Apply</div>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-4" style="border-radius: 5px;
-                                            height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount4" readonly
-                                            class="overall-slider-input"></div>
+
                                 </div>
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Value</div>
+                            </div>
+                            <div class="row mx-4 my-4">
+                                <div class="col-lg-6 ">
+                                    <div class="row fee-courses-bg py-3 px-3">
+                                        <div class="col-12">
+                                            <h2>Bachelor of Technology (B.Tech)</h2>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6">
+                                                <span><a href=""> 8 Courses Offered
+                                                    </a>
+                                                </span></div>
+                                            <div class="col-6 d-flex justify-content-end">
+                                                <span>Annual Fee
+                                                </span></div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 pl-1">
+                                                <div class="d-flex justify-content-start" style="height: 40px;">
+                                                    <fieldset class="rating"> <input type="radio" id="star5"
+                                                            name="rating" value="5" />
+                                                        <label class="full" for="star5"
+                                                            title="Awesome - 5 stars"></label>
+                                                        <input type="radio" id="star4half" name="rating" value="4.5" />
+                                                        <label class="half" for="star4half"
+                                                            title="Pretty good - 4.5 stars"></label>
+                                                        <input type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full" for="star4"
+                                                            title="Pretty good - 4 stars"></label>
+                                                        <input type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half" for="star3half"
+                                                            title="Meh - 3.5 stars"></label>
+                                                        <input type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                        <input type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half" for="star2half"
+                                                            title="Kinda bad - 2.5 stars"></label>
+                                                        <input type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full" for="star2"
+                                                            title="Kinda bad - 2 stars"></label>
+                                                        <input type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half" for="star1half"
+                                                            title="Meh - 1.5 stars"></label>
+                                                        <input type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full" for="star1"
+                                                            title="Sucks big time - 1 star"></label>
+                                                        <input type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half" for="starhalf"
+                                                            title="Sucks big time - 0.5 stars"></label>
+                                                        <input type="radio" class="reset-option" value="3" name="rating"
+                                                            value="reset" />
+                                                    </fieldset>
+                                                    <div class="card-body">
+                                                        <div class="myratings review">(4.5) Review</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs</div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-8">
+                                                <div>JEE Advanced </div>
+                                                <span>03 May 2020 Registration Date | 17 May 2020 Exam Date</span>
+
+                                            </div>
+                                            <div class="col-4 text-right my-4">
+                                                <button class="btn ">
+                                                    <div class=" px-3">Apply</div>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-5" style="border-radius: 5px;
-                                            height: 14px;"></div>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row fee-courses-bg py-3 px-3  ml-2">
+                                        <div class="col-12">
+                                            <h2>Bachelor of Technology (B.Tech)</h2>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6">
+                                                <span><a href=""> 8 Courses Offered
+                                                    </a>
+                                                </span></div>
+                                            <div class="col-6 d-flex justify-content-end">
+                                                <span>Annual Fee
+                                                </span></div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 pl-1">
+                                                <div class="d-flex justify-content-start" style="height: 40px;">
+                                                    <fieldset class="rating"> <input type="radio" id="star5"
+                                                            name="rating" value="5" />
+                                                        <label class="full" for="star5"
+                                                            title="Awesome - 5 stars"></label>
+                                                        <input type="radio" id="star4half" name="rating" value="4.5" />
+                                                        <label class="half" for="star4half"
+                                                            title="Pretty good - 4.5 stars"></label>
+                                                        <input type="radio" id="star4" name="rating" value="4" />
+                                                        <label class="full" for="star4"
+                                                            title="Pretty good - 4 stars"></label>
+                                                        <input type="radio" id="star3half" name="rating" value="3.5" />
+                                                        <label class="half" for="star3half"
+                                                            title="Meh - 3.5 stars"></label>
+                                                        <input type="radio" id="star3" name="rating" value="3" />
+                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                        <input type="radio" id="star2half" name="rating" value="2.5" />
+                                                        <label class="half" for="star2half"
+                                                            title="Kinda bad - 2.5 stars"></label>
+                                                        <input type="radio" id="star2" name="rating" value="2" />
+                                                        <label class="full" for="star2"
+                                                            title="Kinda bad - 2 stars"></label>
+                                                        <input type="radio" id="star1half" name="rating" value="1.5" />
+                                                        <label class="half" for="star1half"
+                                                            title="Meh - 1.5 stars"></label>
+                                                        <input type="radio" id="star1" name="rating" value="1" />
+                                                        <label class="full" for="star1"
+                                                            title="Sucks big time - 1 star"></label>
+                                                        <input type="radio" id="starhalf" name="rating" value="0.5" />
+                                                        <label class="half" for="starhalf"
+                                                            title="Sucks big time - 0.5 stars"></label>
+                                                        <input type="radio" class="reset-option" value="3" name="rating"
+                                                            value="reset" />
+                                                    </fieldset>
+                                                    <div class="card-body">
+                                                        <div class="myratings review">(4.5) Review</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs</div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-8">
+                                                <div>JEE Advanced </div>
+                                                <span>03 May 2020 Registration Date | 17 May 2020 Exam Date</span>
+
+                                            </div>
+                                            <div class="col-4 text-right my-4">
+                                                <button class="btn ">
+                                                    <div class=" px-3">Apply</div>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-2"><input type="text" id="amount5" readonly
-                                            class="overall-slider-input"></div>
-                                    <hr>
+
+                                </div>
+                            </div>
+                            <div class="text-center"><span style=" font-size:13px ;
+                                color: rgba(41, 171, 226, 1);
+                                font-family: Poppins;">View more courses</span> <img src="assets/images/Vector 1.png"
+                                    alt=""></div>
+                        </div>
+
+                        <!--------------------------------------------------------end IIT Madras Top Courses & Fees--------------------------->
+                        <!---------------------------------------------Recommended Colleges--------------------------------->
+                        <div class="container-fluid course-fee  Colleges-Recommended py-3 my-5">
+                            <h2 class="my-3 mx-4">Recommended Colleges
+                            </h2>
+                            <div class="row mx-4">
+                                <div class="col-lg-6  ">
+                                    <div class="row fee-courses-bg py-3 px-3">
+                                        <div class=" row col-12">
+                                            <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png" alt="">
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
+                                                <div class="row">
+                                                    <div class="col-4 pr-0">
+                                                        <div class="row pl-2"> <img src="assets/images/location.png"
+                                                                alt="" height="20px">
+                                                            <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
+                                                                class="ml-1">
+                                                                Delhi, India
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-8 pr-0 d-flex justify-content-end">
+                                                        <div class="d-flex justify-content-end" style="height: 40px;">
+                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                                    name="rating" value="5" />
+                                                                <label class="full" for="star5"
+                                                                    title="Awesome - 5 stars"></label>
+                                                                <input type="radio" id="star4half" name="rating"
+                                                                    value="4.5" />
+                                                                <label class="half" for="star4half"
+                                                                    title="Pretty good - 4.5 stars"></label>
+                                                                <input type="radio" id="star4" name="rating"
+                                                                    value="4" />
+                                                                <label class="full" for="star4"
+                                                                    title="Pretty good - 4 stars"></label>
+                                                                <input type="radio" id="star3half" name="rating"
+                                                                    value="3.5" />
+                                                                <label class="half" for="star3half"
+                                                                    title="Meh - 3.5 stars"></label>
+                                                                <input type="radio" id="star3" name="rating"
+                                                                    value="3" />
+                                                                <label class="full" for="star3"
+                                                                    title="Meh - 3 stars"></label>
+                                                                <input type="radio" id="star2half" name="rating"
+                                                                    value="2.5" />
+                                                                <label class="half" for="star2half"
+                                                                    title="Kinda bad - 2.5 stars"></label>
+                                                                <input type="radio" id="star2" name="rating"
+                                                                    value="2" />
+                                                                <label class="full" for="star2"
+                                                                    title="Kinda bad - 2 stars"></label>
+                                                                <input type="radio" id="star1half" name="rating"
+                                                                    value="1.5" />
+                                                                <label class="half" for="star1half"
+                                                                    title="Meh - 1.5 stars"></label>
+                                                                <input type="radio" id="star1" name="rating"
+                                                                    value="1" />
+                                                                <label class="full" for="star1"
+                                                                    title="Sucks big time - 1 star"></label>
+                                                                <input type="radio" id="starhalf" name="rating"
+                                                                    value="0.5" />
+                                                                <label class="half" for="starhalf"
+                                                                    title="Sucks big time - 0.5 stars"></label>
+                                                                <input type="radio" class="reset-option" value="3"
+                                                                    name="rating" value="reset" />
+                                                            </fieldset>
+                                                            <div class="card-body">
+                                                                <div class="myratings review">(4.5) Review</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Courses Offered
+                                                </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Exams</div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+
+                                                <button class="btn  mx-2 mt-3"
+                                                    style="background-color: black; border: black; color: white; font-size: 15px;"><img
+                                                        src="assets/images/compare.png" class="img-fluid mt-1" alt="">
+                                                    <spans tyle="color:rgba(41, 171, 226, 1) !important;" class="px-3">
+                                                        Compare
+                                                        </span>
+                                                </button>
+                                            </div>
+
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Fees </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Ranked</div>
+                                                <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
+                                                    class="mb-3">#2 NIRF</div>
+
+                                                    <button class="btn mx-2 mt-2"
+                                                    style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
+                                                        src="assets/images/download (4) 1.png" class="img-fluid mt-1"
+                                                        alt="">
+                                                    Brochure
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="ml-5 pl-5 my-2"
+                                            style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
+                                            <div class="ml-4 pl-3">Don’t show my again</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6 pl-4">
+                                    <div class="row fee-courses-bg py-3 px-3">
+                                        <div class=" row col-12">
+                                            <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png" alt="">
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
+                                                <div class="row">
+                                                    <div class="col-4 pr-0">
+                                                        <div class="row pl-2"> <img src="assets/images/location.png"
+                                                                alt="" height="20px">
+                                                            <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
+                                                                class="ml-1">
+                                                                Delhi, India
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-8 pr-0 d-flex justify-content-end">
+                                                        <div class="d-flex justify-content-end" style="height: 40px;">
+                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                                    name="rating" value="5" />
+                                                                <label class="full" for="star5"
+                                                                    title="Awesome - 5 stars"></label>
+                                                                <input type="radio" id="star4half" name="rating"
+                                                                    value="4.5" />
+                                                                <label class="half" for="star4half"
+                                                                    title="Pretty good - 4.5 stars"></label>
+                                                                <input type="radio" id="star4" name="rating"
+                                                                    value="4" />
+                                                                <label class="full" for="star4"
+                                                                    title="Pretty good - 4 stars"></label>
+                                                                <input type="radio" id="star3half" name="rating"
+                                                                    value="3.5" />
+                                                                <label class="half" for="star3half"
+                                                                    title="Meh - 3.5 stars"></label>
+                                                                <input type="radio" id="star3" name="rating"
+                                                                    value="3" />
+                                                                <label class="full" for="star3"
+                                                                    title="Meh - 3 stars"></label>
+                                                                <input type="radio" id="star2half" name="rating"
+                                                                    value="2.5" />
+                                                                <label class="half" for="star2half"
+                                                                    title="Kinda bad - 2.5 stars"></label>
+                                                                <input type="radio" id="star2" name="rating"
+                                                                    value="2" />
+                                                                <label class="full" for="star2"
+                                                                    title="Kinda bad - 2 stars"></label>
+                                                                <input type="radio" id="star1half" name="rating"
+                                                                    value="1.5" />
+                                                                <label class="half" for="star1half"
+                                                                    title="Meh - 1.5 stars"></label>
+                                                                <input type="radio" id="star1" name="rating"
+                                                                    value="1" />
+                                                                <label class="full" for="star1"
+                                                                    title="Sucks big time - 1 star"></label>
+                                                                <input type="radio" id="starhalf" name="rating"
+                                                                    value="0.5" />
+                                                                <label class="half" for="starhalf"
+                                                                    title="Sucks big time - 0.5 stars"></label>
+                                                                <input type="radio" class="reset-option" value="3"
+                                                                    name="rating" value="reset" />
+                                                            </fieldset>
+                                                            <div class="card-body">
+                                                                <div class="myratings review">(4.5) Review</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Courses Offered
+                                                </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Exams</div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+
+                                                <button class="btn  mx-2 mt-3"
+                                                    style="background-color: black; border: black; color: white; font-size: 15px;"><img
+                                                        src="assets/images/compare.png" class="img-fluid mt-1" alt="">
+                                                    <spans tyle="color:rgba(41, 171, 226, 1) !important;" class="px-3">
+                                                        Compare
+                                                        </span>
+                                                </button>
+                                            </div>
+
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Fees </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Ranked</div>
+                                                <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
+                                                    class="mb-3">#2 NIRF</div>
+
+                                                    <button class="btn mx-2 mt-2"
+                                                    style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
+                                                        src="assets/images/download (4) 1.png" class="img-fluid mt-1"
+                                                        alt="">
+                                                    Brochure
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="ml-5 pl-5 my-2"
+                                            style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
+                                            <div class="ml-4 pl-3">Don’t show my again</div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
 
 
+                            <div class="row mx-4 my-4">
+                                <div class="col-lg-6  ">
+                                    <div class="row fee-courses-bg py-3 px-3">
+                                        <div class=" row col-12">
+                                            <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png" alt="">
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
+                                                <div class="row">
+                                                    <div class="col-4 pr-0">
+                                                        <div class="row pl-2"> <img src="assets/images/location.png"
+                                                                alt="" height="20px">
+                                                            <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
+                                                                class="ml-1">
+                                                                Delhi, India
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-8 pr-0 d-flex justify-content-end">
+                                                        <div class="d-flex justify-content-end" style="height: 40px;">
+                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                                    name="rating" value="5" />
+                                                                <label class="full" for="star5"
+                                                                    title="Awesome - 5 stars"></label>
+                                                                <input type="radio" id="star4half" name="rating"
+                                                                    value="4.5" />
+                                                                <label class="half" for="star4half"
+                                                                    title="Pretty good - 4.5 stars"></label>
+                                                                <input type="radio" id="star4" name="rating"
+                                                                    value="4" />
+                                                                <label class="full" for="star4"
+                                                                    title="Pretty good - 4 stars"></label>
+                                                                <input type="radio" id="star3half" name="rating"
+                                                                    value="3.5" />
+                                                                <label class="half" for="star3half"
+                                                                    title="Meh - 3.5 stars"></label>
+                                                                <input type="radio" id="star3" name="rating"
+                                                                    value="3" />
+                                                                <label class="full" for="star3"
+                                                                    title="Meh - 3 stars"></label>
+                                                                <input type="radio" id="star2half" name="rating"
+                                                                    value="2.5" />
+                                                                <label class="half" for="star2half"
+                                                                    title="Kinda bad - 2.5 stars"></label>
+                                                                <input type="radio" id="star2" name="rating"
+                                                                    value="2" />
+                                                                <label class="full" for="star2"
+                                                                    title="Kinda bad - 2 stars"></label>
+                                                                <input type="radio" id="star1half" name="rating"
+                                                                    value="1.5" />
+                                                                <label class="half" for="star1half"
+                                                                    title="Meh - 1.5 stars"></label>
+                                                                <input type="radio" id="star1" name="rating"
+                                                                    value="1" />
+                                                                <label class="full" for="star1"
+                                                                    title="Sucks big time - 1 star"></label>
+                                                                <input type="radio" id="starhalf" name="rating"
+                                                                    value="0.5" />
+                                                                <label class="half" for="starhalf"
+                                                                    title="Sucks big time - 0.5 stars"></label>
+                                                                <input type="radio" class="reset-option" value="3"
+                                                                    name="rating" value="reset" />
+                                                            </fieldset>
+                                                            <div class="card-body">
+                                                                <div class="myratings review">(4.5) Review</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row col-12">
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Courses Offered
+                                                </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Exams</div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
 
-                            <div class="col-md-5 pl-5 pr-5">
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Professors</div>
+                                                <button class="btn  mx-2 mt-3"
+                                                    style="background-color: black; border: black; color: white; font-size: 15px;"><img
+                                                        src="assets/images/compare.png" class="img-fluid mt-1" alt="">
+                                                    <spans tyle="color:rgba(41, 171, 226, 1) !important;" class="px-3">
+                                                        Compare
+                                                        </span>
+                                                </button>
+                                            </div>
+
+                                            <div class="col-6 text-center mt-3">
+                                                <div style="font-size: 14px; font-family: Inter;">Total Fees </div>
+                                                <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                <div style="font-size: 14px; font-family: Inter;">Ranked</div>
+                                                <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
+                                                    class="mb-3">#2 NIRF</div>
+
+                                                <button class="btn mx-2 mt-2"
+                                                    style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
+                                                        src="assets/images/download (4) 1.png" class="img-fluid mt-1"
+                                                        alt="">
+                                                    Brochure
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="ml-5 pl-5 my-2"
+                                            style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
+                                            <div class="ml-4 pl-3">Don’t show my again</div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-6" style="border-radius: 5px;
-                                    height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount6" readonly
-                                            class="overall-slider-input">
-                                    </div>
+
                                 </div>
+                                <div class="col-lg-6 pl-4">
+                                    <div class="row fee-courses-bg py-3 px-1">
+                                        <div class=" row col-12">
+                                            <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png" alt="">
+                                            </div>
+                                            <div class="col-8 pl-0">
+                                                <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
+                                                <div class="row">
+                                                    <div class="col-4 pr-0">
+                                                        <div class="row pl-2"> <img src="assets/images/location.png"
+                                                                alt="" height="20px">
+                                                            <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
+                                                                class="ml-1">
+                                                                Delhi, India
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-8 pr-0 d-flex justify-content-end">
+                                                        <div class="d-flex justify-content-end" style="height: 40px;">
+                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                                    name="rating" value="5" />
+                                                                <label class="full" for="star5"
+                                                                    title="Awesome - 5 stars"></label>
+                                                                <input type="radio" id="star4half" name="rating"
+                                                                    value="4.5" />
+                                                                <label class="half" for="star4half"
+                                                                    title="Pretty good - 4.5 stars"></label>
+                                                                <input type="radio" id="star4" name="rating"
+                                                                    value="4" />
+                                                                <label class="full" for="star4"
+                                                                    title="Pretty good - 4 stars"></label>
+                                                                <input type="radio" id="star3half" name="rating"
+                                                                    value="3.5" />
+                                                                <label class="half" for="star3half"
+                                                                    title="Meh - 3.5 stars"></label>
+                                                                <input type="radio" id="star3" name="rating"
+                                                                    value="3" />
+                                                                <label class="full" for="star3"
+                                                                    title="Meh - 3 stars"></label>
+                                                                <input type="radio" id="star2half" name="rating"
+                                                                    value="2.5" />
+                                                                <label class="half" for="star2half"
+                                                                    title="Kinda bad - 2.5 stars"></label>
+                                                                <input type="radio" id="star2" name="rating"
+                                                                    value="2" />
+                                                                <label class="full" for="star2"
+                                                                    title="Kinda bad - 2 stars"></label>
+                                                                <input type="radio" id="star1half" name="rating"
+                                                                    value="1.5" />
+                                                                <label class="half" for="star1half"
+                                                                    title="Meh - 1.5 stars"></label>
+                                                                <input type="radio" id="star1" name="rating"
+                                                                    value="1" />
+                                                                <label class="full" for="star1"
+                                                                    title="Sucks big time - 1 star"></label>
+                                                                <input type="radio" id="starhalf" name="rating"
+                                                                    value="0.5" />
+                                                                <label class="half" for="starhalf"
+                                                                    title="Sucks big time - 0.5 stars"></label>
+                                                                <input type="radio" class="reset-option" value="3"
+                                                                    name="rating" value="reset" />
+                                                            </fieldset>
+                                                            <div class="card-body">
+                                                                <div class="myratings review">(4.5) Review</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
+                                            <div class="row col-12">
+                                                <div class="col-6 text-center mt-3">
+                                                    <div style="font-size: 14px; font-family: Inter;">Total Courses
+                                                        Offered
+                                                    </div>
+                                                    <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                    <div style="font-size: 14px; font-family: Inter;">Exams</div>
+                                                    <div style="color: rgba(41, 171, 226, 1);">-</div>
 
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Campus</div>
-                                    </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-7" style="border-radius: 5px;
-                                            height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount7" readonly
-                                            class="overall-slider-input"></div>
-                                </div>
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Location</div>
-                                    </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-8" style="border-radius: 5px;
-                                            height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount8" readonly
-                                            class="overall-slider-input"></div>
-                                </div>
-                                <div class="row my-4">
-                                    <div class="col-3 pr-5">
-                                        <div class="overall-slider-text">Dorms</div>
-                                    </div>
-                                    <div class="col-md-7 overall-slider mt-2 pl-4">
-                                        <div id="slider-range-min-9" style="border-radius: 5px;
-                                            height: 14px;"></div>
-                                    </div>
-                                    <div class="col-2"><input type="text" id="amount9" readonly
-                                            class="overall-slider-input"></div>
+                                                    <button class="btn  mx-2 mt-3"
+                                                        style="background-color: black; border: black; color: white; font-size: 15px;"><img
+                                                            src="assets/images/compare.png" class="img-fluid mt-1"
+                                                            alt="">
+                                                        <spans tyle="color:rgba(41, 171, 226, 1) !important;"
+                                                            class="px-3">
+                                                            Compare
+                                                            </span>
+                                                    </button>
+                                                </div>
 
+                                                <div class="col-6 text-center mt-3">
+                                                    <div style="font-size: 14px; font-family: Inter;">Total Fees </div>
+                                                    <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                    <div style="font-size: 14px; font-family: Inter;">Ranked</div>
+                                                    <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
+                                                        class="mb-3">#2 NIRF</div>
+
+                                                    <button class="btn mx-2 mt-2"
+                                                        style=" border:1px solid rgba(41, 171, 226, 1);color:rgba(41, 171, 226, 1); font-size: 15px;"><img
+                                                            src="assets/images/download (4) 1.png"
+                                                            class="img-fluid mt-1" alt="">
+                                                        Brochure
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="ml-5 pl-5 my-2"
+                                                style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
+                                                <div class="ml-4 pl-3">Don’t show my again</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-----------------------------------------------end of Recommended Colleges------------------------>
+
                     </div>
-                
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4 ">Overview</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat.
-                        Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
-                        qui
-                        sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
-                        Duis
 
-                    </p>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat.
-                        Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
-                        qui
-                        sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
-                        Duis
-                        reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
-                        incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
-                        adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
-                        occaecat ex.
-                    </p>
-                    <div class="text-center py-3"><a href="#">View More</a></div>
 
-                </div>
-            </div>
-            <div class=" col-8  mx-5 fade my-4 tab-pane" id="nav-addmission" role="tabpanel"
-                aria-labelledby="nav-addmission-tab">
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4">Overview 2</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute
-                        sit
-                        dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                        consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                        eiusmod
-                        tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                        culpa
-                        non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                        duis
-                        occaecat ex.
-                    </p>
+                    <div class="col-md-3 my-4">
+                        <!-------------------------top-courses-------------------------->
 
-                    <div class="text-center py-3"><a href="#">View More</a></div>
+                        <div class="row top-courses-bg pt-4 justify-content-start ">
+                            <img src="assets/images/top.png" alt="" class="px-3"> <span class="">Top
+                                Courses</span>
+                            <div class="top-couses-list w-100 mt-4 px-4">
+                                <div class="row">
+                                    <div class="text1 pl-3 pt-3">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4 pt-3"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Master of Technology (M.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 2 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3 pt-1">Master of Business Administration</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 20,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of computer appliction</div>
+                                    <div class="text2 px-4  pt-1"> 3 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 30,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4  pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                                <div class="row">
+                                    <div class="text1 pl-3 pt-1">Bachelor of Technology (B.Tech)</div>
+                                    <div class="text2 px-4 pt-1"> 4 Years</div>
+                                </div>
+                                <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <!-------------------------end top-courses-------------------------->
+                        <!-------------------------Notifications-------------------------->
+                        <div class="row top-courses-bg pt-4 justify-content-start my-5 ">
+                            <img src="assets/images/notification.png" alt="" class="px-3"> <span
+                                class="">Notifications</span>
+                            <div class="notification-list w-100 mt-4 px-4">
+                                <div class="row">
+                                    <div class="col-2 px-0 py-3"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  pt-3">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1  ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-2 px-0 py-1"><img src="assets/images/Ellipse 12.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-10 px-0">
+                                        <div class="text1 ">JEE Main 2021 April and May ses...</div>
+                                        <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                            held
+                                            on
+                                            May
+                                            25 to 27 for UG & PG.....</div>
+                                        <div class="float-right"> <button class="btn">Read More</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <!-------------------end of notifications-->
+                        <!------------------------news----------->
+                        <div class="row news-list-bg pt-4 justify-content-start my-4 ">
+                            <img src="assets/images/newspaper 2.png" alt="" class="px-3"> <span class="">News</span>
+                            <div class="news-list w-100 mt-4 px-4">
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 mt-1"><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 mt-3">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 mt-2">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 mt-2">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 ">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 ">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0 py-1 "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 ">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-3 px-0  "><img src="assets/images/Rectangle 54.png"
+                                            class="img-fluid" alt=""></div>
+                                    <div class="col-9 px-0">
+                                        <div class="text1 mt-1">TS POLYCET 2021 Rank Mandatory for Admission in
+                                            Polytechnic Courses offered by PVNR Telangana Veterinary University
+                                        </div>
+                                        <div class="row mt-2 ">
+                                            <div class="ml-4 "> <img src="assets/images/comment.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Comment</div>
+                                            <div class="ml-4"> <img src="assets/images/share 1.png" alt="">
+                                            </div>
+                                            <div class="text2 mt-2 mx-2">Share</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <hr>
+
+                            </div>
+                        </div>
+                        <!------------------end of news--------->
+                    </div>
                 </div>
-            </div>
-            <div class=" col-8  mx-5 tab-pane  my-4 fade" id="nav-photo" role="tabpanel"
-                aria-labelledby="nav-photo-tab">
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4">Overview</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute
-                        sit
-                        dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                        consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                        eiusmod
-                        tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                        culpa
-                        non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                        duis
-                        occaecat ex.
-                    </p>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat.
-                        Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
-                        qui
-                        sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
-                        Duis
-                        reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
-                        incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
-                        adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
-                        occaecat ex.
-                    </p>
-                    <div class="text-center py-3"><a href="#">View More</a></div>
+                <!---------------------------end of information----------------------->
+                <div class=" col-8  mx-5 fade my-4 tab-pane" id="nav-addmission" role="tabpanel"
+                    aria-labelledby="nav-addmission-tab">
+                    <div class="tab-pane-overview">
+                        <h6 class="px-5 pt-4">Overview 2</h6>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                            aute
+                            sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                            esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                            eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                            culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+
+                        <div class="text-center py-3"><a href="#">View More</a></div>
+                    </div>
+                </div>
+                <div class=" col-8  mx-5 tab-pane  my-4 fade" id="nav-photo" role="tabpanel"
+                    aria-labelledby="nav-photo-tab">
+                    <div class="tab-pane-overview">
+                        <h6 class="px-5 pt-4">Overview</h6>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                            aute
+                            sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                            esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                            eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                            culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat.
+                            Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                            in
+                            qui
+                            sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                            dolore.
+                            Duis
+                            reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                            tempor
+                            incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                            non
+                            adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <div class="text-center py-3"><a href="#">View More</a></div>
+                    </div>
+                </div>
+
+                <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-new-section" role="tabpanel"
+                    aria-labelledby="nav-new-section-tab">
+                    <div class="tab-pane-overview">
+                        <h6 class="px-5 pt-4">Overview</h6>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                            aute
+                            sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                            esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                            eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                            culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat.
+                            Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                            in
+                            qui
+                            sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                            dolore.
+                            Duis
+                            reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                            tempor
+                            incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                            non
+                            adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <div class="text-center py-3"><a href="#">View More</a></div>
+                    </div>
+                </div>
+                <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-student" role="tabpanel"
+                    aria-labelledby="nav-student-tab">
+                    <div class="tab-pane-overview">
+                        <h6 class="px-5 pt-4">Overview</h6>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                            aute
+                            sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                            esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                            eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                            culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <div class="text-center my-3"><a href="#">View More</a></div>
+                    </div>
+                </div>
+                <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-ranking" role="tabpanel"
+                    aria-labelledby="nav-ranking-tab">
+                    <div class="tab-pane-overview">
+                        <h6 class="px-5 pt-4">Overview</h6>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                            aute
+                            sit
+                            dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                            esse
+                            consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                            eiusmod
+                            tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                            culpa
+                            non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <p class="mx-5 my-4">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                            qui
+                            minim
+                            occaecat veniam.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat.
+                            Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                            in
+                            qui
+                            sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                            dolore.
+                            Duis
+                            reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                            Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                            anim.
+                            Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                            consectetur
+                            nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                            tempor
+                            incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                            non
+                            adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                            duis
+                            occaecat ex.
+                        </p>
+                        <div class="text-center py-3"><a href="#">View More</a></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-new-section" role="tabpanel"
-                aria-labelledby="nav-new-section-tab">
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4">Overview</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute
-                        sit
-                        dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                        consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                        eiusmod
-                        tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                        culpa
-                        non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                        duis
-                        occaecat ex.
-                    </p>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat.
-                        Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
-                        qui
-                        sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
-                        Duis
-                        reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
-                        incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
-                        adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
-                        occaecat ex.
-                    </p>
-                    <div class="text-center py-3"><a href="#">View More</a></div>
-                </div>
-            </div>
-            <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-student" role="tabpanel"
-                aria-labelledby="nav-student-tab">
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4">Overview</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute
-                        sit
-                        dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                        consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                        eiusmod
-                        tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                        culpa
-                        non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                        duis
-                        occaecat ex.
-                    </p>
-                    <div class="text-center my-3"><a href="#">View More</a></div>
-                </div>
-            </div>
-            <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-ranking" role="tabpanel"
-                aria-labelledby="nav-ranking-tab">
-                <div class="tab-pane-overview">
-                    <h6 class="px-5 pt-4">Overview</h6>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute
-                        sit
-                        dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                        consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                        eiusmod
-                        tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                        culpa
-                        non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                        duis
-                        occaecat ex.
-                    </p>
-                    <p class="mx-5 my-4">
-                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui
-                        minim
-                        occaecat veniam.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat.
-                        Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in
-                        qui
-                        sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore.
-                        Duis
-                        reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                        Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim.
-                        Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur
-                        nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor
-                        incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non
-                        adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis
-                        occaecat ex.
-                    </p>
-                    <div class="text-center py-3"><a href="#">View More</a></div>
-                </div>
-            </div>
-            </div>
-            
         </div>
 
 
     </div>
     <!--------------------------------------------------------end of  tabs-------------------------------------------->
-    <!--------------------------------------------------------IIT Madras Top Courses & Fees--------------------------->
-    <div class="container-fluid course-fee" style="background-color:rgba(248, 248, 248, 1)">
-        <div class="row mx-4">
-            <div class="col-8 bg">
-
-                <h2 class="my-3">IIT Madras Top Courses & Fees</h2>
-                <div class="row">
-                    <div class="col-md-6 courses-bg">
-                        <h2>Bachelor of Technology (B.Tech)</h2>
-                        <div class="row">
-                            <div class="col-6">
-                                <span><a href=""> Courses Offered</a>
-                                </span></div>
-                            <div class="col-6 float-right">
-                                <span>Annual Fee
-                                </span></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 courses-bg"></div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!--------------------------------------------------------end IIT Madras Top Courses & Fees--------------------------->
 
 
 

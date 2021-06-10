@@ -641,8 +641,8 @@ nav > .nav.nav-tabs{
    div a.nav-item.nav-link.active
   {
     border-top: 5px solid #29ABE2;
-     text-align: end;
-      color:rgba(41, 171, 226, 1);
+     text-align: center;
+      color:rgba(41, 171, 226, 1) !important;
       background: #ffffff;
       border-radius:0;
       font-size: 16px;
@@ -657,7 +657,7 @@ nav > .nav.nav-tabs{
     position: relative;
     bottom: -54px;
     left: -32%;
-    border: 11px solid transparent;
+    /*border: 11px solid transparent;*/
     border-top-color: #ffffff;
     box-shadow: 0 0 0px #e5e5e5;
   }
@@ -682,16 +682,16 @@ nav > .nav.nav-tabs{
 }
 .tab-pane-overview {
     background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
 }
 .overall-rating{
     background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.12);
     border-radius: 15px;
 }
 .tab-pane-overview p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     font-family: "inter";
     text-align: justify;
@@ -706,11 +706,12 @@ nav > .nav.nav-tabs{
     text-decoration: underline;
     font-family: "inter";
 }
-.course-fee .bg{
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+.course-fee{
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
 }
+
 .course-fee h2{
     font-family: "Poppins";
     font-size: 25px;
@@ -718,30 +719,49 @@ nav > .nav.nav-tabs{
     color:rgba(43, 43, 43, 1);
     
 }
-.courses-bg{
+.fee-courses-bg{
     background-color:  rgba(250, 250, 250, 1);
-   box-shadow: 0 4 10 0 rgba(0, 0, 0, 0.1);
-   border-radius: 10px;
+   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
 
 }
-.courses-bg h2{
+.fee-courses-bg h2{
     font-family: "inter"; 
     font-weight: 600;
     font-size: 19px;
     font-style: normal;
 
 }
-.courses-bg a{
+.fee-courses-bg a{
     font-size: 11px;
     font-weight: 500;
     font-family: "inter";
     color:rgba(100, 98, 106, 1);
 }
-.courses-bg span{
+.fee-courses-bg span{
     font-size: 10px;
     font-weight: 400;
     font-family: "inter";
     color:rgba(100, 98, 106, 1);
+}
+.fee-courses-bg .review{
+    font-size: 8px;
+    font-family: "inter";
+}
+.fee-courses-bg .inrfee{
+    font-size: 12px;
+    font-family: "inter";
+}
+.fee-courses-bg .btn{
+    border: 1px solid rgba(41, 171, 226, 1);
+    color: rgba(41, 171, 226, 1);
+    font-size: 11px;
+    border-radius: 20px;
+}
+.fee-courses-bg .view-course{
+    font-size:13px !important ;
+    color: rgba(41, 171, 226, 1) !important;
+    font-family: "Poppins"!important;
 }
 .overall-rating-text{
     font-family: "Poppins";
@@ -765,6 +785,122 @@ nav > .nav.nav-tabs{
     color: rgba(0, 0, 0, 1);
     border: 0;
     background-color: transparent;
+}
+.overall-view-more{
+    font-size: 13px !important;
+    font-family: "Poppins" !important;
+    font-weight: 400 !important;
+    color: rgba(41, 171, 226, 1) !important;
+}
+.rating-slider-line{
+    border-radius: 5px;
+    height: 9px;
+}
+
+.top-courses-bg{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+.top-courses-bg span{
+    font-size: 25px;
+    font-family:"Poppins" ;
+    color: rgba(34, 34, 34, 1);
+    font-weight: 500;
+}
+.top-couses-list{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    height: 343px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.top-couses-list .text1{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(43, 43, 43, 1);
+}
+.top-couses-list .text2{
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 207, 84, 1);
+    
+}
+
+.top-couses-list .text2:before {
+    content:"• ";
+}
+.top-couses-list .avg-fee{
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(0, 190, 202, 1);
+    font-size: 12px;
+}
+.top-couses-list .avg-fee:before{
+    content:"• ";
+}
+
+.notification-list{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    height: 368px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.notification-list .text1{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(16, 194, 205, 1);
+}
+.notification-list .text2{
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(131, 131, 131, 1);
+    line-height: 14px;
+    
+}
+.notification-list .btn{
+    border: 1px solid rgba(34, 34, 34, 1);
+    color: rgba(34, 34, 34, 1);
+    font-size: 10px;
+    font-family: "Inter";
+    border-radius: 50px;
+}
+.news-list-bg{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.1);
+
+} 
+.news-list{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+.news-list .text1{
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(59, 58, 64, 1);
+    line-height: 17px;
+}
+.news-list .text2{
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(16, 194, 205, 1);
+    line-height: 14px;
+    
 }
 /****************************************media queries**************************************/
 @media only screen and (max-width: 600px) {
