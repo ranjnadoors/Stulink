@@ -1,0 +1,836 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    
+} 
+.login-btn{
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
+    padding: 5px 17px;
+    background: white;
+}
+
+.signup-btn{
+    border: 1px solid #2D2D2D;
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 5px 17px;
+}
+.nav-item a{
+    color: rgba(11, 11, 11, 1) !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+   
+
+    
+    
+}
+ .nav-item a:hover{
+    color: #29ABE2 !important;
+   
+
+}
+ .nav-item .active {
+    color: #29ABE2 !important;
+  
+}
+.parent  , .active2 {
+    color: #29ABE2 !important;
+  
+}
+.new-application-bg{
+     background: rgba(250, 250, 250, 1);
+    
+}
+.new-application-bg h4{
+        color:#292F31;
+        font-size: 18px;
+        font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.new-application{
+   background-color: white;
+   border: 1px solid white;
+   box-shadow: 0 0 8px #e5e5e5;
+   border-radius: 21px;
+ 
+}
+.new-application-bg a{
+    color: #212121;
+    text-decoration: underline;
+    
+}
+.new-application-bg h6{
+    color: #212121;
+    font-size: 13px;
+    
+}
+
+.centered{
+    border: 1px solid #29ABE2;
+    height: 30px;
+    width: 30px;
+    border-radius: 31px; 
+    text-decoration: none;
+    background-color: #29ABE2;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+
+
+.new-application-bg .btn{
+    border: 1px solid #29ABE2;
+    border-radius: 13px;
+    background: #29ABE2;
+    color: white;
+    font-size: 13px;
+}
+.new-application-bg .btn:hover{
+    color: white;
+}
+
+.list-top-college-bg{
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 0 3px 3px #e5e5e5;
+    /* z-index: 999999; */
+    margin-bottom: 4px;
+}
+   
+
+
+.list-top-college-bg h4{
+    color: #29ABE2;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.list-top-college-bg h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.dream-college-bg{
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px #e5e5e5;
+    border-radius: 15px;
+}
+
+.dream-college-bg h4{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+}
+.find hr{
+    width: 44%;
+    color: #29abe2;
+    border-top: 1px solid;
+}
+
+.search{
+    background-color: #29ABE2;
+    color: white;
+    border-radius: 5px;
+    font-size: 0px;
+    text-align: center;
+    font-size:16px;
+}
+
+.search-input{
+    width: 100%;
+    border-radius: 10px;
+    background: #EFEFEF;
+    font-size: 13px;
+    border: 1px solid #EFEFEF ;
+    color: rgba(179, 177, 183, 1);
+    
+}
+.checkbox-h6{
+    font-size: 16px;
+    font-weight: 600;
+}
+.checkbox-container{
+    color: rgba(87, 87, 87, 1);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    height: 163px;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    width: 4px;
+  
+}
+
+::-webkit-scrollbar-track {
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid white;
+  border-radius: 3px;
+
+}
+
+.see-more{
+    font-size: 12px;
+    text-decoration: underline;
+    color:rgba(148, 148, 148, 1);
+}
+.price{
+    color: rgba(104, 104, 104, 1);
+    font-size: small;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+   
+    background: #29ABE2;
+    font-weight: normal;
+    color: #29ABE2;
+    border-radius: 10px;
+}
+.icon-color{
+    color: #92989a;
+}
+ .icon-color:hover{
+    color: #29ABE2;
+}
+.icon-color:active{
+    color: #29ABE2;
+}
+
+
+.grid_list_system h6{
+   
+    font-size: 17px;
+    color: rgba(159, 158, 164, 1);
+
+}
+.grid_list_system .default-order{
+    border: 1px solid rgba(239, 239, 239, 1);
+    background: rgba(239, 239, 239, 1);
+    border-radius: 4px;
+}
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.thumbnail
+{
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px !important;
+    box-shadow: 0 0 7px rgba(59, 58, 64, 0.08) !important;
+    border-radius: 1.5rem !important;
+
+}
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.item.list-group-item .caption
+{
+    float: left;
+    width: 63%;
+    margin-right: 31px;
+  
+}
+.grid-h6{
+    font-size: 16px !important;
+    color: rgba(100, 98, 106, 1);
+}
+.list-h6{
+    font-size: 28px;
+    color: rgba(100, 98, 106, 1);
+    
+   
+}
+.caption .lead{
+    font-size: 24px;
+    color: rgba(59, 58, 64, 1);
+    font-weight: 700;
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.caption .point{
+font-size: 14px;
+color: rgba(100, 98, 106, 1);
+}
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after
+{
+    clear: both;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+  }
+  .heart-img{
+    top: 11%;
+    position: absolute;
+    /* left: 100px; */
+    /* background: red; */
+    z-index: 99;
+    right: 18px;
+  }
+  .carousel-item.active img {
+    color: green !important;
+    font-size: 3em !important;
+    height: 50%;
+  }
+  .carousel-item img{
+      width:450px !important; 
+      height: 221px !important;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+
+  }
+  
+  .item.list-group-item {
+      background:transparent !important ;
+  }
+  .footer h5{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+  }
+  .footer ul{
+      list-style: none;
+  }
+  .footer a{
+      text-decoration: none;
+      color: rgba(100, 98, 106, 1);
+      font-size: 14px;
+      font-family: "inter";
+      
+  }
+  .footer span {
+      font-size: 12px;
+      color:rgba(100, 98, 106, 1);
+  }
+  .footer label {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.footer option {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.hide_div{
+    display: none;
+}
+.hide_div span{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 400;
+   color: rgba(100, 98, 106, 1);
+}
+.dropdown-menu a{
+    font-size: 18px;
+    font-family: "inter";
+    font-weight: 500;
+    color:  rgba(39, 39, 39, 1);
+   
+}
+.dropdown-menu{
+    background-color: #EFEFEF !important;
+    border-radius: 5px !important;
+    border: 0 !important;
+}
+.feature-college-bg{
+    background-color: #ffffff;
+    color: #1BABD3;
+    position: absolute;
+    z-index: 99;
+    top: 10%;
+    font-size: small;
+    left: 17px;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    padding: 4px 3px;
+}
+
+
+
+
+  
+  .form-group {
+    display: block;
+    margin-bottom: 0rem !important;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    /* border: 2px solid #0079bf; */
+   
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.57);
+    
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 6px;
+    height: 16px;
+    border: solid rgba(41, 171, 226, 1);
+    border-width: 0 2px 2px 0;
+    transform: rotate(
+45deg
+);
+}
+.select {
+     margin: 0; 
+    font-family: "Poppins"; 
+     font-size: 12px !important; 
+    line-height: inherit; 
+    border:  1px solid #E8E7E8;
+}
+.form-group label{
+    font-size: 16px;
+    font-family: 'inter';
+    margin-left: 5px;
+    color: rgba(87, 87, 87, 1);
+    font-weight: 500;
+
+}
+/***.Institute-logo-btns{
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter';
+    background-color: white;
+    padding: 7px 16px;
+    color: rgba(51, 51, 51, 1);
+}
+  .Institute-logo .active{
+    background-color: #29ABE2 !important;
+    color: white !important;
+    border: 1px solid #29ABE2 !important;
+}
+.Institute-logo-btns:focus {
+    outline: 0px !important; 
+    outline: 0px !important; 
+}
+.Institute-name span{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Inter';
+    color:rgba(43, 43, 43, 1);
+}**/
+/****************************************college info***************************************/
+.college-nav-shadow{
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.college-info h2{
+    font-family: "inter";
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(43, 43, 43, 1);
+
+}
+
+.college-info span{
+    font-size: 15px;
+    color: rgba(168, 168, 168, 1);
+    font-weight: 500;
+    font-family: "Poppins";
+}
+fieldset,
+label {
+    margin: 0;
+    padding: 0
+}
+
+
+.rating {
+    border: none;
+   
+}
+
+.myratings {
+    font-size: 16px;
+    color: black !important;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+.rating>[id^="star"] {
+    display: none
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+     padding: 3px 4px !important; 
+     font-size: 12px;
+     font-family: "inter";
+     color: rgba(0, 0, 0, 1);
+}
+.icon-border{
+    border: 1px solid rgba(11, 11, 11, 1);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.follow-text{
+    font-size: 20px !important;
+    font-family: "inter" !important;
+    font-weight: 600 !important;
+    color: rgba(11, 11, 11, 1) !important;
+}
+.rating>label:before {
+    margin: 3px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+.rating>.half:before {
+    content: "\f089";
+    position: absolute
+}
+
+.rating>label {
+    color: #ddd;
+    float: right
+}
+
+
+.rating>[id^="star"]:checked~label,
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #FFD700
+}
+
+.rating>[id^="star"]:checked+label:hover,
+.rating>[id^="star"]:checked~label:hover,
+.rating>label:hover~[id^="star"]:checked~label,
+.rating>[id^="star"]:checked~label:hover~label {
+    color: #FFED85
+}
+
+.reset-option {
+    display: none
+}
+
+.reset-button {
+    margin: 6px 12px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase
+}
+
+.estd h6{
+    font-size:14px;
+    font-family: "inter";
+    font-weight:600;
+    color: rgba(0, 0, 0, 1);
+}
+.write-review-btn{
+    color: rgba(51, 51, 51, 1);
+    font-size: 16px;
+    font-family: "inter";
+    font-weight: 600;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+nav > .nav.nav-tabs{
+     border: none;
+      color:rgba(59, 58, 64, 1);
+      background: rgba(244, 244, 244, 0.7);
+      border-radius:0;
+  
+  }
+  .nav-tabs a{
+      color:rgba(59, 58, 64, 1) !important;
+      font-size: 16px;
+      font-family: "Poppins";
+      font-weight: 400;
+      padding: 18px ;
+      text-align: center;
+  }
+  
+   div a.nav-item.nav-link.active
+  {
+    border-top: 5px solid #29ABE2;
+     text-align: end;
+      color:rgba(41, 171, 226, 1);
+      background: #ffffff;
+      border-radius:0;
+      font-size: 16px;
+      font-family: "Poppins";
+      font-weight: 600;
+      box-shadow: 0 0 8px #e5e5e5;
+  }
+  
+  nav > div a.nav-item.nav-link.active:after
+   {
+    content: "";
+    position: relative;
+    bottom: -54px;
+    left: -32%;
+    border: 11px solid transparent;
+    border-top-color: #ffffff;
+    box-shadow: 0 0 0px #e5e5e5;
+  }
+  .tab-content{
+    background: #fdfdfd;
+      line-height: 25px;
+      padding:30px 25px;
+      box-shadow: 0 0 5px #e5e5e5;
+    
+  }
+  
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+     background:rgba(255, 255, 255, 1);
+      color:rgba(59, 58, 64, 1);
+      
+  }
+  .nav-tabs .nav-link {
+     border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.tab-pane-overview {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.overall-rating{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.tab-pane-overview p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "inter";
+    text-align: justify;
+}
+.tab-pane-overview h6{
+    font-size: 30px;
+    font-weight: 600;
+}
+.tab-pane-overview a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: "inter";
+}
+.course-fee .bg{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.course-fee h2{
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 600;
+    color:rgba(43, 43, 43, 1);
+    
+}
+.courses-bg{
+    background-color:  rgba(250, 250, 250, 1);
+   box-shadow: 0 4 10 0 rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+
+}
+.courses-bg h2{
+    font-family: "inter"; 
+    font-weight: 600;
+    font-size: 19px;
+    font-style: normal;
+
+}
+.courses-bg a{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "inter";
+    color:rgba(100, 98, 106, 1);
+}
+.courses-bg span{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "inter";
+    color:rgba(100, 98, 106, 1);
+}
+.overall-rating-text{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+}
+.overall-slider .ui-widget-content {
+    color: #333333;
+    background: rgba(229, 229, 229, 1) !important;
+}
+.overall-slider-text{
+    font-family: "inter";
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.overall-slider-input{
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    border: 0;
+    background-color: transparent;
+}
+/****************************************media queries**************************************/
+@media only screen and (max-width: 600px) {
+    .item.list-group-item .img-event {
+        float: left;
+        width: 100%;
+    }
+    .item.list-group-item .caption {
+        float: left;
+        width: 100%;
+        margin-right: 31px;
+    }
+   
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .college-bg .data-center{
+        position: absolute; 
+        top: 15%; 
+        left: 32%; 
+        transform: translate(-50%, -50%);
+    }
+    .college-bg{
+        background-image: url(../images/college-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+       height: 18vh;
+    }
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .college-bg .data-center{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    flex-wrap: nowrap !important;
+    
+  }
+
+  .college-bg{
+    background-image: url(../images/college-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 18vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
