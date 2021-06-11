@@ -4,6 +4,9 @@
     font-family: "inter";
     
 } 
+body{
+   
+}
 .login-btn{
     border: 1px solid #B6B6B6;
     border-radius: 15px;
@@ -759,9 +762,9 @@ nav > .nav.nav-tabs{
     border-radius: 20px;
 }
 .fee-courses-bg .view-course{
-    font-size:13px !important ;
-    color: rgba(41, 171, 226, 1) !important;
-    font-family: "Poppins"!important;
+    font-size:13px ;
+    color: rgba(41, 171, 226, 1);
+    font-family: "Poppins";
 }
 .overall-rating-text{
     font-family: "Poppins";
@@ -902,6 +905,75 @@ nav > .nav.nav-tabs{
     line-height: 14px;
     
 }
+.FAQ{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+.FAQ h2{
+    color: rgba(0, 0, 0, 1);
+    font-size:25px ;
+    font-family:"Poppins" ;
+    font-weight: 600; 
+}
+.FAQ .question{
+    background-color: rgba(79, 78, 80, 1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.FAQ .question h2{
+    color: rgba(255, 255, 255, 1);
+    font-size:20px ;
+    font-family:"Poppins" ;
+    font-weight: 600;
+}
+.FAQ #addsymbol{
+    text-align: end;
+    font-size: 28px;
+    /* font-weight: 600; */
+    color: white;
+    cursor: pointer;
+}
+.FAQ .answer{
+   display: none;
+   font-size: 18px;
+    font-family: "Inter";
+    color: rgba(59, 58, 64, 1);
+}
+.FAQ .question1{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+.college-rating h2{
+    color:rgba(43, 43, 43, 1) ;
+    font-family: "Poppins";
+    font-size:25px ;
+    font-weight: 600;
+}
+.college-rating h6{
+    color:#29ABE2 ;
+    font-family: "Poppins";
+    font-size:20px ;
+    font-weight: 600;
+}
+.college-rating .checked{
+    color: orange;
+}
+.college-rating .text{
+font-family: "Poppins" !important;
+    color: rgba(153, 153, 153, 1);
+}
+.college-review{
+background-color: rgba(196, 196, 196, 1);
+border-radius: 50px;   
+color: rgba(0, 0, 0, 1);
+font-size: 16px;
+font-family: "Poppins"; 
+}
+.text-review{
+    margin-left: -58px;
+}
 /****************************************media queries**************************************/
 @media only screen and (max-width: 600px) {
     .item.list-group-item .img-event {
@@ -913,7 +985,9 @@ nav > .nav.nav-tabs{
         width: 100%;
         margin-right: 31px;
     }
-   
+    .text-review{
+        margin-left: 10px;
+    }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
   
@@ -928,6 +1002,9 @@ nav > .nav.nav-tabs{
         background-repeat: no-repeat;
         background-size: cover;
        height: 18vh;
+    }
+    .text-review{
+        margin-left: 10px;
     }
   }
   
@@ -948,6 +1025,9 @@ nav > .nav.nav-tabs{
     background-repeat: no-repeat;
     background-size: cover;
    height: 18vh;
+}
+.text-review{
+    margin-left: 10px;
 }
 }
 
