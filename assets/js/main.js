@@ -43,50 +43,50 @@ $(document).ready(function () {
 
   $("#slider-range-min-2").slider({
     range: "min",
-    value: 0,
+    value: 8,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount2").val("(" + ui.value + "/" + "10" + ")");
     }
+
   });
-  $("#amount2").val("(0/10)");
+  $("#amount2").val("(8/10)");
 
 
   $("#slider-range-min-3").slider({
     range: "min",
-    value: 0,
+    value: 8,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount3").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount3").val("(0/10)");
-
+  $("#amount3").val("(8/10)");
 
   $("#slider-range-min-4").slider({
     range: "min",
-    value: 0,
+    value: 9,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount4").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount4").val("(0/10)");
+  $("#amount4").val("(9/10)");
 
 
   $("#slider-range-min-5").slider({
     range: "min",
-    value: 0,
+    value: 7,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount5").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount5").val("(0/10)");
+  $("#amount5").val("(7/10)");
 
 
 
@@ -95,50 +95,50 @@ $(document).ready(function () {
 
   $("#slider-range-min-6").slider({
     range: "min",
-    value: 0,
+    value: 10,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount6").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount6").val("(0/10)");
+  $("#amount6").val("(10/10)");
 
 
   $("#slider-range-min-7").slider({
     range: "min",
-    value: 0,
+    value: 9,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount7").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount7").val("(0/10)");
+  $("#amount7").val("(9/10)");
 
 
   $("#slider-range-min-8").slider({
     range: "min",
-    value: 0,
+    value: 9,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount8").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount8").val("(0/10)");
+  $("#amount8").val("(9/10)");
 
 
   $("#slider-range-min-9").slider({
     range: "min",
-    value: 0,
+    value: 7,
     min: 0,
     max: 10,
     slide: function (event, ui) {
       $("#amount9").val("(" + ui.value + "/" + "10" + ")");
     }
   });
-  $("#amount9").val("(0/10)");
+  $("#amount9").val("(7/10)");
 
 
 
@@ -167,7 +167,7 @@ $(document).ready(function () {
 
     $(".list-show-grid-hide").hide();
   });
-  var sim = 0
+/*var sim = 0
 
   if (sim < 3) { $('.myratings').css('color', 'reblackd'); $(".myratings").text("(" + sim + ")Review"); } else { $('.myratings').css('color', 'black'); $(".myratings").text("(" + sim + ")Review"); }
 
@@ -175,7 +175,7 @@ $(document).ready(function () {
     var sim = $("input[type='radio']:checked").val();
     //alert(sim);
     if (sim < 3) { $('.myratings').css('color', 'black'); $(".myratings").text("(" + sim + ")Review"); } else { $('.myratings').css('color', 'black'); $(".myratings").text("(" + sim + ")Review"); }
-  });
+  });*/
 
 
 
@@ -193,3 +193,18 @@ $(document).ready(function () {
     }
   });
 });
+
+/*****************************************************Bootstarp collaspe***************************************/
+  // Add minus icon for collapse element which is open by default
+  $(".collapse.show").each(function(){
+    $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+  });
+  
+  // Toggle plus minus icon on show hide of collapse element
+  $(".collapse").on('show.bs.collapse', function(){
+    $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+  }).on('hide.bs.collapse', function(){
+    $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+  });
+  
+/***********************************view more or less colleges************************ */

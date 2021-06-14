@@ -116,6 +116,7 @@
     </div>
     <!--hr style="margin-top: 0rem; margin-bottom: -1rem; border: 0; border-top: 1px solid rgba(0,0,0,.1);"--->
     <!---------------------end of navbar---------------------->
+    
     <!----------------------------college info------------------------>
     <div class="container-fluid my-5 college-info">
         <div class="row ">
@@ -130,8 +131,19 @@
                     <span class="mx-2">Chennai , Tamil Nadu</span>
                 </div>
                 <div class="row ml-1">
-                    <div class="d-flex justify-content-center" style="height: 40px;">
-                        <fieldset class="rating"> <input type="radio" id="star5" name="rating" value="5" />
+                    <div class="d-flex justify-content-center" style="">
+                        <div class="" style="height: 50px;">
+                            <img src="assets/images/Star 1.png" class="checked h-50" alt="">
+                            <img src="assets/images/Star 1.png" class="checked h-50" alt="">
+                            <img src="assets/images/Star 1.png" class="checked h-50" alt="">
+                            <img src="assets/images/Star 1.png" class="h-50" alt="">
+                            <img src="assets/images/Star 5.png" class="h-50" alt="">
+
+                            <span class="ml-1 pt-2"
+                                style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                (4.0) Review</span>
+                        </div>
+                        <!---fieldset class="rating"> <input type="radio" id="star5" name="rating" value="5" />
                             <label class="full" for="star5" title="Awesome - 5 stars"></label>
                             <input type="radio" id="star4half" name="rating" value="4.5" />
                             <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
@@ -152,12 +164,12 @@
                             <input type="radio" id="starhalf" name="rating" value="0.5" />
                             <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
                             <input type="radio" class="reset-option" value="3" name="rating" value="reset" />
-                        </fieldset>
+                        </fieldset-->
                     </div>
 
-                    <div class="card-body">
+                    <!--div class="card-body">
                         <div class="myratings">(4.5) Review</div>
-                    </div>
+                    </div-->
                 </div>
 
                 <div class="row ml-1 mt-3 estd">
@@ -188,13 +200,13 @@
 
             <div class="col-md-5 mt-5">
                 <div class="row justify-content-center">
-                    <div class="col-6 row lg:justify-content-end justify-content-start">
+                    <div class="col-6 row justify-content-lg-end  justify-content-start">
                         <div class="icon-border"><img src="assets/images/Vector.png" class="img-fluid mt-1" alt="">
                         </div>
                         <span class="follow-text mx-2">Follow </span>
                     </div>
 
-                    <div class="col-6 row lg:justify-content-center justify-content-start">
+                    <div class="col-6 row justify-content-lg-center justify-content-start">
                         <div class="icon-border" style="border: 1px solid rgba(41, 171, 226, 1);"><img
                                 src="assets/images/compare.png" class="img-fluid mt-1" alt=""></div>
                         <span class="follow-text mx-1" style="color:rgba(41, 171, 226, 1) !important;">Compare </span>
@@ -258,23 +270,26 @@
                     </nav>
                 </div>
             </div>
-            <div class="container-fluid" style="background-color:rgba(250, 250, 250, 1)">
+            <div class="container-fluid" style="background-color:#FCFEFF">
                 <div class=" row tab-content pt-3 pb-0 px-3 px-sm-0" id="nav-tabContent ">
                     <div class="row fade   tab-pane show active" id="nav-info" role="tabpanel"
                         aria-labelledby="nav-info-tab">
                         <div class="d-lg-flex">
-                            <div class=" col-lg-8 my-4 ml-lg-5 pr-lg-3">
+                            <div class="  col-lg-9 my-1 pl-md-5  pr-md-5">
                                 <!----------------------overall rating---------------------------------------------->
                                 <div class="overall-rating my-2 pb-4">
                                     <div class="row mt-2">
-                                        <div class="col-lg-2 mt-3">
-                                            <div style="border: 3px solid yellow; height: 100px; width: 100px; border-radius: 50%; text-align: center;"
-                                                class="my-4 ml-4">
-                                                <div class="mt-4 pt-2 overall-rating-text">8.0</div>
+                                        <div class="col-lg-2 mt-3 d-lg-block d-flex justify-content-lg-start justify-content-center ">
+                                            <div class="progress blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+                                                <div class="progress-value">8.0</div>
                                             </div>
-                                            <div class="text-center overall-rating-text pl-4">overall rating</div>
+                                            <div class="ml-2 d-lg-block d-none" style="font-size:18px; font-weight: 600; font-family:Poppins;">Overall Rating</div>
                                         </div>
-                                        <div class="col-lg-5">
+                                        <div class="col-lg-5" style="pointer-events: none;border: 1px solid #eaeaea;
+                                        margin-top: 10px;
+                                        border-left: 0px;
+                                        border-top: 0px;
+                                        border-bottom: 0px;">
                                             <div class="row my-4">
                                                 <div class="col-3 pr-5 pl-lg-0 pl-5">
                                                     <div class="overall-slider-text">Academics</div>
@@ -321,14 +336,15 @@
                                                 </div>
                                                 <div class="col-2"><input type="text" id="amount5" readonly
                                                         class="overall-slider-input"></div>
-                                                <hr>
+                                                
                                             </div>
 
                                         </div>
 
 
 
-                                        <div class="col-lg-5 pl-5 pr-5">
+                                        <div class="col-lg-5 pl-lg-5 pr-lg-5" style="pointer-events: none;">
+                                            
                                             <div class="row my-4">
                                                 <div class="col-3 pr-5 pl-lg-0 pl-5">
                                                     <div class="overall-slider-text">Professors</div>
@@ -384,9 +400,9 @@
                                                 more</span><img src="assets/images/Vector 1.png" alt=""> </div></a>
                                 </div>
                                 <!--------------------------end of overall rating-------------------------------->
-                                <div class="tab-pane-overview my-5">
+                                <div class="tab-pane-overview my-5" id="overview-module">
                                     <h6 class="px-5 pt-4 ">Overview</h6>
-                                    <p class="mx-5 my-4">
+                                    <p class="mx-5 my-4  collapse" id="overview-collpase">
                                         Et et consectetur ipsum labore excepteur est proident excepteur ad velit
                                         occaecat
                                         qui
@@ -427,31 +443,50 @@
                                     </p>
 
 
-                                    <div class="text-center py-3"><a href="#">View More</a></div>
+                                    <div class="text-center py-3">
+                                        <a role="button" class="collapsed" data-toggle="collapse"
+                                            href="#overview-collpase" aria-expanded="false"
+                                            aria-controls="collapseExample">
+
+                                        </a></div>
 
                                 </div>
                                 <!--------------------------------------------------------IIT Madras Top Courses & Fees--------------------------->
                                 <div class="container-fluid course-fee py-3">
                                     <h2 class="my-3 mx-4">IIT Madras Top Courses & Fees</h2>
-                                    <div class="row mx-4">
+                                    <div class="row mx-md-4">
                                         <div class="col-lg-6 ">
                                             <div class="row fee-courses-bg py-3 px-3">
                                                 <div class="col-12">
                                                     <h2>Bachelor of Technology (B.Tech)</h2>
                                                 </div>
-                                                <div class="row col-12">
+                                                
                                                     <div class="col-6">
-                                                        <span><a href=""> 8 Courses Offered
+                                                        <span style="text-decoration: underline;"><a href=""> 8 Courses
+                                                                Offered
                                                             </a>
                                                         </span></div>
                                                     <div class="col-6 d-flex justify-content-end">
                                                         <span>Annual Fee
                                                         </span></div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-6 pl-1">
+                                                
+                                               
+                                                    <div class="col-6 pl-2">
                                                         <div class="d-flex justify-content-start" style="height: 40px;">
-                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                            <div class="" style="height: 28px;">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="h-50" alt="">
+                                                                <img src="assets/images/Star 5.png" class="h-50" alt="">
+
+                                                                <span class="ml-1 pt-2 review">
+                                                                    (4.0) Review</span>
+                                                            </div>
+                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
                                                                     name="rating" value="5" />
                                                                 <label class="full" for="star5"
                                                                     title="Awesome - 5 stars"></label>
@@ -496,36 +531,37 @@
                                                             </fieldset>
                                                             <div class="card-body">
                                                                 <div class="myratings review">(4.5) Review</div>
-                                                            </div>
+                                                            </div-->
                                                         </div>
                                                     </div>
                                                     <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs
                                                     </div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-8">
+                                                
+                                               
+                                                    <div class="col-9">
                                                         <div>JEE Advanced </div>
                                                         <span>03 May 2020 Registration Date | 17 May 2020 Exam
                                                             Date</span>
 
                                                     </div>
-                                                    <div class="col-4 text-right my-4">
+                                                    <div class="col-3 text-md-right text-center mt-2">
                                                         <button class="btn ">
                                                             <div class=" px-3">Apply</div>
                                                         </button>
                                                     </div>
-                                                </div>
+                                                
                                             </div>
 
                                         </div>
                                         <div class="col-lg-6 ">
-                                            <div class="row fee-courses-bg py-3 px-3 lg:mt-0 mt-3  ml-lg-2">
+                                            <div class="row fee-courses-bg py-3 px-md-3 mt-lg-0 mt-3  ml-lg-2">
                                                 <div class="col-12">
                                                     <h2>Bachelor of Technology (B.Tech)</h2>
                                                 </div>
                                                 <div class="row col-12">
                                                     <div class="col-6">
-                                                        <span><a href=""> 8 Courses Offered
+                                                        <span style="text-decoration: underline;"><a href=""> 8 Courses
+                                                                Offered
                                                             </a>
                                                         </span></div>
                                                     <div class="col-6 d-flex justify-content-end">
@@ -533,9 +569,22 @@
                                                         </span></div>
                                                 </div>
                                                 <div class="row col-12">
-                                                    <div class="col-6 pl-1">
+                                                    <div class="col-6 pl-2">
                                                         <div class="d-flex justify-content-start" style="height: 40px;">
-                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                            <div class="" style="height: 28px;">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="h-50" alt="">
+                                                                <img src="assets/images/Star 5.png" class="h-50" alt="">
+
+                                                                <span class="ml-1 pt-2 review">
+                                                                    (4.0) Review</span>
+                                                            </div>
+                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
                                                                     name="rating" value="5" />
                                                                 <label class="full" for="star5"
                                                                     title="Awesome - 5 stars"></label>
@@ -580,48 +629,62 @@
                                                             </fieldset>
                                                             <div class="card-body">
                                                                 <div class="myratings review">(4.5) Review</div>
-                                                            </div>
+                                                            </div-->
                                                         </div>
                                                     </div>
                                                     <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs
                                                     </div>
                                                 </div>
-                                                <div class="row col-12">
-                                                    <div class="col-8">
+                                               
+                                                    <div class="col-9">
                                                         <div>JEE Advanced </div>
                                                         <span>03 May 2020 Registration Date | 17 May 2020 Exam
                                                             Date</span>
 
                                                     </div>
-                                                    <div class="col-4 text-right my-4">
+                                                    <div class="col-3 text-md-right text-center ">
                                                         <button class="btn ">
                                                             <div class=" px-3">Apply</div>
                                                         </button>
                                                     </div>
-                                                </div>
+                                                
                                             </div>
 
                                         </div>
                                     </div>
-                                    <div class="row mx-4 my-4">
+                                    <div class="row mx-md-4 my-4">
                                         <div class="col-lg-6 ">
                                             <div class="row fee-courses-bg py-3 px-3">
                                                 <div class="col-12">
                                                     <h2>Bachelor of Technology (B.Tech)</h2>
                                                 </div>
-                                                <div class="row col-12">
+                                                
                                                     <div class="col-6">
-                                                        <span><a href=""> 8 Courses Offered
+                                                        <span style="text-decoration: underline;"><a href=""> 8 Courses
+                                                                Offered
                                                             </a>
                                                         </span></div>
                                                     <div class="col-6 d-flex justify-content-end">
                                                         <span>Annual Fee
                                                         </span></div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-6 pl-1">
+                                               
+                                               
+                                                    <div class="col-6 pl-2">
                                                         <div class="d-flex justify-content-start" style="height: 40px;">
-                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                            <div class="" style="height: 28px;">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="h-50" alt="">
+                                                                <img src="assets/images/Star 5.png" class="h-50" alt="">
+
+                                                                <span class="ml-1 pt-2 review">
+                                                                    (4.0) Review</span>
+                                                            </div>
+                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
                                                                     name="rating" value="5" />
                                                                 <label class="full" for="star5"
                                                                     title="Awesome - 5 stars"></label>
@@ -666,46 +729,47 @@
                                                             </fieldset>
                                                             <div class="card-body">
                                                                 <div class="myratings review">(4.5) Review</div>
-                                                            </div>
+                                                            </div-->
                                                         </div>
                                                     </div>
                                                     <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs
                                                     </div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-8">
+                                               
+                                               
+                                                    <div class="col-9">
                                                         <div>JEE Advanced </div>
                                                         <span>03 May 2020 Registration Date | 17 May 2020 Exam
                                                             Date</span>
 
                                                     </div>
-                                                    <div class="col-4 text-right my-4">
+                                                    <div class="col-3 text-md-right text-center mt-2">
                                                         <button class="btn ">
                                                             <div class=" px-3">Apply</div>
                                                         </button>
                                                     </div>
-                                                </div>
+                                               
                                             </div>
 
                                         </div>
                                         <div class="col-lg-6 ">
-                                            <div class="row fee-courses-bg py-3 px-3 lg:mt-0 mt-3  ml-lg-2">
+                                            <div class="row fee-courses-bg py-3 px-md-3 mt-lg-0 mt-3  ml-lg-2">
                                                 <div class="col-12">
                                                     <h2>Bachelor of Technology (B.Tech)</h2>
                                                 </div>
-                                                <div class="row col-12">
+                                               
                                                     <div class="col-6">
-                                                        <span><a href=""> 8 Courses Offered
+                                                        <span style="text-decoration: underline;"><a href=""> 8 Courses
+                                                                Offered
                                                             </a>
                                                         </span></div>
                                                     <div class="col-6 d-flex justify-content-end">
                                                         <span>Annual Fee
                                                         </span></div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-6 pl-1">
+                                               
+                                               
+                                                    <div class="col-6 pl-2">
                                                         <div class="d-flex justify-content-start" style="height: 40px;">
-                                                            <fieldset class="rating"> <input type="radio" id="star5"
+                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
                                                                     name="rating" value="5" />
                                                                 <label class="full" for="star5"
                                                                     title="Awesome - 5 stars"></label>
@@ -750,25 +814,38 @@
                                                             </fieldset>
                                                             <div class="card-body">
                                                                 <div class="myratings review">(4.5) Review</div>
+                                                            </div-->
+                                                            <div class="" style="height: 28px;">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="checked h-50"
+                                                                    alt="">
+                                                                <img src="assets/images/Star 1.png" class="h-50" alt="">
+                                                                <img src="assets/images/Star 5.png" class="h-50" alt="">
+
+                                                                <span class="ml-1 pt-2 review">
+                                                                    (4.0) Review</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-6 d-flex justify-content-end inrfee">INR 1.36 Lacs
                                                     </div>
-                                                </div>
-                                                <div class="row col-12">
-                                                    <div class="col-8">
+                                               
+                                                
+                                                    <div class="col-9">
                                                         <div>JEE Advanced </div>
                                                         <span>03 May 2020 Registration Date | 17 May 2020 Exam
                                                             Date</span>
 
                                                     </div>
-                                                    <div class="col-4 text-right my-4">
+                                                    <div class="col-3 text-md-right text-center mt-2">
                                                         <button class="btn ">
                                                             <div class=" px-3">Apply</div>
                                                         </button>
                                                     </div>
-                                                </div>
+                                                
                                             </div>
 
                                         </div>
@@ -784,18 +861,18 @@
                                 <div class="container-fluid course-fee  Colleges-Recommended py-3 my-5">
                                     <h2 class="my-3 mx-4">Recommended Colleges
                                     </h2>
-                                    <div class="row mx-4">
-                                        <div class="col-lg-6  ">
-                                            <div class="row fee-courses-bg py-3 px-3 ">
-                                                <div class=" row col-12">
-                                                    <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png"
-                                                            alt="">
+                                    <div class="row mx-md-4">
+                                        <div class="col-lg-6 px-3 py-3 ">
+                                            <div class="fee-courses-bg py-3 px-3 ">
+                                                <div class=" row ">
+                                                    <div class="col-md-3 pl-3 text-md-left text-center"><img
+                                                            src="assets/images/Rectangle 36.png" alt="">
                                                     </div>
-                                                    <div class="col-8 pl-0">
+                                                    <div class="col-md-8 pl-0 text-md-left text-center">
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-4 pr-0">
-                                                                <div class="row pl-2"> <img
+                                                                <div class="row pl-md-2 pl-5"> <img
                                                                         src="assets/images/location.png" alt=""
                                                                         height="20px">
                                                                     <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
@@ -807,7 +884,7 @@
                                                             <div class="col-8 pr-0 d-flex justify-content-end">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
-                                                                    <fieldset class="rating"> <input type="radio"
+                                                                    <!--fieldset class="rating"> <input type="radio"
                                                                             id="star5" name="rating" value="5" />
                                                                         <label class="full" for="star5"
                                                                             title="Awesome - 5 stars"></label>
@@ -852,13 +929,28 @@
                                                                     </fieldset>
                                                                     <div class="card-body">
                                                                         <div class="myratings review">(4.5) Review</div>
+                                                                    </div-->
+                                                                    <div class="" style="height: 40px;">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png" class="h-50"
+                                                                            alt="">
+                                                                        <img src="assets/images/Star 5.png" class="h-50"
+                                                                            alt="">
+
+                                                                        <span class="ml-1 pt-2 review">
+                                                                            (4.0) Review</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row col-12">
+                                                <div class="row">
                                                     <div class="col-6 text-center mt-3">
                                                         <div style="font-size: 14px; font-family: Inter;">Total Courses
                                                             Offered
@@ -886,7 +978,7 @@
                                                         <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
                                                             class="mb-3">#2 NIRF</div>
 
-                                                        <button class="btn mx-2 mt-2"
+                                                        <button class="btn mx-2 mt-md-2 mt-4"
                                                             style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
                                                                 src="assets/images/download 2.png"
                                                                 class="img-fluid mt-1" alt="">
@@ -895,20 +987,20 @@
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <div class="ml-5 pl-5 my-2"
+                                                <div class="row col-12 d-flex justify-content-center"
                                                     style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
-                                                    <div class="ml-4 pl-3">Don’t show my again</div>
+                                                    <div class="">Don’t show my again</div>
                                                 </div>
                                             </div>
 
                                         </div>
-                                        <div class="col-lg-6 pl-4">
-                                            <div class="row fee-courses-bg py-3 px-3 mt-lg-0 mt-3">
-                                                <div class=" row col-12">
-                                                    <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png"
-                                                            alt="">
+                                        <div class="col-lg-6 px-md-3 py-3">
+                                            <div class=" fee-courses-bg py-3 px-md-3 mt-lg-0 mt-3">
+                                                <div class=" row ">
+                                                    <div class="col-md-3 pl-3 text-md-left text-center"><img
+                                                            src="assets/images/Rectangle 36.png" alt="">
                                                     </div>
-                                                    <div class="col-8 pl-0">
+                                                    <div class="col-md-8 pl-0 text-md-left text-center">
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-4 pr-0">
@@ -924,7 +1016,7 @@
                                                             <div class="col-8 pr-0 d-flex justify-content-end">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
-                                                                    <fieldset class="rating"> <input type="radio"
+                                                                    <!--fieldset class="rating"> <input type="radio"
                                                                             id="star5" name="rating" value="5" />
                                                                         <label class="full" for="star5"
                                                                             title="Awesome - 5 stars"></label>
@@ -969,13 +1061,28 @@
                                                                     </fieldset>
                                                                     <div class="card-body">
                                                                         <div class="myratings review">(4.5) Review</div>
+                                                                    </div-->
+                                                                    <div class="" style="height: 40px;">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png" class="h-50"
+                                                                            alt="">
+                                                                        <img src="assets/images/Star 5.png" class="h-50"
+                                                                            alt="">
+
+                                                                        <span class="ml-1 pt-2 review">
+                                                                            (4.0) Review</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row col-12">
+                                                <div class="row ">
                                                     <div class="col-6 text-center mt-3">
                                                         <div style="font-size: 14px; font-family: Inter;">Total Courses
                                                             Offered
@@ -1003,7 +1110,7 @@
                                                         <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
                                                             class="mb-3">#2 NIRF</div>
 
-                                                        <button class="btn mx-2 mt-2"
+                                                        <button class="btn mx-2 mt-md-2 mt-4"
                                                             style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
                                                                 src="assets/images//download 2.png"
                                                                 class="img-fluid mt-1" alt="">
@@ -1012,9 +1119,9 @@
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <div class="ml-5 pl-5 my-2"
-                                                    style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
-                                                    <div class="ml-4 pl-3">Don’t show my again</div>
+                                                <div class="row col-12 d-flex justify-content-center"
+                                                    style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px;">
+                                                    <div class="">Don’t show my again</div>
                                                 </div>
                                             </div>
 
@@ -1023,14 +1130,14 @@
                                     </div>
 
 
-                                    <div class="row mx-4 my-4">
-                                        <div class="col-lg-6  ">
-                                            <div class="row fee-courses-bg py-3 px-3 ">
-                                                <div class=" row col-12">
-                                                    <div class="col-3 pl-0"><img src="assets/images/Rectangle 36.png"
-                                                            alt="">
+                                    <div class="row mx-md-4">
+                                        <div class="col-lg-6 px-md-3 py-3 ">
+                                            <div class="fee-courses-bg py-3 px-3 ">
+                                                <div class=" row ">
+                                                    <div class="col-md-3 pl-3 text-md-left text-center"><img
+                                                            src="assets/images/Rectangle 36.png" alt="">
                                                     </div>
-                                                    <div class="col-8 pl-0">
+                                                    <div class="col-md-8 pl-0 text-md-left text-center">
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-4 pr-0">
@@ -1046,7 +1153,7 @@
                                                             <div class="col-8 pr-0 d-flex justify-content-end">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
-                                                                    <fieldset class="rating"> <input type="radio"
+                                                                    <!--fieldset class="rating"> <input type="radio"
                                                                             id="star5" name="rating" value="5" />
                                                                         <label class="full" for="star5"
                                                                             title="Awesome - 5 stars"></label>
@@ -1091,13 +1198,28 @@
                                                                     </fieldset>
                                                                     <div class="card-body">
                                                                         <div class="myratings review">(4.5) Review</div>
+                                                                    </div-->
+                                                                    <div class="" style="height: 40px;">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png" class="h-50"
+                                                                            alt="">
+                                                                        <img src="assets/images/Star 5.png" class="h-50"
+                                                                            alt="">
+
+                                                                        <span class="ml-1 pt-2 review">
+                                                                            (4.0) Review</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row col-12">
+                                                <div class="row ">
                                                     <div class="col-6 text-center mt-3">
                                                         <div style="font-size: 14px; font-family: Inter;">Total Courses
                                                             Offered
@@ -1117,7 +1239,7 @@
                                                         </button>
                                                     </div>
 
-                                                    <div class="col-6 text-center mt-3">
+                                                    <div class="col-6 text-center mt-md-3 mt-4">
                                                         <div style="font-size: 14px; font-family: Inter;">Total Fees
                                                         </div>
                                                         <div style="color: rgba(41, 171, 226, 1);">-</div>
@@ -1125,7 +1247,7 @@
                                                         <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
                                                             class="mb-3">#2 NIRF</div>
 
-                                                        <button class="btn mx-2 mt-2"
+                                                        <button class="btn mx-2 mt-md-2 mt-4"
                                                             style=" border:1px solid rgba(41, 171, 226, 1);  color:rgba(41, 171, 226, 1); font-size: 15px;"><img
                                                                 src="assets/images/download 2.png"
                                                                 class="img-fluid mt-1" alt="">
@@ -1134,20 +1256,20 @@
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <div class="ml-5 pl-5 my-2"
+                                                <div class="row col-12 d-flex justify-content-center"
                                                     style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
-                                                    <div class="ml-4 pl-3">Don’t show my again</div>
+                                                    <div class="">Don’t show my again</div>
                                                 </div>
                                             </div>
 
                                         </div>
-                                        <div class="col-lg-6 pl-4  mt-lg-0 mt-3">
-                                            <div class="row fee-courses-bg py-3 px-1">
-                                                <div class=" row col-12">
-                                                    <div class="col-3 px-2"><img src="assets/images/Rectangle 36.png"
-                                                            alt="">
+                                        <div class="col-lg-6 px-3 py-3  mt-lg-0 mt-3">
+                                            <div class="fee-courses-bg py-3 px-3">
+                                                <div class=" row ">
+                                                    <div class="col-md-3 text-md-left text-center pl-3"><img
+                                                            src="assets/images/Rectangle 36.png" alt="">
                                                     </div>
-                                                    <div class="col-8 pl-0">
+                                                    <div class="col-md-8 text-md-left text-center pl-0">
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-4 pr-0">
@@ -1163,7 +1285,7 @@
                                                             <div class="col-8 pr-0 d-flex justify-content-end">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
-                                                                    <fieldset class="rating"> <input type="radio"
+                                                                    <!--fieldset class="rating"> <input type="radio"
                                                                             id="star5" name="rating" value="5" />
                                                                         <label class="full" for="star5"
                                                                             title="Awesome - 5 stars"></label>
@@ -1208,69 +1330,89 @@
                                                                     </fieldset>
                                                                     <div class="card-body">
                                                                         <div class="myratings review">(4.5) Review</div>
+                                                                    </div-->
+                                                                    <div class="" style="height: 40px;">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png"
+                                                                            class="checked h-50" alt="">
+                                                                        <img src="assets/images/Star 1.png" class="h-50"
+                                                                            alt="">
+                                                                        <img src="assets/images/Star 5.png" class="h-50"
+                                                                            alt="">
+
+                                                                        <span class="ml-1 pt-2 review">
+                                                                            (4.0) Review</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-
-                                                    <div class="row col-12">
-                                                        <div class="col-6 text-center mt-3">
-                                                            <div style="font-size: 14px; font-family: Inter;">Total
-                                                                Courses
-                                                                Offered
-                                                            </div>
-                                                            <div style="color: rgba(41, 171, 226, 1);">-</div>
-                                                            <div style="font-size: 14px; font-family: Inter;">Exams
-                                                            </div>
-                                                            <div style="color: rgba(41, 171, 226, 1);">-</div>
-
-                                                            <button class="btn  mx-2 mt-3"
-                                                                style="background-color: black; border: black; color: white; font-size: 15px;"><img
-                                                                    src="assets/images/Group 518.png"
-                                                                    class="img-fluid mt-1" alt="">
-                                                                <spans tyle="color:rgba(41, 171, 226, 1) !important;"
-                                                                    class="px-2">
-                                                                    Compare
-                                                                    </span>
-                                                            </button>
+                                                </div>
+                                                <div class="row ">
+                                                    <div class="col-6 text-center mt-3">
+                                                        <div style="font-size: 14px; font-family: Inter;">Total
+                                                            Courses
+                                                            Offered
                                                         </div>
+                                                        <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                        <div style="font-size: 14px; font-family: Inter;">Exams
+                                                        </div>
+                                                        <div style="color: rgba(41, 171, 226, 1);">-</div>
 
-                                                        <div class="col-6 text-center mt-3">
-                                                            <div style="font-size: 14px; font-family: Inter;">Total Fees
-                                                            </div>
-                                                            <div style="color: rgba(41, 171, 226, 1);">-</div>
-                                                            <div style="font-size: 14px; font-family: Inter;">Ranked
-                                                            </div>
-                                                            <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
-                                                                class="mb-3">#2 NIRF</div>
-
-                                                            <button class="btn mx-2 mt-2"
-                                                                style=" border:1px solid rgba(41, 171, 226, 1);color:rgba(41, 171, 226, 1); font-size: 15px;"><img
-                                                                    src="assets/images/download 2.png"
-                                                                    class="img-fluid mt-1" alt="">
-                                                                Brochure
+                                                        <button class="btn  mx-2 mt-3"
+                                                            style="background-color: black; border: black; color: white; font-size: 15px;"><img
+                                                                src="assets/images/Group 518.png" class="img-fluid mt-1"
+                                                                alt="">
+                                                            <spans tyle="color:rgba(41, 171, 226, 1) !important;"
+                                                                class="px-2">
+                                                                Compare
                                                                 </span>
-                                                            </button>
-                                                        </div>
+                                                        </button>
                                                     </div>
-                                                    <div class="ml-5 pl-5 my-2"
-                                                        style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
-                                                        <div class="ml-4 pl-3">Don’t show my again</div>
+
+                                                    <div class="col-6 text-center mt-md-3 mt-4">
+                                                        <div style="font-size: 14px; font-family: Inter;">Total Fees
+                                                        </div>
+                                                        <div style="color: rgba(41, 171, 226, 1);">-</div>
+                                                        <div style="font-size: 14px; font-family: Inter;">Ranked
+                                                        </div>
+                                                        <div style="color: rgba(41, 171, 226, 1); font-size: 12px;"
+                                                            class="mb-3">#2 NIRF</div>
+
+                                                        <button class="btn mx-2 mt-md-2 mt-4"
+                                                            style=" border:1px solid rgba(41, 171, 226, 1);color:rgba(41, 171, 226, 1); font-size: 15px;"><img
+                                                                src="assets/images/download 2.png"
+                                                                class="img-fluid mt-1" alt="">
+                                                            Brochure
+                                                            </span>
+                                                        </button>
                                                     </div>
                                                 </div>
-
+                                                <div class="row col-12 d-flex justify-content-center"
+                                                    style="font-family: inter; color: rgba(100, 98, 106, 1); font-size: 12px; text-align: center;">
+                                                    <div class="">Don’t show my again</div>
+                                                </div>
                                             </div>
+
+
                                         </div>
                                     </div>
+                                    <div 
+                                    class="text-center"><a href="javascript:void(0)"><span style=" font-size:13px ;
+                                        color: rgba(41, 171, 226, 1);
+                                        font-family: Poppins;">View more colleges</span> <img src="assets/images/Vector 1.png"
+                                                    alt=""></a></div>
                                 </div>
-
+                                
                                 <!-----------------------------------------------end of Recommended Colleges------------------------>
 
                             </div>
 
 
-                            <div class="col-lg-3 my-4 lg:mx-3 lg:px-0 px-5 ">
+                            <div class="col-lg-3 my-2 pr-md-5 pl-lg-0 pl-5">
                                 <!-------------------------top-courses-------------------------->
 
                                 <div class="row top-courses-bg pt-4 justify-content-start ">
@@ -1278,62 +1420,62 @@
                                         Courses</span>
                                     <div class="top-couses-list w-100 mt-4 px-4">
                                         <div class="row">
-                                            <div class="text1 pl-3 pt-3">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4 pt-3"> 4 Years</div>
+                                            <div class=" col-9 text1 pl-2 pt-3">Bachelor of Technology (B.Tech)</div>
+                                            <div class=" col-3 text2  pt-3"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Master of Technology (M.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 2 Years</div>
+                                            <div class=" col-9 text1 pl-2  pt-1">Master of Technology (M.Tech)</div>
+                                            <div class=" col-3 text2  pt-1"> 2 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3 pt-1">Master of Business Administration</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class=" col-9 text1 pl-2 pt-1">Master of Business Administration</div>
+                                            <div class=" col-3 text2   pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 20,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of computer appliction</div>
-                                            <div class="text2 px-4  pt-1"> 3 Years</div>
+                                            <div class=" col-9 text1 pl-2 pt-1">Bachelor of computer appliction</div>
+                                            <div class="col-3 text2   pt-1"> 3 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 30,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-1">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text2   pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-1">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text2   pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-1">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text2   pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-1">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text2   pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3  pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4  pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-1">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text1 pl-2 pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
                                         <div class="row">
-                                            <div class="text1 pl-3 pt-1">Bachelor of Technology (B.Tech)</div>
-                                            <div class="text2 px-4 pt-1"> 4 Years</div>
+                                            <div class="col-9 text1 pl-2 pt-11">Bachelor of Technology (B.Tech)</div>
+                                            <div class="col-3 text1 pl-2 pt-1"> 4 Years</div>
                                         </div>
                                         <div class="avg-fee pl-1 ">AVG FEE - ₹ 50,000/Yr</div>
                                         <hr>
@@ -1869,92 +2011,141 @@
 
                     </div>
                     <!----------------------------------faq questions-------------------------------->
+
+                    <!----------------------------------end of faq questions-------------------------------->
+
+
                     <div class="container-fluid py-4  FAQ">
                         <h2 class="py-4 px-2"> FAQs About IIT MADRAS</h2>
-                        <div class=" question1 mx-2">
-                            <div class=" row question mx-0">
-                                <div class="col-10 pt-3 pb-2 px-3">
-                                    <h2>Does IIT have management quota?</h2>
+                        <div class="accordion " id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0 question1">
+                                        <div class=" row question mx-0">
+                                            <div class="col-10 pt-3 pb-2 px-3">
+                                                <h2>How is it to study at IIT?</h2>
+                                            </div>
+                                            <div class="col-2 text-right mt-2 pr-2"> <button type="button"
+                                                    class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseOne"><i
+                                                        class="fa fa-plus text-white"></i></button></div>
+                                        </div>
+                                    </h2>
                                 </div>
-                                <div class="col-2 text-white pt-1 pb-2 px-5" id="addsymbol">
-                                    +
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body ">
+                                        <p class=" answer  py-2 px-5 mx-0" id="FAQawnser"> No, there is no management
+                                            quota at IIT.
+                                            Students are selected
+                                            either on the basis of their performance in entrance exams or through direct
+                                            admission
+                                            based on their qualifying marks. </p>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0 question1">
+                                        <div class=" row question mx-0">
+                                            <div class="col-10 pt-3 pb-2 px-3">
+                                                <h2>Which extracurricular activities are provided for students at IIT?
+                                                </h2>
+                                            </div>
+                                            <div class="col-2 text-right mt-2 pr-2"> <button type="button"
+                                                    class="btn btn-link" data-toggle="collapse"
+                                                    data-target="#collapseTwo"><i
+                                                        class="fa fa-plus text-white"></i></button></div>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body ">
+                                        <p class=" answer  py-2 px-5 mx-0" id="FAQawnser2"> No, there is no management
+                                            quota at IIT.
+                                            Students are selected
+                                            either on the basis of their performance in entrance exams or through direct
+                                            admission
+                                            based on their qualifying marks.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0 question1">
+                                        <div class=" row question mx-0">
+                                            <div class="col-10 pt-3 pb-2 px-3">
+                                                <h2>What are the rankings of IIT?</h2>
+                                            </div>
+                                            <div class="col-2 text-right mt-2 pr-2"> <button type="button"
+                                                    class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThree"><i
+                                                        class="fa fa-plus text-white"></i></button>
+                                            </div>
+                                        </div>
+                                    </h2>
 
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body ">
+                                        <p class=" answer  py-2 px-5 mx-0" id="FAQawnser2"> No, there is no management
+                                            quota at IIT.
+                                            Students are selected
+                                            either on the basis of their performance in entrance exams or through direct
+                                            admission
+                                            based on their qualifying marks.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class=" answer  py-2 px-3 mx-0" id="FAQawnser">
-                                No, there is no management quota at IIT. Students are selected
-                                either on the basis of their performance in entrance exams or through direct admission
-                                based on their qualifying marks.
-                            </div>
-                        </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h2 class="mb-0 question1">
+                                        <div class=" row question mx-0">
+                                            <div class="col-10 pt-3 pb-2 px-3">
+                                                <h2>How is it to study at IIT?</h2>
+                                            </div>
+                                            <div class="col-2 text-right mt-2 pr-2"> <button type="button"
+                                                    class="btn btn-link collapsed" data-toggle="collapse"
+                                                    data-target="#collapseFour"><i
+                                                        class="fa fa-plus text-white"></i></button>
+                                            </div>
+                                        </div>
+                                    </h2>
 
-                        <div class=" question1 mx-2 my-3">
-                            <div class=" row question mx-0">
-                                <div class="col-10 pt-3 pb-2 px-3">
-                                    <h2>Which extracurricular activities are provided for students at IIT?</h2>
+                                    </h2>
                                 </div>
-                                <div class="col-2 text-white pt-1 pb-2 px-5" id="addsymbol">
-                                    +
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body ">
+                                        <p class=" answer  py-2 px-5 mx-0" id="FAQawnser2"> No, there is no management
+                                            quota at IIT.
+                                            Students are selected
+                                            either on the basis of their performance in entrance exams or through direct
+                                            admission
+                                            based on their qualifying marks.</p>
+                                    </div>
                                 </div>
-
-                            </div>
-                            <div class=" answer  py-2 px-3 mx-0" id="FAQawnser">
-                                No, there is no management quota at IIT. Students are selected
-                                either on the basis of their performance in entrance exams or through direct admission
-                                based on their qualifying marks.
-                            </div>
-                        </div>
-                        <div class=" question1 mx-2 my-3">
-                            <div class=" row question mx-0">
-                                <div class="col-10 pt-1 pb-2 px-3">
-                                    <h2>Which extracurricular activities are provided for students at IIT?</h2>
-                                </div>
-                                <div class="col-2 text-white pt-3 pb-2 px-5" id="addsymbol">
-                                    +
-                                </div>
-
-                            </div>
-                            <div class=" answer  py-2 px-3 mx-0" id="FAQawnser">
-                                No, there is no management quota at IIT. Students are selected
-                                either on the basis of their performance in entrance exams or through direct admission
-                                based on their qualifying marks.
-                            </div>
-                        </div>
-                        <div class=" question1 mx-2 my-3">
-                            <div class=" row question mx-0">
-                                <div class="col-10 pt-3 pb-2 px-3">
-                                    <h2>How is it to study at IIT?</h2>
-                                </div>
-                                <div class="col-2 text-white pt-1 pb-2 px-5" id="addsymbol">
-                                    +
-                                </div>
-
-                            </div>
-                            <div class=" answer  py-2 px-3 mx-0" id="FAQawnser">
-                                No, there is no management quota at IIT. Students are selected
-                                either on the basis of their performance in entrance exams or through direct admission
-                                based on their qualifying marks.
                             </div>
                         </div>
                     </div>
-
-                    <!----------------------------------end of faq questions-------------------------------->
                 </div>
             </div>
         </div>
-
         <!------------------------college rating------------------------->
         <div class="container-fluid bg-white college-rating my-5 py-3">
             <h2 class="py-3 px-4 mx-4 ">COLLEGE RATING</h2>
             <div class="row">
 
-                <div class="col-md-4  mx-4">
-                    <div class="row">
+                <div class="col-md-3  ">
+                    <div class="row ml-md-4">
                         <h6 class="pl-4">COLLEGE RATING
-                        </h6><span>(out of 5)</span>
+                        </h6><span style="font-size:20px;">(out of 5)</span>
                     </div>
 
-                    <div class="pl-3 pt-5">
+                    <div class="pl-3 pt-5 ml-md-5">
                         <img src="assets/images/Star 1.png" class="checked h-50" alt="">
                         <img src="assets/images/Star 1.png" class="checked h-50" alt="">
                         <img src="assets/images/Star 1.png" class="checked h-50" alt="">
@@ -1966,7 +2157,7 @@
                             Review</div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5 pl-md-5">
                     <div class="row">
                         <h6 class="pl-4">Component Ratings
                         </h6><span>(out of 5)</span>
@@ -1991,7 +2182,7 @@
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
-                                        (3.0)</span>
+                                        (4.0)</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -2004,7 +2195,7 @@
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
-                                        (3.0)</span>
+                                        (4.0)</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -2017,7 +2208,7 @@
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
-                                        (3.0)</span>
+                                        (4.0)</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -2030,7 +2221,7 @@
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
-                                        (3.0)</span>
+                                        (4.0)</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -2043,14 +2234,14 @@
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
-                                        (3.0)</span>
+                                        (4.0)</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 mt-5">
+                <div class="col-md-4 mt-5">
                     <p style="color: rgba(151, 151, 151, 1); font-size: 16px;">The Verified badge indicates
                         that the reviewer's details have been verified by
                         Stulink,
@@ -2069,8 +2260,8 @@
                         <h2 class="py-3 px-4 ml-5 ">Student Reviews</h2>
                         <div class="row ml-lg-4">
                             <span class=" col-1 ml-5"><img src="assets/images/Ellipse 4.png" alt=""></span>
-                            <div class="col-10 text-review" > <span
-                                    style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">Ramanakanth
+                            <div class="col-10 text-review"> <span style="color:#2B2B2B ; font-size:16px ;"
+                                    class="mt-4 ml-2">Ramanakanth
                                     Reddy</span>
                                 <span class="mt-4">| B.Tech. in Electrical Engineering (Power and
                                     Automation) -
@@ -2078,22 +2269,26 @@
                                 <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
                             </div>
                         </div>
-                        <div class="college-review mx-5 my-2">
-                            <div class="px-5 py-4">It is one of the best ranked engineering college in
-                                india.
-                                It has huge campus with clean green environment and provides lot of
-                                opportunities to the students.
-                                I had given manpial University entrance exam to take admission here.This
-                                exam was tough but i cracked it (lot of determination need).
-                                You can no doubt opt for this college as it is one of the best.</div>
+                        <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
+
+                            <div class="comment__bubble">
+                                <span class="comment__arrow"></span>
+                                <p>It is one of the best ranked engineering college in
+                                    india.
+                                    It has huge campus with clean green environment and provides lot of
+                                    opportunities to the students.
+                                    I had given manpial University entrance exam to take admission here.This
+                                    exam was tough but i cracked it (lot of determination need).
+                                    You can no doubt opt for this college as it is one of the best.</p>
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
                 <div class="row ml-lg-4 my-4">
                     <span class=" col-1 ml-5"><img src="assets/images/Ellipse 4.png" alt=""></span>
-                    <div class="col-10 text-review" > <span style=" color:#2B2B2B ; font-size:16px ;"
-                            class="mt-4 ml-2">
+                    <div class="col-10 text-review"> <span style=" color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
                             Deeplakanth Kumar</span>
                         <span class="mt-4 ">| B.Tech. in Electrical Engineering (Power and Automation) -
                             Batch of 2021</span><br>
@@ -2101,20 +2296,25 @@
                     </div>
                 </div>
 
-                <div class="college-review mx-5 my-2">
-                    <div class="px-5 py-4">It is one of the best ranked engineering college in india.
-                        It has huge campus with clean green environment and provides lot of opportunities to
-                        the students.
-                        I had given manpial University entrance exam to take admission here.This exam was
-                        tough but i cracked it (lot of determination need).
-                        You can no doubt opt for this college as it is one of the best.</div>
+                <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
+
+                    <div class="comment__bubble">
+                        <span class="comment__arrow"></span>
+                        <p>It is one of the best ranked engineering college in
+                            india.
+                            It has huge campus with clean green environment and provides lot of
+                            opportunities to the students.
+                            I had given manpial University entrance exam to take admission here.This
+                            exam was tough but i cracked it (lot of determination need).
+                            You can no doubt opt for this college as it is one of the best.</p>
+                    </div>
                 </div>
 
 
                 <div class="row ml-lg-4 my-4">
                     <span class="col-1 ml-5"><img src="assets/images/Ellipse 4.png" alt=""></span>
-                    <div class="col-10 text-review" > <span style="color:#2B2B2B ; font-size:16px ;"
-                            class="mt-4 ml-2"> Anil Sharma</span>
+                    <div class="col-10 text-review"> <span style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
+                            Anil Sharma</span>
                         <span class="mt-4">| B.Tech. in Electrical Engineering (Power and Automation) -
                             Batch of
                             2021</span>
@@ -2122,15 +2322,19 @@
                         <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
                     </div>
                 </div>
-                <div class="college-review mx-5 my-2">
-                    <div class="px-5 py-4">It is one of the best ranked engineering college in india.
-                        It has huge campus with clean green environment and provides lot of opportunities to
-                        the students.
-                        I had given manpial University entrance exam to take admission here.This exam was
-                        tough but i cracked it (lot of determination need).
-                        You can no doubt opt for this college as it is one of the best.</div>
-                </div>
+                <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
 
+                    <div class="comment__bubble">
+                        <span class="comment__arrow"></span>
+                        <p>It is one of the best ranked engineering college in
+                            india.
+                            It has huge campus with clean green environment and provides lot of
+                            opportunities to the students.
+                            I had given manpial University entrance exam to take admission here.This
+                            exam was tough but i cracked it (lot of determination need).
+                            You can no doubt opt for this college as it is one of the best.</p>
+                    </div>
+                </div>
                 <div class="my-3"
                     style="font-family: Poppins; font-size: 13px; color: rgba(41, 171, 226, 1); text-align: center;">
                     View more Reviews<img src="assets/images/Vector 1.png" alt="" class="mx-2"></div>
@@ -2141,99 +2345,101 @@
 
     </div>
     <!--------------------------------------------------------end of  tabs-------------------------------------------->
-<!---------------------------footer------------------------------->
-<div class="conatiner-fluid footer mx-lg-5 px-lg-5 px-2">
-    <div class="conatiner row px-5 py-5 text-md-left text-center">
-        <div class="col-md-3">
-            <h5 class="mb-3">Best Colleges</h5>
-            <ul>
-                <li class="my-1"><a href="">Request an offer</a></li>
-                <li class="my-1"><a href="">How it works</a></li>
-                <li class="my-1"><a href="">Pricing</a></li>
-                <li class="my-1"><a href="">Reviews</a> </li>
-                <li class="my-1"> <a href="">Stories</a></li>
+    <!---------------------------footer------------------------------->
+    <div class="conatiner-fluid footer mx-lg-5 px-lg-5 px-2">
+        <div class="conatiner row px-5 py-5 text-md-left text-center">
+            <div class="col-md-3">
+                <h5 class="mb-3">Best Colleges</h5>
+                <ul>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                    <li class="my-1"><a href="">How it works</a></li>
+                    <li class="my-1"><a href="">Pricing</a></li>
+                    <li class="my-1"><a href="">Reviews</a> </li>
+                    <li class="my-1"> <a href="">Stories</a></li>
 
-            </ul>
-            <h5 class="pt-4 pb-3">others</h5>
-            <ul>
-                <li class="my-1"><a href="">FAQ</a></li>
-                <li class="my-1"><a href="">Blog</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3">
-            <h5 class="mb-3">OUR GROUPS</h5>
-            <ul>
-                <li class="my-1"><a href="">Infoedge.in</a></li>
-                <li class="my-1"><a href="">Naukri.com</a> </li>
-                <li class="my-1"><a href="">Firstnaukri.com</a> </li>
-            </ul>
-            <h5 class="pt-4 pb-3">RESOURCES</h5>
-            <ul>
-                <li class="my-1"><a href="">Guides</a></li>
-                <li class="my-1"><a href=""> Help Center</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3">
-            <h5 class="mb-3">About</h5>
-            <ul>
-                <li class="my-1"><a href="">Company</a></li>
-                <li class="my-1"><a href="">Career</a></li>
-                <li class="my-1"><a href="">Press</a></li>
-                <li class="my-1"><a href="">Contact</a></li>
-            </ul>
-            <h5 class="pt-4 pb-3">OFFERS</h5>
-            <ul>
-                <li class="my-1"><a href="">Make an offer</a></li>
-                <li class="my-1"><a href="">Request an offer</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3">
-            <div>
-                <h5>Download App</h5>
-                <div class="mt-4">
-                    <a href=""><img src="assets/images/appplaystore.png" alt="" class="img-fluid w-50"></a>
-                    <a href=""><img src="assets/images/playstore.png" alt="" class="img-fluid w-50 my-2"></a></div>
+                </ul>
+                <h5 class="pt-4 pb-3">others</h5>
+                <ul>
+                    <li class="my-1"><a href="">FAQ</a></li>
+                    <li class="my-1"><a href="">Blog</a></li>
+                </ul>
             </div>
-            <div class="pt-3">
-                <h5>Social Media</h5>
-                <div class="row my-4">
-                    <div class="centered mx-2">
-                        <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
-                    </div>
-                    <div class="centered  mx-2" style="background-color: rgba(59, 89, 152, 1);">
-                        <div class="text-center"><img src="assets/images/Fill 4.png" alt=""></div>
-                    </div>
-                    <div class="centered mx-2">
-                        <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
+            <div class="col-md-3">
+                <h5 class="mb-3">OUR GROUPS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Infoedge.in</a></li>
+                    <li class="my-1"><a href="">Naukri.com</a> </li>
+                    <li class="my-1"><a href="">Firstnaukri.com</a> </li>
+                </ul>
+                <h5 class="pt-4 pb-3">RESOURCES</h5>
+                <ul>
+                    <li class="my-1"><a href="">Guides</a></li>
+                    <li class="my-1"><a href=""> Help Center</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">About</h5>
+                <ul>
+                    <li class="my-1"><a href="">Company</a></li>
+                    <li class="my-1"><a href="">Career</a></li>
+                    <li class="my-1"><a href="">Press</a></li>
+                    <li class="my-1"><a href="">Contact</a></li>
+                </ul>
+                <h5 class="pt-4 pb-3">OFFERS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Make an offer</a></li>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h5>Download App</h5>
+                    <div class="mt-4">
+                        <a href=""><img src="assets/images/appplaystore.png" alt="" class="img-fluid w-50"></a>
+                        <a href=""><img src="assets/images/playstore.png" alt="" class="img-fluid w-50 my-2"></a>
                     </div>
                 </div>
+                <div class="pt-3">
+                    <h5>Social Media</h5>
+                    <div class="row my-4">
+                        <div class="centered mx-2">
+                            <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
+                        </div>
+                        <div class="centered  mx-2" style="background-color: rgba(59, 89, 152, 1);">
+                            <div class="text-center"><img src="assets/images/Fill 4.png" alt=""></div>
+                        </div>
+                        <div class="centered mx-2">
+                            <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
+
         </div>
+        <div class="col">
+            <div class="row">
+                <div class="col-2">
+                    <div class="my-5"><span class="mr-lg-5 pr-lg-5 ">© 2021 stulink</span></div>
+                </div>
+                <div class="col-6 my-5"><span class="mx-lg-l-4">Terms of Service</span>
+                    <span class="mx-4"> Privacy Policy</span>
+                    <span class="mx-lg-4">Trust & Safety</span></div>
+                <div class="col-4 my-5"> <label for="language-picker-select" class="ml-lg-5 pl-lg-5 ">Language
+                        :</label>
+                    <select name="language-picker-select" id="language-picker-select" class="select">
+                        <option lang="de" value="deutsch">Deutsch</option>
+                        <option lang="en" value="english" selected>EN</option>
+                        <option lang="fr" value="francais">Français</option>
+                        <option lang="it" value="italiano">Italiano</option>
 
-
-    </div>
-    <div class="col">
-        <div class="row">
-            <div class="col-2">
-                <div class="my-5"><span class="mr-lg-5 pr-lg-5 ">© 2021 stulink</span></div>
+                    </select></div>
             </div>
-            <div class="col-6 my-5"><span class="mx-lg-l-4">Terms of Service</span>
-                <span class="mx-4"> Privacy Policy</span>
-                <span class="mx-lg-4">Trust & Safety</span></div>
-            <div class="col-4 my-5"> <label for="language-picker-select" class="ml-lg-5 pl-lg-5 ">Language :</label>
-                <select name="language-picker-select" id="language-picker-select" class="select" >
-                    <option lang="de" value="deutsch">Deutsch</option>
-                    <option lang="en" value="english" selected>EN</option>
-                    <option lang="fr" value="francais">Français</option>
-                    <option lang="it" value="italiano">Italiano</option>
-
-                </select></div>
         </div>
-    </div>
 
-</div>
-<!-------------------------------end of footer-------------------->
+    </div>
+    <!-------------------------------end of footer-------------------->
 
 
     <!-- Popper JS-->
