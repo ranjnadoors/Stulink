@@ -140,6 +140,50 @@ $(document).ready(function () {
   });
   $("#amount9").val("(7/10)");
 
+  $("#slider-range-min-10").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount10").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount10").val("(7/10)");
+
+  $("#slider-range-min-11").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount11").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount11").val("(7/10)");
+
+  $("#slider-range-min-12").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount12").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount12").val("(7/10)");
+  
+  $("#slider-range-min-13").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount13").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount13").val("(7/10)");
+
 
 
   /*------------------------------------------range slider end-----------------------------------------------------------------*/
@@ -207,4 +251,160 @@ $(document).ready(function () {
     $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
   });
   
-/***********************************view more or less colleges************************ */
+/***********************************view more or less courses************************ */
+$(".cou-fee-toggle").hide();
+$(".cou-fee-toggle-click").on('click', function(){
+  $(".cou-fee-toggle").toggle(500); 
+  $(".toggle-text-view").text($(".toggle-text-view").text() == 'View more courses' ? 'View less courses' : 'View more courses');
+})
+/************************************view more or less colleges**************************** */
+$(".View-more-colleges-toggle").hide();
+$(".View-more-colleges-click").on('click', function(e){
+  e.preventDefault();
+  $(".View-more-colleges-toggle").slideToggle('slow'); 
+
+  $(".change-text").text($(".change-text").text() == 'View more colleges' ? 'View less colleges' : 'View more colleges');
+
+  
+})
+
+$(".view-more-rating-toggle").hide();
+$(".view-more-rating").on('click', function(e){
+  e.preventDefault();
+  $(".view-more-rating-toggle").slideToggle('slow'); 
+
+  $(".view-change-text").text($(".view-change-text").text() == 'View more' ? 'View less' : 'View more');
+
+  
+})
+
+$(".text-review-toggle").hide();
+$(".text-review-more").on('click', function(e){
+  e.preventDefault();
+  $(".text-review-toggle").slideToggle('slow'); 
+
+  $(".view-more-change-review").text($(".view-more-change-review").text() == 'View more Review' ? 'View less Review' : 'View more Review');
+
+  
+})
+
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readmore-less");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction1() {
+  var dots = document.getElementById("dots-1");
+  var moreText = document.getElementById("read-more-1");
+  var btnText = document.getElementById("readmore-less-1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction2() {
+  var dots = document.getElementById("dots-2");
+  var moreText = document.getElementById("read-more-2");
+  var btnText = document.getElementById("readmore-less-2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction3() {
+  var dots = document.getElementById("dots-3");
+  var moreText = document.getElementById("read-more-3");
+  var btnText = document.getElementById("readmore-less-3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction4() {
+  var dots = document.getElementById("dots-4");
+  var moreText = document.getElementById("read-more-4");
+  var btnText = document.getElementById("readmore-less-4");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction5() {
+  var dots = document.getElementById("dots-5");
+  var moreText = document.getElementById("read-more-5");
+  var btnText = document.getElementById("readmore-less-5");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
+function myFunction6() {
+  var dots = document.getElementById("dots-6");
+  var moreText = document.getElementById("read-more-6");
+  var btnText = document.getElementById("readmore-less-6");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+
+  
+}
