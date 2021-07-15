@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/addmission.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <!--link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'-->
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.green.css">
@@ -23,8 +25,8 @@
         <div class="col-12 mt-3 my-3 college-nav-shadow">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="col-lg-3 col-8">
-                    <a class="navbar-brand" href="#"><img src="assets/images/StuLink-cyan 1 (1).png" class="img-fluid"
-                            alt=""></a></div>
+                    <a class="navbar-brand" href="#"><img src="assets/images/imgpsh_fullsize_anim (6).png"
+                            class="img-fluid" alt=""></a></div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -97,11 +99,11 @@
 
                     <div class="col-lg-4">
                         <div class="row float-right">
-                            <i class="fas fa-user mt-2" style="color:#29ABE2;"></i>
+
 
                             <div>
-                                <button class="login-btn mx-3"> <span class="pr-3">Log In</span><img
-                                        src="assets/images/login-logo.png" alt=""></button>
+                                <button class="login-btn mx-3"> <span class="pr-1">Log In</span>
+                                    <i class="fas fa-user" style="color:#000;"></i></button>
                             </div>
 
                             <button class="signup-btn"><span class="pr-3">Sign Up</span>
@@ -126,12 +128,20 @@
             <div class="col-md-5 text-md-left text-center">
                 <h2>Indian Institute of Technology (IIT Madras) </h2>
                 <div class="row justify-content-md-start justify-content-center">
-                    <img src="assets/images/location.png" class="ml-3" alt="">
-                    <!--i class="fas fa-map-marker ml-3" style=" color: rgba(168, 168, 168, 1);"></i-->
-                    <span class="mx-2">Chennai , Tamil Nadu</span>
+                    <div class="col-lg-5">
+                        <img src="assets/images/location.png" class="ml-3" alt="">
+                        <!--i class="fas fa-map-marker ml-3" style=" color: rgba(168, 168, 168, 1);"></i-->
+                        <span class="mx-2">Chennai , Tamil Nadu</span>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="">
+                            <button class="write-review-btn px-4 py-2"><img src="assets/images/XMLID 1021.png"
+                                    class="mr-1" ;alt=""> Write Review</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="row ml-1 justify-content-md-start justify-content-center">
-                    <div class="d-flex " style="">
+                    <div class="d-flex ">
                         <div class="" style="height: 50px;">
                             <img src="assets/images/Star 1.png" class="checked h-50" alt="">
                             <img src="assets/images/Star 1.png" class="checked h-50" alt="">
@@ -192,18 +202,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-4">
-                    <button class="write-review-btn px-4 py-2"><img src="assets/images/XMLID 1021.png" class="mr-1"
-                            ;alt=""> Write Review</button>
-                </div>
+
             </div>
 
             <div class="col-md-5 mt-5">
                 <div class="row justify-content-center">
                     <div class="col-6 row justify-content-lg-end  justify-content-start">
-                        <div class="icon-border"><img src="assets/images/Vector.png" class="img-fluid mt-1" alt="">
-                        </div>
-                        <span class="follow-text mx-2">Follow </span>
+                        <div> <img src="assets/images/Globe Earth.png" class="img-fluid h-150" alt=""
+                                style="height: 36px; width: 36px;"></div>
+
+                        <span class="follow-text mt-1">Link </span>
                     </div>
 
                     <div class="col-6 row justify-content-lg-center justify-content-start">
@@ -212,10 +220,10 @@
                         <span class="follow-text mx-1" style="color:rgba(41, 171, 226, 1) !important;">Compare </span>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-5">
+                <div class="row justify-content-center ">
                     <div class="mt-5">
-                        <button class="write-review-btn px-4 py-2" style="font-size: 18px;"><img
-                                src="assets/images/download.png" class="mr-1" ;alt=""> Brochures</button>
+                        <button class="Brochures-btn px-4 py-2"><i class="fa fa-download" aria-hidden="true"
+                                class="mx-2"></i> Brochures</button>
                     </div>
                     <div class="mt-5 ml-4">
                         <button class="write-review-btn px-4 py-2"
@@ -235,45 +243,44 @@
                 <div class="col-12 pl-0 pr-0">
                     <nav style="background-color: rgba(245, 245, 245, 1);">
                         <div class="nav nav-tabs nav-fill px-5  mt-4" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active" id="nav-info-tab" data-toggle="tab" href="#nav-info"
+                            <a class="nav-item nav-link " id="nav-info-tab" data-toggle="tab" href="#nav-info"
                                 role="tab" aria-controls="nav-info" aria-selected="true">Information</a>
 
-                            <a class="nav-item nav-link" id="nav-addmission-tab" data-toggle="tab"
+                            <a class="nav-item nav-link" id="nav-courses-tab" data-toggle="tab" href="#nav-courses"
+                                role="tab" aria-controls="nav-courses" aria-selected="false">Courses </a>
+
+                            <a class="nav-item nav-link" id="nav-fees-tab" data-toggle="tab" href="#nav-fees" role="tab"
+                                aria-controls="nav-fees" aria-selected="false">Fees </a>
+
+                            <a class="nav-item nav-link active" id="nav-addmission-tab" data-toggle="tab"
                                 href="#nav-addmission" role="tab" aria-controls="nav-addmission"
-                                aria-selected="false">Courses </a>
-
-                            <a class="nav-item nav-link" id="nav-photo-tab" data-toggle="tab" href="#nav-photo"
-                                role="tab" aria-controls="nav-photo" aria-selected="false">Fees </a>
-
-                            <a class="nav-item nav-link" id="nav-new-section-tab" data-toggle="tab"
-                                href="#nav-new-section" role="tab" aria-controls="nav-new-section"
                                 aria-selected="false">Admissions </a>
 
-                            <a class="nav-item nav-link" id="nav-student-tab" data-toggle="tab" href="#nav-student"
-                                role="tab" aria-controls="nav-student" aria-selected="false">Cut Off
+                            <a class="nav-item nav-link" id="nav-cutoff-tab" data-toggle="tab" href="#nav-cutoff"
+                                role="tab" aria-controls="nav-cutoff" aria-selected="false">Cut Off
                             </a>
 
-                            <a class="nav-item nav-link" id="nav-ranking-tab" data-toggle="tab" href="#nav-ranking"
-                                role="tab" aria-controls="nav-ranking" aria-selected="false">Gallery </a>
+                            <a class="nav-item nav-link" id="nav-gallery-tab" data-toggle="tab" href="#nav-gallery"
+                                role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery </a>
 
-                            <a class="nav-item nav-link" id="nav-ranking-tab" data-toggle="tab" href="#nav-ranking"
-                                role="tab" aria-controls="nav-ranking" aria-selected="false">News </a>
+                            <a class="nav-item nav-link" id="nav-news-tab" data-toggle="tab" href="#nav-news" role="tab"
+                                aria-controls="nav-news" aria-selected="false">News </a>
 
                             <a class="nav-item nav-link" id="nav-ranking-tab" data-toggle="tab" href="#nav-ranking"
                                 role="tab" aria-controls="nav-ranking" aria-selected="false">Ranking </a>
 
-                            <a class="nav-item nav-link" id="nav-ranking-tab" data-toggle="tab" href="#nav-ranking"
-                                role="tab" aria-controls="nav-ranking" aria-selected="false">Scholarship </a>
+                            <a class="nav-item nav-link" id="nav-scholarship-tab" data-toggle="tab"
+                                href="#nav-scholarship" role="tab" aria-controls="nav-scholarship"
+                                aria-selected="false">Scholarship </a>
 
-                            <a class="nav-item nav-link" id="nav-ranking-tab" data-toggle="tab" href="#nav-ranking"
-                                role="tab" aria-controls="nav-ranking" aria-selected="false">Placements </a>
+                            <a class="nav-item nav-link" id="nav-placement-tab" data-toggle="tab" href="#nav-placement"
+                                role="tab" aria-controls="nav-placement" aria-selected="false">Placements </a>
                     </nav>
                 </div>
             </div>
             <div class="container-fluid" style="background-color:#FCFEFF">
                 <div class=" row tab-content pt-3 pb-0 px-3 px-sm-0" id="nav-tabContent ">
-                    <div class="row fade   tab-pane show active" id="nav-info" role="tabpanel"
-                        aria-labelledby="nav-info-tab">
+                    <div class="row fade   tab-pane" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
                         <div class="d-lg-flex">
                             <div class="  col-lg-9 my-1 pl-md-5  pr-md-5">
                                 <!----------------------overall rating---------------------------------------------->
@@ -347,7 +354,8 @@
 
 
 
-                                        <div class="col-lg-5 pl-lg-5 pr-lg-5 mx-md-0 mx-5" style="pointer-events: none;">
+                                        <div class="col-lg-5 pl-lg-5 pr-lg-5 mx-md-0 mx-5"
+                                            style="pointer-events: none;">
 
                                             <div class="row my-4">
                                                 <div class="col-3 pr-md-5 pl-lg-0 pl-md-5">
@@ -411,7 +419,8 @@
                                                     </div>
                                                     <div class="col-md-7 overall-slider mt-2 ">
                                                         <div id="slider-range-min-10"
-                                                            style="border-radius: 5px;height: 9px;pointer-events: none;"></div>
+                                                            style="border-radius: 5px;height: 9px;pointer-events: none;">
+                                                        </div>
 
                                                     </div>
                                                     <div class="col-2"><input type="text" id="amount10" readonly
@@ -607,7 +616,8 @@
                                                             </div-->
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36
+                                                    Lacs
                                                 </div>
 
 
@@ -705,7 +715,8 @@
                                                             </div-->
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR
+                                                        1.36 Lacs
                                                     </div>
                                                 </div>
 
@@ -805,7 +816,8 @@
                                                             </div-->
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36
+                                                    Lacs
                                                 </div>
 
 
@@ -903,7 +915,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36
+                                                    Lacs
                                                 </div>
 
 
@@ -956,55 +969,11 @@
                                                                 <span class="ml-1 pt-2 review">
                                                                     (4.0) Review</span>
                                                             </div>
-                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
-                                                                        name="rating" value="5" />
-                                                                    <label class="full" for="star5"
-                                                                        title="Awesome - 5 stars"></label>
-                                                                    <input type="radio" id="star4half" name="rating"
-                                                                        value="4.5" />
-                                                                    <label class="half" for="star4half"
-                                                                        title="Pretty good - 4.5 stars"></label>
-                                                                    <input type="radio" id="star4" name="rating"
-                                                                        value="4" />
-                                                                    <label class="full" for="star4"
-                                                                        title="Pretty good - 4 stars"></label>
-                                                                    <input type="radio" id="star3half" name="rating"
-                                                                        value="3.5" />
-                                                                    <label class="half" for="star3half"
-                                                                        title="Meh - 3.5 stars"></label>
-                                                                    <input type="radio" id="star3" name="rating"
-                                                                        value="3" />
-                                                                    <label class="full" for="star3"
-                                                                        title="Meh - 3 stars"></label>
-                                                                    <input type="radio" id="star2half" name="rating"
-                                                                        value="2.5" />
-                                                                    <label class="half" for="star2half"
-                                                                        title="Kinda bad - 2.5 stars"></label>
-                                                                    <input type="radio" id="star2" name="rating"
-                                                                        value="2" />
-                                                                    <label class="full" for="star2"
-                                                                        title="Kinda bad - 2 stars"></label>
-                                                                    <input type="radio" id="star1half" name="rating"
-                                                                        value="1.5" />
-                                                                    <label class="half" for="star1half"
-                                                                        title="Meh - 1.5 stars"></label>
-                                                                    <input type="radio" id="star1" name="rating"
-                                                                        value="1" />
-                                                                    <label class="full" for="star1"
-                                                                        title="Sucks big time - 1 star"></label>
-                                                                    <input type="radio" id="starhalf" name="rating"
-                                                                        value="0.5" />
-                                                                    <label class="half" for="starhalf"
-                                                                        title="Sucks big time - 0.5 stars"></label>
-                                                                    <input type="radio" class="reset-option" value="3"
-                                                                        name="rating" value="reset" />
-                                                                </fieldset>
-                                                                <div class="card-body">
-                                                                    <div class="myratings review">(4.5) Review</div>
-                                                                </div-->
+
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR
+                                                        1.36 Lacs
                                                     </div>
 
 
@@ -1041,52 +1010,7 @@
 
                                                     <div class="col-md-6 col-7 pl-2">
                                                         <div class="d-flex justify-content-start" style="height: 40px;">
-                                                            <!--fieldset class="rating"> <input type="radio" id="star5"
-                                                                        name="rating" value="5" />
-                                                                    <label class="full" for="star5"
-                                                                        title="Awesome - 5 stars"></label>
-                                                                    <input type="radio" id="star4half" name="rating"
-                                                                        value="4.5" />
-                                                                    <label class="half" for="star4half"
-                                                                        title="Pretty good - 4.5 stars"></label>
-                                                                    <input type="radio" id="star4" name="rating"
-                                                                        value="4" />
-                                                                    <label class="full" for="star4"
-                                                                        title="Pretty good - 4 stars"></label>
-                                                                    <input type="radio" id="star3half" name="rating"
-                                                                        value="3.5" />
-                                                                    <label class="half" for="star3half"
-                                                                        title="Meh - 3.5 stars"></label>
-                                                                    <input type="radio" id="star3" name="rating"
-                                                                        value="3" />
-                                                                    <label class="full" for="star3"
-                                                                        title="Meh - 3 stars"></label>
-                                                                    <input type="radio" id="star2half" name="rating"
-                                                                        value="2.5" />
-                                                                    <label class="half" for="star2half"
-                                                                        title="Kinda bad - 2.5 stars"></label>
-                                                                    <input type="radio" id="star2" name="rating"
-                                                                        value="2" />
-                                                                    <label class="full" for="star2"
-                                                                        title="Kinda bad - 2 stars"></label>
-                                                                    <input type="radio" id="star1half" name="rating"
-                                                                        value="1.5" />
-                                                                    <label class="half" for="star1half"
-                                                                        title="Meh - 1.5 stars"></label>
-                                                                    <input type="radio" id="star1" name="rating"
-                                                                        value="1" />
-                                                                    <label class="full" for="star1"
-                                                                        title="Sucks big time - 1 star"></label>
-                                                                    <input type="radio" id="starhalf" name="rating"
-                                                                        value="0.5" />
-                                                                    <label class="half" for="starhalf"
-                                                                        title="Sucks big time - 0.5 stars"></label>
-                                                                    <input type="radio" class="reset-option" value="3"
-                                                                        name="rating" value="reset" />
-                                                                </fieldset>
-                                                                <div class="card-body">
-                                                                    <div class="myratings review">(4.5) Review</div>
-                                                                </div-->
+
                                                             <div class="" style="height: 28px;">
                                                                 <img src="assets/images/Star 1.png" class="checked h-50"
                                                                     alt="">
@@ -1102,7 +1026,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR 1.36 Lacs
+                                                    <div class="col-md-6 col-5 d-flex justify-content-end inrfee">INR
+                                                        1.36 Lacs
                                                     </div>
 
 
@@ -1145,8 +1070,9 @@
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-md-4 pr-0">
-                                                                <div class="row pl-md-2 pl-5 justify-content-md-start justify-content-center"> <img
-                                                                        src="assets/images/location.png" alt=""
+                                                                <div
+                                                                    class="row pl-md-2 pl-5 justify-content-md-start justify-content-center">
+                                                                    <img src="assets/images/location.png" alt=""
                                                                         height="20px">
                                                                     <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                         class="ml-1">
@@ -1154,7 +1080,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                            <div
+                                                                class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
                                                                     <!--fieldset class="rating"> <input type="radio"
@@ -1277,8 +1204,9 @@
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-md-4 pr-0">
-                                                                <div class="row pl-2 justify-content-md-start justify-content-center"> <img
-                                                                        src="assets/images/location.png" alt=""
+                                                                <div
+                                                                    class="row pl-2 justify-content-md-start justify-content-center">
+                                                                    <img src="assets/images/location.png" alt=""
                                                                         height="20px">
                                                                     <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                         class="ml-1">
@@ -1286,7 +1214,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                            <div
+                                                                class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
                                                                     <!--fieldset class="rating"> <input type="radio"
@@ -1414,8 +1343,9 @@
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-md-4 pr-0">
-                                                                <div class="row pl-2 justify-content-md-start justify-content-center"> <img
-                                                                        src="assets/images/location.png" alt=""
+                                                                <div
+                                                                    class="row pl-2 justify-content-md-start justify-content-center">
+                                                                    <img src="assets/images/location.png" alt=""
                                                                         height="20px">
                                                                     <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                         class="ml-1">
@@ -1423,7 +1353,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                            <div
+                                                                class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
                                                                     <!--fieldset class="rating"> <input type="radio"
@@ -1546,8 +1477,9 @@
                                                         <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                         <div class="row">
                                                             <div class="col-md-4 pr-0 ">
-                                                                <div class="row pl-2 justify-content-md-start justify-content-center"> <img
-                                                                        src="assets/images/location.png" alt=""
+                                                                <div
+                                                                    class="row pl-2 justify-content-md-start justify-content-center">
+                                                                    <img src="assets/images/location.png" alt=""
                                                                         height="20px">
                                                                     <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                         class="ml-1">
@@ -1555,7 +1487,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                            <div
+                                                                class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                 <div class="d-flex justify-content-end"
                                                                     style="height: 40px;">
                                                                     <!--fieldset class="rating"> <input type="radio"
@@ -1685,8 +1618,9 @@
                                                             <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                             <div class="row">
                                                                 <div class="col-md-4 pr-0">
-                                                                    <div class="row pl-2 justify-content-md-start justify-content-center"> <img
-                                                                            src="assets/images/location.png" alt=""
+                                                                    <div
+                                                                        class="row pl-2 justify-content-md-start justify-content-center">
+                                                                        <img src="assets/images/location.png" alt=""
                                                                             height="20px">
                                                                         <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                             class="ml-1">
@@ -1694,7 +1628,8 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                                <div
+                                                                    class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                     <div class="d-flex justify-content-end"
                                                                         style="height: 40px;">
                                                                         <!--fieldset class="rating"> <input type="radio"
@@ -1820,8 +1755,9 @@
                                                             <h2>VELLORE INSTITUTE OF TECHNOLOGY</h2>
                                                             <div class="row">
                                                                 <div class="col-md-4 pr-0">
-                                                                    <div class="row pl-2 justify-content-md-start justify-content-center"> <img
-                                                                            src="assets/images/location.png" alt=""
+                                                                    <div
+                                                                        class="row pl-2 justify-content-md-start justify-content-center">
+                                                                        <img src="assets/images/location.png" alt=""
                                                                             height="20px">
                                                                         <div style="font-size: 12px; color: rgba(100, 98, 106, 1);"
                                                                             class="ml-1">
@@ -1829,7 +1765,8 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
+                                                                <div
+                                                                    class="col-md-8 pr-0 d-flex justify-content-md-end justify-content-center">
                                                                     <div class="d-flex justify-content-md-end "
                                                                         style="height: 40px;">
                                                                         <!--fieldset class="rating"> <input type="radio"
@@ -2042,9 +1979,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  pt-3">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG
-                                                    <span id="more" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less" onclick="myFunction()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG
+                                                    <span id="more" class="text2">erisque enim ligula venenatis dolor.
+                                                        Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
+                                                        Fusce luctus vestibulum augue ut aliquet.</span><span id="dots"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less"
+                                                        onclick="myFunction()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2053,9 +1995,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG
-                                                    <span id="read-more-1" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-1" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less-1" onclick="myFunction1()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG
+                                                    <span id="read-more-1" class="text2">erisque enim ligula venenatis
+                                                        dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+                                                        massa. Fusce luctus vestibulum augue ut aliquet.</span><span
+                                                        id="dots-1" class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-1"
+                                                        onclick="myFunction1()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2064,8 +2011,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG <span id="read-more-2" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-2" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less-2" onclick="myFunction2()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG <span id="read-more-2"
+                                                        class="text2">erisque enim ligula venenatis dolor. Maecenas nisl
+                                                        est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                                                        vestibulum augue ut aliquet.</span><span id="dots-2"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-2"
+                                                        onclick="myFunction2()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2074,8 +2027,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG <span id="read-more-3" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-3" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less-3" onclick="myFunction3()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG <span id="read-more-3"
+                                                        class="text2">erisque enim ligula venenatis dolor. Maecenas nisl
+                                                        est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                                                        vestibulum augue ut aliquet.</span><span id="dots-3"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-3"
+                                                        onclick="myFunction3()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2084,8 +2043,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG <span id="read-more-4" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-4" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn" id="readmore-less-4" onclick="myFunction4()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG <span id="read-more-4"
+                                                        class="text2">erisque enim ligula venenatis dolor. Maecenas nisl
+                                                        est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                                                        vestibulum augue ut aliquet.</span><span id="dots-4"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-4"
+                                                        onclick="myFunction4()">Read More</button></div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -2093,8 +2058,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG <span id="read-more-5" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-5" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less-5" onclick="myFunction5()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG <span id="read-more-5"
+                                                        class="text2">erisque enim ligula venenatis dolor. Maecenas nisl
+                                                        est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                                                        vestibulum augue ut aliquet.</span><span id="dots-5"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-5"
+                                                        onclick="myFunction5()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2103,8 +2074,14 @@
                                                     class="img-fluid" alt=""></div>
                                             <div class="col-10 px-0">
                                                 <div class="text1  ">JEE Main 2021 April and May ses...</div>
-                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination held on may 25 to 27 for UG & PG <span id="read-more-6" class="text2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.</span><span id="dots-6" class="text2">.....</span></div>
-                                                <div class="float-right"> <button class="btn"  id="readmore-less-6" onclick="myFunction6()">Read More</button></div>
+                                                <div class="text2 mt-2 ">KIITEE Result 2021 for the Phase 1 examination
+                                                    held on may 25 to 27 for UG & PG <span id="read-more-6"
+                                                        class="text2">erisque enim ligula venenatis dolor. Maecenas nisl
+                                                        est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                                                        vestibulum augue ut aliquet.</span><span id="dots-6"
+                                                        class="text2">.....</span></div>
+                                                <div class="float-right"> <button class="btn" id="readmore-less-6"
+                                                        onclick="myFunction6()">Read More</button></div>
                                             </div>
                                         </div>
                                         <hr>
@@ -2327,10 +2304,11 @@
                         </div>
                     </div>
                     <!---------------------------end of information----------------------->
+                    <!------------------------courses-------------->
 
-                    <div class="row  mx-5 fade my-4 tab-pane" id="nav-addmission" role="tabpanel"
-                        aria-labelledby="nav-addmission-tab">
-                        <div class=" col-8 ">
+                    <div class="row  mx-5 fade my-4 tab-pane" id="nav-courses" role="tabpanel"
+                        aria-labelledby="nav-courses-tab">
+                        <div class=" col-lg-4 ">
                             <div class="tab-pane-overview">
                                 <h6 class="px-5 pt-4">Overview 2</h6>
                                 <p class="mx-5 my-4">
@@ -2361,8 +2339,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-8  mx-5 tab-pane  my-4 fade" id="nav-photo" role="tabpanel"
-                        aria-labelledby="nav-photo-tab">
+                    <!--------------------------fee section------------------->
+                    <div class=" col-8  mx-5 tab-pane  my-4 fade" id="nav-fees" role="tabpanel"
+                        aria-labelledby="nav-fees-tab">
                         <div class="tab-pane-overview">
                             <h6 class="px-5 pt-4">Overview</h6>
                             <p class="mx-5 my-4">
@@ -2382,94 +2361,727 @@
                                 duis
                                 occaecat ex.
                             </p>
-                            <p class="mx-5 my-4">
-                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
-                                qui
-                                minim
-                                occaecat veniam.
-                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
-                                anim.
-                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                                consectetur
-                                nostrud minim non minim occaecat.
-                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
-                                in
-                                qui
-                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
-                                dolore.
-                                Duis
-                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
-                                anim.
-                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                                consectetur
-                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
-                                tempor
-                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
-                                non
-                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                                duis
-                                occaecat ex.
-                            </p>
+
                             <div class="text-center py-3"><a href="#">View More</a></div>
                         </div>
                     </div>
 
-                    <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-new-section" role="tabpanel"
-                        aria-labelledby="nav-new-section-tab">
-                        <div class="tab-pane-overview">
-                            <h6 class="px-5 pt-4">Overview</h6>
-                            <p class="mx-5 my-4">
-                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
-                                qui
-                                minim
-                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
-                                aute
-                                sit
-                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
-                                esse
-                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                                eiusmod
-                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                                culpa
-                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                                duis
-                                occaecat ex.
-                            </p>
-                            <p class="mx-5 my-4">
-                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
-                                qui
-                                minim
-                                occaecat veniam.
-                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
-                                anim.
-                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                                consectetur
-                                nostrud minim non minim occaecat.
-                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
-                                in
-                                qui
-                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
-                                dolore.
-                                Duis
-                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
-                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
-                                anim.
-                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
-                                consectetur
-                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
-                                tempor
-                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
-                                non
-                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                                duis
-                                occaecat ex.
-                            </p>
-                            <div class="text-center py-3"><a href="#">View More</a></div>
+                    <!----------------------addmission section----------------->
+                    <div class="row  mx-5 fade my-4 tab-pane  show active " id="nav-addmission" role="tabpanel"
+                        aria-labelledby="nav-addmission-tab">
+                        <div class="d-lg-flex">
+                            <div class="col-lg-9" id="nav-ver-tab">
+                                <div class="tab-pane-overview" style="box-shadow: none;">
+                                    <div class=" row vertical-tab" role="tabpanel">
+
+                                        <!-- Nav tabs -->
+
+                                        <ul class="nav nav-tabs mr-5" role="tablist">
+                                            <div>
+                                                <h2 class="py-3 mr-2">Programmes</h2>
+                                            </div>
+
+                                            <li role="presentation"><a href="#bsc" aria-controls="bsc" role="tab"
+                                                    data-toggle="tab">B.sc</a></li>
+                                            <li role="presentation" class="active"><a href="#btech"
+                                                    aria-controls="btech" role="tab" data-toggle="tab">B.Tech</a></li>
+                                            <li role="presentation"><a href="#ba" aria-controls="ba" role="tab"
+                                                    data-toggle="tab">BA</a></li>
+                                            <li role="presentation"><a href="#bba" aria-controls="ba" role="tab"
+                                                    data-toggle="tab">BBA</a></li>
+                                            <li role="presentation"><a href="#bcom" aria-controls="bcom" role="tab"
+                                                    data-toggle="tab">B.Com</a></li>
+                                            <li role="presentation"><a href="#bca" aria-controls="bac" role="tab"
+                                                    data-toggle="tab">BCA</a></li>
+                                            <li role="presentation"><a href="#bhmct" aria-controls="bhmct" role="tab"
+                                                    data-toggle="tab">BHMCT</a></li>
+                                            <li role="presentation"><a href="#llb" aria-controls="llb" role="tab"
+                                                    data-toggle="tab">BA+LLB</a></li>
+                                            <li role="presentation"><a href="#bba-llb" aria-controls="bba-llb"
+                                                    role="tab" data-toggle="tab">BBA+LLB</a></li>
+                                            <li role="presentation"><a href="#bed" aria-controls="bed" role="tab"
+                                                    data-toggle="tab">B.Ed</a></li>
+                                        </ul>
+
+                                        <!-- Tab panes -->
+                                        <div class="mx-md-4">
+                                            <div class="tab-content tabs">
+                                                <div role="tabpanel" class="tab-pane fade in " id="bsc">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>Section 1</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane  fade show active" id="btech">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <div class="row pl-5 pt-4"><img
+                                                                src="assets/images/University.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4">WELCOME TO IIT MADRAS</h3>
+                                                        </div>
+                                                        <p class="px-5 ml-5">The Fall 2021 application to The Kempbelle
+                                                            University is
+                                                            now open!
+                                                            Start your application today and get connected to a
+                                                            counselor so
+                                                            you
+                                                            can see if Kempbelle is the right place for you.</p>
+                                                        <div class="text-right">
+                                                            <button class="apply-btn py-3 px-4 mx-5">How to Apply <i
+                                                                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-bg">
+                                                        <div class="row pl-5 pt-4"><img
+                                                                src="assets/images/appointment 1.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4" style="font-size: 25px;">Admission Date
+                                                            </h3>
+                                                        </div>
+                                                        <table class="table ">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col">EVENT</th>
+                                                                    <th scope="col">DATE</th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="px-3">Accommodation Check In </td>
+                                                                    <td>Wednesday, 30 June</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>New Student Orientation </td>
+                                                                    <td>Thursday, 1 – Thursday 2 July</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Term Start</td>
+                                                                    <td>Monday, 5 July</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Term End </td>
+                                                                    <td>Friday 17 September</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Recess </td>
+                                                                    <td>Monday 20 September – Friday 1 October
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!------------------------criteria & eligibility section---------->
+                                                    <div class="tab-bg mt-5">
+                                                        <div class="row pl-5 pt-4"><img
+                                                                src="assets/images/call-center 1.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4" style="font-size: 25px;">Criteria &
+                                                                Eligibility
+                                                            </h3>
+                                                        </div>
+                                                        <h4 class="ml-5 pl-5 my-3">Criteria</h4>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Candidates will be required to apply to UPSEE in
+                                                                    online
+                                                                    mode only, as per the guidelines suggested by the
+                                                                    government, on the official website of UPSEE.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Candidates will have to enter in the details
+                                                                    truthfully
+                                                                    and completely, as the incorrect and incomplete
+                                                                    applications may be rejected, thus cancelling your
+                                                                    admissions through the exam.</p>
+                                                            </div>
+                                                        </div>
+                                                        <h4 class="ml-5 pl-5 my-3">Eligibility</h4>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Candidates must have passed their class 12 board
+                                                                    examination in the stream of science with compulsory
+                                                                    subjects such as Physics and Maths.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>They must also ensure that they have obtained an
+                                                                    aggregate score of 45% in the qualifying exam.
+                                                                    Reserved
+                                                                    category candidates will need to have scored an
+                                                                    aggregate score of 40% for the same.</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <!-------------------end of criteria & eligibility section----------------->
+                                                    <!---------------------------selction section-------->
+                                                    <div class="tab-bg mt-5">
+                                                        <div class="row pl-5 pt-4"><img src="assets/images/search 1.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4" style="font-size: 25px;">Selection</h3>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>IIT Delhi PG admissions typically begin in the month
+                                                                    of
+                                                                    March</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>IIT Delhi BTech admission generally starts from the
+                                                                    month
+                                                                    of September with JEE Main registrations</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p> Admission to BTech is offered on the basis of
+                                                                    candidate's JEE Advanced rank followed by JoSAA
+                                                                    counselling</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>To be eligible for the MSc programme, candidates are
+                                                                    required to qualify IIT JAM</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>To secure admission to MBA, candidates must have a
+                                                                    valid
+                                                                    CAT score</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row pb-4">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>IIT Delhi MTech admission is based on GATE score and
+                                                                    MDes
+                                                                    admission is based on CEED scores. IITD also
+                                                                    conducts
+                                                                    its own written test and/or interview for selection
+                                                                    in
+                                                                    these courses.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-----------------------------end of selection section-->
+                                                    <!---------------------------how to apply-------->
+                                                    <div class="tab-bg mt-5">
+                                                        <div class="row pl-5 pt-4"><img
+                                                                src="assets/images/web-browser 1.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4" style="font-size: 25px;">How to Apply</h3>
+                                                        </div>
+                                                        <div class="row pt-3">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Visit the official website of IIT.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Select the preferred course.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Login to fill-up the form.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Fill up the form with the required details.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Upload the documents carefully.</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row ">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Submit/save the application form.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row ">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Pay the application fee through SBI-Collect.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pb-4">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Print the application form</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-----------------------------end of how-to-apply-->
+
+                                                    <!---------------------------Reservation Criteria-------->
+                                                    <div class="tab-bg mt-5">
+                                                        <div class="row pl-5 pt-4"><img
+                                                                src="assets/images/reserved 1.png"
+                                                                class="img-fluid img-bg" alt="">
+                                                            <h3 class="px-4" style="font-size: 25px;">Reservation
+                                                                Criteria
+                                                            </h3>
+                                                        </div>
+                                                        <div class="row pt-3">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>15% of the seats for scheduled caste
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>15% of the seats for OBC caste</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p> 2% of the seats for ST caste</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>10% of the seats for EWS caste</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Certificate of category (if applicable)</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row pb-4">
+                                                            <div class="col-md-2 pr-0" style="text-align: end;"><img
+                                                                    src="assets/images/Vector.png" class="img-fluid"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="col-md-10 pr-5 ">
+                                                                <p>Recent passport size photographs</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-----------------------------end of Reservation Criteria---------->
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade in " id="ba">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>Ba</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bba">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BBA</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bcom">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>B.COm</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bca">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BCA</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bhmct">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BHMCT</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div id="trending-bg">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/Group 794.png" style="height: 15px;" class="px-3 mt-2"
+                                            alt="">
+                                        <span>
+                                            <h3>Trending Admissions</h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h3>
+                                                <div class="d-flex"><i class="fa fa-map-marker" style="color: #FFD600;"
+                                                        aria-hidden="true"></i>
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail">Total fees: 5.5lakh | 4 Years | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h3>
+                                                <div class="d-flex"><i class="fa fa-map-marker" style="color: #FFD600;"
+                                                        aria-hidden="true"></i>
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>B.A , BBA , BCA , B.Com , </h4>
+                                            <h4> B.sc IT , B.sc </h4>
+                                        </div>
+                                        <div class="fee-detail">3 Years | On Campus | Fulltime</div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><i class="fa fa-map-marker" style="color: #FFD600;"
+                                                        aria-hidden="true"></i>
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1">
+                                            <h4>Bachelor of technology </h4>
+
+                                        </div>
+                                        <div class="fee-detail">Total fees: 4.5lakh | 4 Years | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><i class="fa fa-map-marker" style="color: #FFD600;"
+                                                        aria-hidden="true"></i>
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail">Total fees: 6.5lakh | 4 Years | On Campus | Fulltime
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-------------------------end of trending-------------->
+                                <div class="mt-5" id="trending-bg">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/graduated (1) 1.png" style="height: 20px;" class="px-3"
+                                            alt="">
+                                        <span>
+                                            <h3>STUDENTS ALSO VISITED </h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Chandigarh</h6>
+                                                <div><img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 5.png" alt=""><span
+                                                        style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Jalandhar</h6>
+                                                <div><img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 5.png" alt=""><span
+                                                        style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Patiala</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Amity University of Delhi </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-student" role="tabpanel"
-                        aria-labelledby="nav-student-tab">
+                    <!-------------------------------end of addmission section-------------->
+                    <!---------------------------nav-cutoff-tab------------------>
+                    <div class="col-8  mx-5 tab-pane fade  my-4" id="nav-cutoff" role="tabpanel"
+                        aria-labelledby="nav-cutoff-tab">
                         <div class="tab-pane-overview">
                             <h6 class="px-5 pt-4">Overview</h6>
                             <p class="mx-5 my-4">
@@ -2492,6 +3104,117 @@
                             <div class="text-center my-3"><a href="#">View More</a></div>
                         </div>
                     </div>
+                    <!--------------------------------nav-gallery-tab-------------->
+                    <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-gallery" role="tabpanel"
+                        aria-labelledby="nav-gallery-tab">
+                        <div class="tab-pane-overview">
+                            <h6 class="px-5 pt-4">Overview</h6>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                                aute
+                                sit
+                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                                esse
+                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                                eiusmod
+                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                                culpa
+                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                                in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                                dolore.
+                                Duis
+                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                                tempor
+                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                                non
+                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <div class="text-center py-3"><a href="#">View More</a></div>
+                        </div>
+
+                    </div>
+                    <!---------------------------nav-news-tab--------------------->
+                    <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-news" role="tabpanel"
+                        aria-labelledby="nav-news-tab">
+                        <div class="tab-pane-overview">
+                            <h6 class="px-5 pt-4">Overview</h6>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                                aute
+                                sit
+                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                                esse
+                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                                eiusmod
+                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                                culpa
+                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                                in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                                dolore.
+                                Duis
+                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                                tempor
+                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                                non
+                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <div class="text-center py-3"><a href="#">View More</a></div>
+                        </div>
+
+                    </div>
+                    <!------------------------------nav-ranking-tab---------------->
                     <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-ranking" role="tabpanel"
                         aria-labelledby="nav-ranking-tab">
                         <div class="tab-pane-overview">
@@ -2546,32 +3269,144 @@
                         </div>
 
                     </div>
+                    <!----------------------nav-scholarship-tab--------------------------->
+                    <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-scholarship" role="tabpanel"
+                        aria-labelledby="nav-scholarship-tab">
+                        <div class="tab-pane-overview">
+                            <h6 class="px-5 pt-4">Overview</h6>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                                aute
+                                sit
+                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                                esse
+                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                                eiusmod
+                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                                culpa
+                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                                in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                                dolore.
+                                Duis
+                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                                tempor
+                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                                non
+                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <div class="text-center py-3"><a href="#">View More</a></div>
+                        </div>
+
+                    </div>
+                    <!------------------placement-------------------->
+                    <div class="col-8 mx-5 tab-pane fade  my-4" id="nav-placement" role="tabpanel"
+                        aria-labelledby="nav-placement-tab">
+                        <div class="tab-pane-overview">
+                            <h6 class="px-5 pt-4">Overview</h6>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
+                                aute
+                                sit
+                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
+                                esse
+                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
+                                eiusmod
+                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
+                                culpa
+                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <p class="mx-5 my-4">
+                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
+                                qui
+                                minim
+                                occaecat veniam.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat.
+                                Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum
+                                in
+                                qui
+                                sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do
+                                dolore.
+                                Duis
+                                reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                                Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor
+                                anim.
+                                Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse
+                                consectetur
+                                nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod
+                                tempor
+                                incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa
+                                non
+                                adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
+                                duis
+                                occaecat ex.
+                            </p>
+                            <div class="text-center py-3"><a href="#">View More</a></div>
+                        </div>
+
+                    </div>
                     <!----------------------------------faq questions-------------------------------->
-                    <div class="container-fluid py-4  FAQ">
-                        <h2 class="py-4 px-2"> FAQs About IIT MADRAS</h2>
+                    <div class="container-fluid py-4 " id="FAQ">
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/images/conversation 1.png" class="img-fluid img-bg mt-4 mx-3"
+                                style="height: 42px;" alt="">
+                            <h2 class="py-4 px-2"> FAQs About IIT MADRAS</h2>
+                        </div>
                         <div class="accordion " id="accordionExample">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h2 class="mb-0 question1">
                                         <div class=" row question mx-md-0">
                                             <div class="col-10 pt-3 pb-2 px-3">
-                                                <h2>How is it to study at IIT?</h2>
+                                                <h2> Does IIT have management quota?</h2>
                                             </div>
                                             <div class="col-2 text-right mt-md-2 mt-3  pr-2"> <button type="button"
                                                     class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseOne"><i
-                                                        class="fa fa-plus text-white"></i></button></div>
+                                                    data-target="#collapseOne" style="color: black;"><i
+                                                        class="fa fa-plus text-black"></i></button></div>
                                         </div>
                                     </h2>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
                                     <div class="card-body ">
-                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser"> No, there is no management
-                                            quota at IIT.
-                                            Students are selected
-                                            either on the basis of their performance in entrance exams or through direct
-                                            admission
+                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser"> No, there is
+                                            No, there is no management quota at IIT. Students are selected either on the
+                                            basis of their performance in entrance exams or through direct admission
                                             based on their qualifying marks. </p>
                                     </div>
                                 </div>
@@ -2581,23 +3416,27 @@
                                     <h2 class="mb-0 question1">
                                         <div class=" row question mx-md-0">
                                             <div class="col-10 pt-3 pb-2 px-3">
-                                                <h2>Which extracurricular activities are provided for students at IIT?
+                                                <h2>2. Which extracurricular activities are provided for students at
+                                                    IIT?
                                                 </h2>
                                             </div>
                                             <div class="col-2 text-right mt-md-2 mt-5 pr-2"> <button type="button"
                                                     class="btn btn-link" data-toggle="collapse"
-                                                    data-target="#collapseTwo"><i
-                                                        class="fa fa-plus text-white"></i></button></div>
+                                                    data-target="#collapseTwo" style="color: black;"><i
+                                                        class="fa fa-plus text-black"></i></button></div>
                                         </div>
                                     </h2>
                                 </div>
                                 <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo"
                                     data-parent="#accordionExample">
                                     <div class="card-body ">
-                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is no management
+                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is
+                                            no
+                                            management
                                             quota at IIT.
                                             Students are selected
-                                            either on the basis of their performance in entrance exams or through direct
+                                            either on the basis of their performance in entrance exams or through
+                                            direct
                                             admission
                                             based on their qualifying marks.</p>
                                     </div>
@@ -2608,12 +3447,12 @@
                                     <h2 class="mb-0 question1">
                                         <div class=" row question mx-md-0">
                                             <div class="col-10 pt-3 pb-2 px-3">
-                                                <h2>What are the rankings of IIT?</h2>
+                                                <h2>3. What are the rankings of IIT?</h2>
                                             </div>
                                             <div class="col-2 text-right mt-2 pr-2"> <button type="button"
                                                     class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree"><i
-                                                        class="fa fa-plus text-white"></i></button>
+                                                    data-target="#collapseThree" style="color: black;"><i
+                                                        class="fa fa-plus text-black"></i></button>
                                             </div>
                                         </div>
                                     </h2>
@@ -2623,10 +3462,13 @@
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordionExample">
                                     <div class="card-body ">
-                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is no management
+                                        <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is
+                                            no
+                                            management
                                             quota at IIT.
                                             Students are selected
-                                            either on the basis of their performance in entrance exams or through direct
+                                            either on the basis of their performance in entrance exams or through
+                                            direct
                                             admission
                                             based on their qualifying marks.</p>
                                     </div>
@@ -2637,12 +3479,12 @@
                                     <h2 class="mb-0 question1">
                                         <div class=" row question mx-md-0">
                                             <div class="col-10 pt-3 pb-2 px-3">
-                                                <h2>How is it to study at IIT?</h2>
+                                                <h2>4. How is it to study at IIT?</h2>
                                             </div>
                                             <div class="col-2 text-right mt-md-2 mt-3 pr-2"> <button type="button"
                                                     class="btn btn-link collapsed" data-toggle="collapse"
-                                                    data-target="#collapseFour"><i
-                                                        class="fa fa-plus text-white"></i></button>
+                                                    data-target="#collapseFour" style="color: black;"><i
+                                                        class="fa fa-plus text-black"></i></button>
                                             </div>
                                         </div>
                                     </h2>
@@ -2652,10 +3494,13 @@
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordionExample">
                                     <div class="card-body ">
-                                        <p class=" answer  py-2  px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is no management
+                                        <p class=" answer  py-2  px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there is
+                                            no
+                                            management
                                             quota at IIT.
                                             Students are selected
-                                            either on the basis of their performance in entrance exams or through direct
+                                            either on the basis of their performance in entrance exams or through
+                                            direct
                                             admission
                                             based on their qualifying marks.</p>
                                     </div>
@@ -2663,14 +3508,17 @@
                             </div>
                         </div>
                     </div>
-                     <!----------------------------------end of faq questions-------------------------------->
+                    <!----------------------------------end of faq questions-------------------------------->
 
                 </div>
             </div>
         </div>
         <!------------------------college rating------------------------->
-        <div class="container-fluid bg-white college-rating my-5 py-3">
-            <h2 class="py-3 px-4 mx-4 text-lg-left text">COLLEGE RATING</h2>
+        <div class="container-fluid bg-white  my-5 py-3" id="college-rating">
+            <div class="row justify-content-center">
+                <img src="assets/images/review 1.png" class="img-fluid img-bg mt-4 mx-3" style="height: 42px;" alt="">
+                <h2 class="py-3  text-lg-left text">COLLEGE RATING</h2>
+            </div>
             <div class="row">
 
                 <div class="col-lg-3   ">
@@ -2680,13 +3528,13 @@
                     </div>
 
                     <div class="pl-3 pt-lg-5 ml-md-5 text-lg-left text-center">
-                        <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                        <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                        <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                        <img src="assets/images/Star 1.png" class="h-50" alt="">
-                        <img src="assets/images/Star 5.png" class="h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                        <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
-                        <div class="ml-3 pt-2" style="font-size: 24px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                        <div class="ml-3 pt-2" style="font-size: 18px; font-family: inter; color: rgba(0, 0, 0, 1);">
                             (4.0)
                             Review</div>
                     </div>
@@ -2697,74 +3545,97 @@
                         </h6><span>(out of 5)</span>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 text  text-left">
-                            <div class="pt-3 pl-1">Placements</div>
-                            <div class="pt-3 pl-1">Infrastructure</div>
-                            <div class="pt-3 pl-1">Faculty & Course Curriculum</div>
-                            <div class="pt-3 pl-1">Crowd & Campus Life</div>
-                            <div class="pt-3 pl-1">Value for Money</div>
-
+                        <div class="col-md-6 text-left">
+                            <div class="pt-3 pl-1 component-rating">Placements</div>
                         </div>
-                        <div class="col-md-6  text-lg-left text-center">
+                        <div class="col-md-6">
                             <div class="row justify-content-lg-start justify-content-center">
                                 <div class=" pt-3" style="height: 44px;">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="h-50" alt="">
-                                    <img src="assets/images/Star 5.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
                                         (4.0)</span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pt-3 pl-1 component-rating">Infrastructure</div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="row justify-content-lg-start justify-content-center">
                                 <div class=" pt-3" style="height: 44px;">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="h-50" alt="">
-                                    <img src="assets/images/Star 5.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
                                         (4.0)</span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pt-3 pl-1 component-rating">Faculty & Course Curriculum</div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="row justify-content-lg-start justify-content-center">
                                 <div class=" pt-3" style="height: 44px;">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="h-50" alt="">
-                                    <img src="assets/images/Star 5.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
                                         (4.0)</span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pt-3 pl-1 component-rating">Crowd & Campus Life</div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="row justify-content-lg-start justify-content-center">
                                 <div class=" pt-3" style="height: 44px;">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="h-50" alt="">
-                                    <img src="assets/images/Star 5.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
                                         (4.0)</span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pt-3 pl-1 component-rating">Value for Money</div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="row justify-content-lg-start justify-content-center">
                                 <div class=" pt-3" style="height: 44px;">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="checked h-50" alt="">
-                                    <img src="assets/images/Star 1.png" class="h-50" alt="">
-                                    <img src="assets/images/Star 5.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
 
                                     <span class="ml-1 pt-2"
                                         style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
@@ -2774,8 +3645,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 mt-5 text-center">
+                <div class="col-lg-4 mt-5 text-left">
                     <p style="color: rgba(151, 151, 151, 1); font-size: 16px;">The Verified badge indicates
                         that the reviewer's details have been verified by
                         Stulink,
@@ -2788,10 +3658,14 @@
             </div>
             <hr>
             <!------------------text-review--------------------------------->
-            <div class="container-fluid">
+            <div class="container-fluid" id="text-review">
                 <div class="row">
                     <div>
-                        <h2 class="py-3 px-4 ml-5 ">Student Reviews</h2>
+                        <div class="row justify-content-center">
+                            <img src="assets/images/review 1.png" class="img-fluid img-bg mt-4 mx-3" style="height: 42px;" alt="">
+                            <h2 class="py-4 ">Student Reviews</h2>
+                        </div>
+                        
                         <div class="row ml-lg-4">
                             <span class=" col-md-1 ml-md-5 text-center text-md-left"><img
                                     src="assets/images/Ellipse 4.png" alt=""></span>
@@ -2806,9 +3680,9 @@
                         </div>
                         <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
 
-                            <div class="comment__bubble">
+                            <div id="comment__bubble">
                                 <span class="comment__arrow"></span>
-                                <p>It is one of the best ranked engineering college in
+                                <p class="py-3 px-5">It is one of the best ranked engineering college in
                                     india.
                                     It has huge campus with clean green environment and provides lot of
                                     opportunities to the students.
@@ -2822,7 +3696,7 @@
                 </div>
 
                 <div class="row ml-lg-4 my-4">
-                    <span class=" col-md-1 ml-md-5 text-center text-md-left"><img src="assets/images/Ellipse 4.png"
+                    <span class=" col-md-1 ml-md-5 text-center text-md-left"><img src="assets/images/Ellipse 4 (1).png"
                             alt=""></span>
                     <div class="col-10 text-review  text-center text-md-left"> <span
                             style=" color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
@@ -2835,9 +3709,9 @@
 
                 <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
 
-                    <div class="comment__bubble">
+                    <div id="comment__bubble">
                         <span class="comment__arrow"></span>
-                        <p>It is one of the best ranked engineering college in
+                        <p class="py-3 px-5">It is one of the best ranked engineering college in
                             india.
                             It has huge campus with clean green environment and provides lot of
                             opportunities to the students.
@@ -2849,7 +3723,7 @@
 
 
                 <div class="row ml-lg-4 my-4">
-                    <span class="col-md-1 ml-md-5 text-center text-md-left"><img src="assets/images/Ellipse 4.png"
+                    <span class="col-md-1 ml-md-5 text-center text-md-left"><img src="assets/images/Ellipse 4 (2).png"
                             alt=""></span>
                     <div class="col-md-10 text-center text-md-left text-review"> <span
                             style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
@@ -2863,9 +3737,9 @@
                 </div>
                 <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
 
-                    <div class="comment__bubble">
+                    <div id="comment__bubble">
                         <span class="comment__arrow"></span>
-                        <p>It is one of the best ranked engineering college in
+                        <p class="py-3 px-5">It is one of the best ranked engineering college in
                             india.
                             It has huge campus with clean green environment and provides lot of
                             opportunities to the students.
@@ -2890,9 +3764,9 @@
                     </div>
                     <div class="comment__container comment__container--response ml-md-5 pl-md-5 mt-4 mr-md-5">
 
-                        <div class="comment__bubble">
+                        <div id="comment__bubble">
                             <span class="comment__arrow"></span>
-                            <p>It is one of the best ranked engineering college in
+                            <p class="py-3 px-5">It is one of the best ranked engineering college in
                                 india.
                                 It has huge campus with clean green environment and provides lot of
                                 opportunities to the students.
@@ -2971,13 +3845,13 @@
                     <h5>Social Media</h5>
                     <div class="row my-4">
                         <div class="centered mx-2">
-                            <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 1.png" alt=""></a></div>
                         </div>
                         <div class="centered  mx-2" style="background-color: rgba(59, 89, 152, 1);">
-                            <div class="text-center"><img src="assets/images/Fill 4.png" alt=""></div>
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 4.png" alt=""></a></div>
                         </div>
                         <div class="centered mx-2">
-                            <div class="text-center"><img src="assets/images/Fill 1.png" alt=""></div>
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 1.png" alt=""></a></div>
                         </div>
                     </div>
                 </div>

@@ -1,13 +1,16 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
  *{
     padding: 0;
     margin: 0;
     font-family: "inter";
-    
-} 
-body{
-   
-}
-
+    } 
 .login-btn{
     border: 1px solid #B6B6B6;
     border-radius: 15px;
@@ -202,9 +205,6 @@ border-radius: 10px !important;
   
 }
 
-::-webkit-scrollbar-track {
-
-}
 
 ::-webkit-scrollbar-thumb {
   background-color: darkgrey;
@@ -595,7 +595,7 @@ label {
     font-size: 20px !important;
     font-family: "inter" !important;
     font-weight: 600 !important;
-    color: rgba(11, 11, 11, 1) !important;
+    color: rgba(255, 0, 0, 1) !important;
 }
 .rating>label:before {
     margin: 3px;
@@ -649,11 +649,19 @@ label {
     font-size: 16px;
     font-family: "inter";
     font-weight: 600;
-    border: 1px solid rgba(51, 51, 51, 1);
+    border: 1px solid transparent;
     border-radius: 10px;
-    background-color: white;
+    background-color: #FFD600;
 }
-
+.Brochures-btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: "inter";
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 163, 26, 1);
+}
 nav > .nav.nav-tabs{
      border: none;
       color:rgba(59, 58, 64, 1);
@@ -693,7 +701,7 @@ nav > .nav.nav-tabs{
     border-top-color: #ffffff;
     box-shadow: 0 0 0px #e5e5e5;
   }
-  .tab-content{
+  #nav-tabContent .tab-content{
     background: #fdfdfd;
       line-height: 25px;
       padding:30px 25px;
@@ -965,93 +973,123 @@ nav > .nav.nav-tabs{
     line-height: 14px;
     
 }
-.FAQ{
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+#FAQ{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
 }
-.FAQ h2{
-    color: rgba(0, 0, 0, 1);
-    font-size:25px ;
-    font-family:"Poppins" ;
-    font-weight: 600; 
-}
-.FAQ .question{
-    background-color: rgba(79, 78, 80, 1);
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-}
-.FAQ .question h2{
-    color: rgba(255, 255, 255, 1);
-    font-size:20px ;
-    font-family:"Poppins" ;
+#FAQ h2{
+    font-family: Poppins;
+    font-style: normal;
     font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+    text-align: center;
 }
-.FAQ #addsymbol{
+#FAQ .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#FAQ .question{
+    background: #F4F4F4;
+box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+}
+#FAQ .question h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+    text-align: left;
+}
+#FAQ #addsymbol{
     text-align: end;
     font-size: 28px;
     /* font-weight: 600; */
     color: white;
     cursor: pointer;
 }
-.FAQ .card{
+#FAQ .card{
     box-shadow: 0 0 0px 0 !important;
 }
 
-.FAQ .answer{
-  
-   font-size: 18px;
-    font-family: "Inter";
-    color: rgba(59, 58, 64, 1);
-}
-.FAQ .question1{
+#FAQ .answer{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+    color: #3B3A40;
+    }
+#FAQ .question1{
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
 }
-.FAQ button:focus {
+#FAQ button:focus {
      outline: 0px !important;
      border: 0px !important;
      box-shadow: 0px !important;
 }
-.FAQ button:hover {
+#FAQ button:hover {
     outline: 0px !important;
     border: 0px !important;
     box-shadow: 0px !important;
 }
-.FAQ .btn.focus, .btn:focus {
+#FAQ .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0 !important;
 }
-.FAQ .card-header{
+#FAQ .card-header{
     background-color: white !important;
     border-bottom:0px !important
 }
-.FAQ .card-body{
+#FAQ .card-body{
     background-color: white;
     box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1) !important;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.college-rating h2{
+#college-rating h2{
     color:rgba(43, 43, 43, 1) ;
     font-family: "Poppins";
     font-size:25px ;
     font-weight: 600;
 }
-.college-rating h6{
+#college-rating h6{
     color:#29ABE2 ;
     font-family: "Poppins";
     font-size:20px ;
     font-weight: 600;
 }
-.college-rating .checked{
+#college-rating .checked{
     color: orange;
 }
-.college-rating .text{
-font-family: "Poppins" !important;
-    color: rgba(153, 153, 153, 1);
-    font-size: 20px;
+#college-rating .text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#college-rating .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#college-rating .component-rating{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
 }
 .college-review{
 background-color: rgba(196, 196, 196, 1);
@@ -1088,19 +1126,26 @@ font-family: "Poppins";
     left: 43px;
     border-style: solid;
     border-width: 20px 0 0 20px;
-    border-color: transparent transparent transparent #edf1ee;
+    border-color: transparent transparent transparent #c4c4c4;
     position: absolute;
     top: -20px;
   }
   
-  .comment__bubble {
-    background: #edf1ee;
+  #comment__bubble {
+    background: #c4c4c4;
     padding: 9px 24px 5px 24px;
     margin-bottom: 12px;
     border-radius: 50px;
     position: relative;
   }
-  
+  #comment__bubble p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
   .comment__bubble--write {
     background: transparent;
     border: 1px solid #EDF1EE;
@@ -1110,7 +1155,19 @@ font-family: "Poppins";
   .comment__bubble--write .comment__arrow {
     border-color: transparent;
   }
-
+  #text-review .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;  
+  }
+  #text-review h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+  }
 /******************************progressbar*******************************************/
 .mt-100 {
     margin-top: 200px
