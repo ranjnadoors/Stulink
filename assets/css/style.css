@@ -538,7 +538,7 @@ color: rgba(100, 98, 106, 1);
 .college-nav-shadow{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
 }
-.college-info h2{
+#college-info h2{
     font-family: "inter";
     font-size: 30px;
     font-weight: 600;
@@ -546,7 +546,7 @@ color: rgba(100, 98, 106, 1);
 
 }
 
-.college-info span{
+#college-info span{
     font-size: 15px;
     color: rgba(168, 168, 168, 1);
     font-weight: 500;
@@ -750,7 +750,7 @@ nav > .nav.nav-tabs{
 
 #overview-module #overview-collpase.collapse:not(.show) {
     display: block;
-    height: 5rem;
+    height: 6rem;
     overflow: hidden;
   }
   
@@ -877,7 +877,7 @@ nav > .nav.nav-tabs{
     background-color: rgba(255, 255, 255, 1);
     box-shadow: rgba(0, 0, 0, 0.1);
     overflow-y: scroll;
-    height: 443px;
+    height: 383px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -1050,10 +1050,12 @@ border-radius: 10px;
     border-bottom:0px !important
 }
 #FAQ .card-body{
-    background-color: white;
-    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1) !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-top: -11px;
+    z-index: -1;
 }
 #college-rating h2{
     color:rgba(43, 43, 43, 1) ;
@@ -1323,7 +1325,7 @@ font-family: "Poppins";
      color: rgba(41, 171, 226, 1); text-align: center;
 }
 /****************************************media queries**************************************/
-@media only screen and (max-width: 600px) {
+@media (min-width: 357px) and (max-width: 767px) {
     .item.list-group-item .img-event {
         float: left;
         width: 100%;
@@ -1336,16 +1338,19 @@ font-family: "Poppins";
     .text-review{
         margin-left: 10px;
     }
+    #college-info h2{
+        font-size: 22px;
+        }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
   
-    .college-bg .data-center{
+    #college-bg .data-center{
         position: absolute; 
         top: 15%; 
         left: 32%; 
         transform: translate(-50%, -50%);
     }
-    .college-bg{
+    #college-bg{
         background-image: url(../images/college-img.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1354,6 +1359,9 @@ font-family: "Poppins";
     .text-review{
         margin-left: 10px;
     }
+    #college-info h2{
+        font-size: 22px;
+        }
   }
   
   
@@ -1368,7 +1376,7 @@ font-family: "Poppins";
     
   }
 
-  .college-bg{
+  #college-bg{
     background-image: url(../images/college-img.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1377,6 +1385,9 @@ font-family: "Poppins";
 .text-review{
     margin-left: 10px;
 }
+#college-info h2{
+    font-size: 22px;
+    }
 }
 
 
