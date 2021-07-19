@@ -1324,6 +1324,232 @@ font-family: "Poppins";
      font-size: 13px; 
      color: rgba(41, 171, 226, 1); text-align: center;
 }
+/*********************************************Ranking********************************/
+#nav-ranking .tab-pane-overview {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+} 
+#nav-ranking .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#nav-ranking h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-ranking p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #3B3A40;
+}
+#nav-ranking .super-th{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 22px;
+    color: #1DB954;
+    border-top: hidden;
+}
+#nav-ranking .table-heading{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #29ABE2;
+    padding: 22px;
+}
+#nav-ranking .table thead th{
+    padding: 30px;
+}
+#nav-ranking tbody th{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #1DB954;
+    padding: 22px;
+}
+#nav-ranking tbody td{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #3B3A40;
+    padding: 22px;
+}
+#nav-ranking .uni-tb-td tr td{
+    text-align: justify;
+}
+#nav-ranking h5{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+#nav-ranking h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #29ABE2;
+    }
+    #nav-ranking .score-bg{
+        text-align: center;
+        background: rgba(41, 171, 226, 0.2);
+        border-radius: 2px;
+        width: 48px;
+       }
+    #nav-ranking .score-bg span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #035577;
+    }
+    #nav-ranking .visit-web{
+        border: 1px solid #FFA319;
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFA319;
+        text-align: center;
+    }
+    #nav-ranking .link{
+        background: #29ABE2;
+        border-radius: 50px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+}
+#nav-ranking .top-ranked{
+    background: #1DB954;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+#nav-ranking .top-ranked h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+#nav-ranking .tab-pane-overview .hash{
+    background: rgba(41, 171, 226, 1);
+    border-radius: 2px;
+    color: white;
+}
+#nav-ranking h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2B2B2B;
+}
+
+/********************************************end of Ranking**************************/
+/******************************************** News**************************/
+#nav-news .tab-pane-overview{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+#nav-news .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;  
+}
+#nav-news h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-news h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #313131;
+}
+#nav-news h5{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #29ABE2;
+}
+#nav-news h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #6F6F6F;
+}
+#nav-news p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #767676;
+}
+#nav-news .share{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #FFB800;
+}
+#nav-news .latest-bg{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+/********************************************end of News**************************/
 /****************************************media queries**************************************/
 @media (min-width: 357px) and (max-width: 767px) {
     .item.list-group-item .img-event {
@@ -1388,8 +1614,22 @@ font-family: "Poppins";
 #college-info h2{
     font-size: 22px;
     }
+   #nav-ranking .tab-pane-overview{
+       width: 350px;
+   }
+   table tbody {
+    display: table;
+    width: 350px;
 }
-
+#nav-ranking h2{
+    font-size: 14px;
+}
+}
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
 
 
