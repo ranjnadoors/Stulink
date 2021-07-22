@@ -408,6 +408,30 @@ function myFunction6() {
 
   
 }
+$(".video").click(function() {
+
+  if (this.paused){
+    $('.video').each(function() {
+      $(this).get(0).pause();
+    });
+    this.play();
+  }else{
+    this.pause();
+  }
+});
+
+// $(".video_button").click(function () {
+
+//   // $('.video').each(function() {
+//   //   $(this).get(0).pause();
+//   // });
+//   //$(this).get(0).play();
+  
+//   $(".video").paused ? this.parent.play() : this.parent.pause();
+
+  
+// })
+
 
 
 
