@@ -13,10 +13,6 @@ $(document).ready(function () {
     });
   }
   /*--------------------- Add active class to the current button (highlight it) end-------------------------------------------*/
-
-
-
-
   jQuery("#buttons .Institute-logo-btns").click(function () {
     jQuery("#buttons .Institute-logo-btns").removeClass('active');
     jQuery(this).toggleClass('active');
@@ -184,7 +180,29 @@ $(document).ready(function () {
   });
   $("#amount13").val("(7/10)");
 
+  
+  $("#slider-range-min-14").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount14").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount14").val("(7/10)");
 
+
+  $("#slider-range-min-15").slider({
+    range: "min",
+    value: 7,
+    min: 0,
+    max: 10,
+    slide: function (event, ui) {
+      $("#amount15").val("(" + ui.value + "/" + "10" + ")");
+    }
+  });
+  $("#amount15").val("(7/10)");
 
   /*------------------------------------------range slider end-----------------------------------------------------------------*/
 
@@ -287,6 +305,7 @@ $(".text-review-more").on('click', function(e){
 
   
 })
+
 
 
 function myFunction() {

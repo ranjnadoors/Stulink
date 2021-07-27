@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/addmission.css">
 
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    
+
     <link rel="stylesheet" href="assets/css/jquery-ui.css">
     <link rel="stylesheet" href="assets/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -244,11 +244,12 @@
                 <div class="col-12 pl-0 pr-0">
                     <nav style="background-color: rgba(245, 245, 245, 1);">
                         <div class="nav nav-tabs nav-fill px-5  mt-4" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active" id="nav-info-tab" data-toggle="tab" href="#nav-info"
+                            <a class="nav-item nav-link " id="nav-info-tab" data-toggle="tab" href="#nav-info"
                                 role="tab" aria-controls="nav-info" aria-selected="true">Information</a>
 
-                            <a class="nav-item nav-link" id="nav-courses-tab" data-toggle="tab" href="#nav-courses"
-                                role="tab" aria-controls="nav-courses" aria-selected="false">Courses </a>
+                            <a class="nav-item nav-link active" id="nav-courses-tab" data-toggle="tab"
+                                href="#nav-courses" role="tab" aria-controls="nav-courses" aria-selected="false">Courses
+                            </a>
 
                             <a class="nav-item nav-link " id="nav-addmission-tab" data-toggle="tab"
                                 href="#nav-addmission" role="tab" aria-controls="nav-addmission"
@@ -258,8 +259,8 @@
                                 role="tab" aria-controls="nav-cutoff" aria-selected="false">Cut Off
                             </a>
 
-                            <a class="nav-item nav-link " id="nav-gallery-tab" data-toggle="tab"
-                                href="#nav-gallery" role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery
+                            <a class="nav-item nav-link " id="nav-gallery-tab" data-toggle="tab" href="#nav-gallery"
+                                role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery
                             </a>
 
                             <a class="nav-item nav-link" id="nav-news-tab" data-toggle="tab" href="#nav-news" role="tab"
@@ -283,7 +284,7 @@
             </div>
             <div class="container-fluid">
                 <div class=" row tab-content pt-3 pb-0 px-md-3  " id="nav-tabContent ">
-                    <div class="row fade show active  tab-pane" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
+                    <div class="row fade  tab-pane" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
                         <div class="d-lg-flex">
                             <div class="  col-lg-9 my-1 pl-md-5  pr-md-5">
                                 <!----------------------overall rating---------------------------------------------->
@@ -2309,36 +2310,766 @@
                     <!---------------------------end of information----------------------->
                     <!------------------------courses-------------->
 
-                    <div class="row fade my-4 tab-pane" id="nav-courses" role="tabpanel"
+                    <div class="row fade my-4 tab-pane show active mx-md-0 mx-2" id="nav-courses" role="tabpanel"
                         aria-labelledby="nav-courses-tab">
-                        <div class=" col-lg-9 ">
-                            <div class="tab-pane-overview">
-                                <h6 class="px-5 pt-4">Overview 2</h6>
-                                <p class="mx-5 my-4">
-                                    Et et consectetur ipsum labore excepteur est proident excepteur ad velit
-                                    occaecat
-                                    qui
-                                    minim
-                                    occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt
-                                    est
-                                    aute
-                                    sit
-                                    dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure
-                                    non
-                                    esse
-                                    consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non
-                                    est
-                                    eiusmod
-                                    tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa
-                                    nisi
-                                    culpa
-                                    non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim
-                                    ullamco ad
-                                    duis
-                                    occaecat ex.
-                                </p>
+                        <div class="d-lg-flex">
+                            <div class="col-lg-9" id="nav-ver-tab">
+                                <div class="tab-pane-overview" style="box-shadow: none;">
+                                    <div class=" row vertical-tab" role="tabpanel">
 
-                                <div class="text-center py-3"><a href="#">View More</a></div>
+                                        <!-- Nav tabs -->
+
+                                        <ul class="nav nav-tabs mr-5" role="tablist">
+                                            <div>
+                                                <h2 class="py-3 mr-2">Programmes</h2>
+                                            </div>
+
+                                            <li role="presentation"><a href="#bsc" aria-controls="bsc" role="tab"
+                                                    data-toggle="tab">B.sc</a></li>
+                                            <li role="presentation" class="active"><a href="#btech"
+                                                    aria-controls="btech" role="tab" data-toggle="tab">B.Tech</a></li>
+                                            <li role="presentation"><a href="#ba" aria-controls="ba" role="tab"
+                                                    data-toggle="tab">BA</a></li>
+                                            <li role="presentation"><a href="#bba" aria-controls="ba" role="tab"
+                                                    data-toggle="tab">BBA</a></li>
+                                            <li role="presentation"><a href="#bcom" aria-controls="bcom" role="tab"
+                                                    data-toggle="tab">B.Com</a></li>
+                                            <li role="presentation"><a href="#bca" aria-controls="bac" role="tab"
+                                                    data-toggle="tab">BCA</a></li>
+                                            <li role="presentation"><a href="#bhmct" aria-controls="bhmct" role="tab"
+                                                    data-toggle="tab">BHMCT</a></li>
+                                            <li role="presentation"><a href="#llb" aria-controls="llb" role="tab"
+                                                    data-toggle="tab">BA+LLB</a></li>
+                                            <li role="presentation"><a href="#bba-llb" aria-controls="bba-llb"
+                                                    role="tab" data-toggle="tab">BBA+LLB</a></li>
+                                            <li role="presentation"><a href="#bed" aria-controls="bed" role="tab"
+                                                    data-toggle="tab">B.Ed</a></li>
+                                        </ul>
+
+                                        <!-- Tab panes -->
+                                        <div class="mx-md-4">
+                                            <div class="tab-content tabs mt-md-0 mt-5">
+                                                <div role="tabpanel" class="tab-pane fade in " id="bsc">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>Section 1</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane  fade show active" id="btech">
+                                                    <div
+                                                        class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-3">
+                                                        <img src="assets/images/course.png"
+                                                            class="img-fluid img-bg px-2" alt="">
+
+                                                        <h3 class="px-md-4 px-2 text-md-left text-center">Courses</h3>
+                                                    </div>
+                                                    <div class="tab-bg mb-5 pb-3 mt-md-0 mt-5">
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-md-8 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/book-open.png" class="img-fluid"
+                                                                    alt="">
+                                                                <h4 class="px-md-4 px-2 text-md-left text-center">
+                                                                    B.Tech. (Bachelor of Technology)</h4>
+                                                            </div>
+                                                            <div class="col-md-4 text-right"><span class="regular">4Years |
+                                                                    Regular</span></div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-md-6 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/Check File.png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Exams Accepted | JEE Advanced</span>
+                                                            </div>
+                                                            <div
+                                                                class="col-md-6 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/Graduation Scroll.png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Lateral Entry | Available</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-12 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/call-center 1 (2).png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Eligibility Critiera | 10+2 with 75% + JEE
+                                                                    Advanced</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Money Bag Rupee.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Fees</h3>
+                                                        </div>
+                                                        <div class="table-responsive py-2">
+                                                            <table class="table  mt-4 borderless table-bg">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Year wise</th>
+                                                                        <th scope="col">1</th>
+                                                                        <th scope="col">2</th>
+                                                                        <th scope="col">3</th>
+                                                                        <th scope="col">4</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="">Total fees </td>
+                                                                        <td>2,22,150</td>
+                                                                        <td>2,17,600</td>
+                                                                        <td>2,15,540</td>
+                                                                        <td>2,17,600</td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="row  pr-4  my-4 justify-content-end">
+                                                            <span class="  fee-detail">View
+                                                                Full Fee Details</span>
+                                                                <i class="fa fa-arrow-right mx-2" style="color: #1DB954;" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Test Passed.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Available Courses
+                                                            </h3>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2"> Computer Science and Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Artificial Intelligence</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Civil Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Automobile Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5">
+                                                                    <span class="avi-courses mx-2">Biotechnology</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Electrical  Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Electronics & Communication</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Aeronautical </span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Information Technology</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row justify-content-center ">
+                                                            <div class="mt-5">
+                                                                <button class="write-review-btn px-4 py-2"
+                                                                    style="font-size: 18px; background-color:rgba(41, 171, 226, 1); border: rgba(41, 171, 226, 1); color: white;"><img
+                                                                        src="assets/images/apply now.png" class="mr-1" ;alt="">Apply Now</button>
+                                                            </div>
+                                                            <div class="mt-5 ml-md-4 ml-1">
+                                                                <button class="Brochures-btn px-4 py-2"><i class="fa fa-download px-2" aria-hidden="true"></i>Brochures</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="tab-bg mb-5 pb-3 mt-md-0 mt-5">
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-md-8 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/book-open.png" class="img-fluid"
+                                                                    alt="">
+                                                                <h4 class="px-md-4 px-2 text-md-left text-center">
+                                                                    M.Tech. (Master of Technology)</h4>
+                                                            </div>
+                                                            <div class="col-md-4 text-right"><span class="regular">2Years |
+                                                                    Regular</span></div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-12 row justify-content-md-start justify-content-center ">
+                                                                <img src="assets/images/Check File.png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Exams Accepted | GATE</span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-12 row justify-content-md-start justify-content-center ">
+                                                                <img src="assets/images/call-center 1 (2).png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Eligibility Critiera  | Pass in Graduation + GATE</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Money Bag Rupee.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Fees</h3>
+                                                        </div>
+                                                        <div class="table-responsive py-2">
+                                                            <table class="table  mt-4 borderless table-bg">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Semester wise</th>
+                                                                        <th scope="col">1</th>
+                                                                        <th scope="col">2</th>
+                                                                        <th scope="col">3</th>
+                                                                        <th scope="col">4</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="">Total fees </td>
+                                                                        <td>2,22,150</td>
+                                                                        <td>2,17,600</td>
+                                                                        <td>2,15,540</td>
+                                                                        <td>2,17,600</td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="row  pr-4  my-4 justify-content-end">
+                                                            <span class="  fee-detail">View
+                                                                Full Fee Details</span>
+                                                                <i class="fa fa-arrow-right mx-2" style="color: #1DB954;" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Test Passed.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Available Courses
+                                                            </h3>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2"> Computer Science and Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Artificial Intelligence</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Civil Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Automobile Engineering</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Biotechnology</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="row justify-content-center ">
+                                                            <div class="mt-5">
+                                                                <button class="write-review-btn px-4 py-2"
+                                                                    style="font-size: 18px; background-color:rgba(41, 171, 226, 1); border: rgba(41, 171, 226, 1); color: white;"><img
+                                                                        src="assets/images/apply now.png" class="mr-1" ;alt="">Apply Now</button>
+                                                            </div>
+                                                            <div class="mt-5 ml-md-4 ml-2">
+                                                                <button class="Brochures-btn px-4 py-2"><i class="fa fa-download px-2" aria-hidden="true"></i>Brochures</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-bg mb-5 pb-3 mt-md-0 mt-5">
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-lg-8 col-md-9 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/book-open.png" class="img-fluid"
+                                                                    alt="">
+                                                                <h4 class="px-lg-4 px-2 text-md-left text-center">
+                                                                    MBA (Master of Business Administration)</h4>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-3 text-right"><span class="regular">2Years |
+                                                                    Regular</span></div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-12 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/Check File.png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Exams Accepted | CAT</span>
+                                                            </div>
+                                                           
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 pt-4">
+                                                            <div
+                                                                class="col-12 row justify-content-md-start justify-content-center">
+                                                                <img src="assets/images/call-center 1 (2).png"
+                                                                    class="img-fluid" alt="">
+                                                                <span
+                                                                    class="px-md-4 px-2 text-md-left text-center exam-accepted">
+                                                                    Eligibility Critiera  | 10+2 with 75% + CAT</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Money Bag Rupee.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Fees</h3>
+                                                        </div>
+                                                        <div class="table-responsive py-2">
+                                                            <table class="table  mt-4 borderless table-bg">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">Year wise</th>
+                                                                        <th scope="col">1</th>
+                                                                        <th scope="col">2</th>
+                                                                        <th scope="col">3</th>
+                                                                        <th scope="col">4</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="">Total fees </td>
+                                                                        <td>2,22,150</td>
+                                                                        <td>2,17,600</td>
+                                                                        <td>2,15,540</td>
+                                                                        <td>2,17,600</td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="row  pr-4  my-4 justify-content-end">
+                                                            <span class="  fee-detail">View
+                                                                Full Fee Details</span>
+                                                                <i class="fa fa-arrow-right mx-2" style="color: #1DB954;" aria-hidden="true"></i>
+                                                        </div>
+                                                        <div class="row pl-md-5 px-3 justify-content-md-start justify-content-center my-4">
+                                                            <img src="assets/images/Test Passed.png"
+                                                                class="img-fluid img-bg px-2" alt="">
+
+                                                            <h3 class="px-md-4 px-2 text-md-left text-center"
+                                                                style="font-size: 18px;">Available Courses
+                                                            </h3>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2"> Human Resource Management</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5 my-2">
+                                                                    <span class="avi-courses mx-2 ">Marketing Management </span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5 my-2">
+                                                                    <span class="avi-courses mx-2 ">International Business</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5 my-2">
+                                                                    <span class="avi-courses mx-2 ">Finance Management</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5  my-2">
+                                                                    <span class="avi-courses mx-2">Rural Management</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-6">
+                                                                <div class="row justify-content-left ml-5">
+                                                                    <span class="avi-courses mx-2">Business Analytics</span>
+                                                                    <i class="fa fa-arrow-right" style="color: #FFD600;" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                           
+                                                        </div>
+                                                        <div class="row justify-content-center ">
+                                                            <div class="mt-5">
+                                                                <button class="write-review-btn px-4 py-2"
+                                                                    style="font-size: 18px; background-color:rgba(41, 171, 226, 1); border: rgba(41, 171, 226, 1); color: white;"><img
+                                                                        src="assets/images/apply now.png" class="mr-1" ;alt="">Apply Now</button>
+                                                            </div>
+                                                            <div class="mt-5 ml-md-4 ml-2">
+                                                                <button class="Brochures-btn px-4 py-2"><i class="fa fa-download px-2" aria-hidden="true"></i>Brochures</button>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade in " id="ba">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>Ba</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bba">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BBA</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bcom">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>B.COm</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequa nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bca">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BCA</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div role="tabpanel" class="tab-pane fade" id="bhmct">
+                                                    <div class="tab-bg mb-5 pb-3">
+                                                        <h3>BHMCT</h3>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Fusce
+                                                            semper,
+                                                            magna a ultricies volutpat, mi eros viverra massa, vitae
+                                                            consequat
+                                                            nisi
+                                                            justo in tortor. Proin accumsan felis ac felis dapibus, non
+                                                            iaculis
+                                                            mi
+                                                            varius, mi eros viverra massa.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div id="trending-bg" class="mt-lg-0 mt-5">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/Group 794.png" style="height: 15px;" class="px-3 mt-2"
+                                            alt="">
+                                        <span>
+                                            <h3>Trending Admissions</h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 5.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>B.A , BBA , BCA , B.Com , </h4>
+                                            <h4> B.sc IT , B.sc </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">3 Years | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 mx-md-5">
+                                            <h4>Bachelor of technology </h4>
+
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 4.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 6.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-------------------------end of trending-------------->
+                                <div class="mt-5" id="trending-bg">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/graduated (1) 1.png" style="height: 20px;" class="px-3"
+                                            alt="">
+                                        <span>
+                                            <h3>STUDENTS ALSO VISITED </h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Chandigarh</h6>
+                                                <div><img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 5.png" alt=""><span
+                                                        style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Jalandhar</h6>
+                                                <div><img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 1.png" alt="">
+                                                    <img src="assets/images/Star 5.png" alt=""><span
+                                                        style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Patiala</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Amity University of Delhi </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+                                                    <div><img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 1.png" alt="">
+                                                        <img src="assets/images/Star 5.png" alt=""><span
+                                                            style="font-size: 9px ; color: #000000;">(4.0)</span></div>
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2434,39 +3165,39 @@
                                                             </h3>
                                                         </div>
                                                         <div class="table-responsive ml-5">
-                                                        <table class="table  mt-4 ">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th scope="col">EVENT</th>
-                                                                    <th scope="col">DATE</th>
+                                                            <table class="table  mt-4 ">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">EVENT</th>
+                                                                        <th scope="col">DATE</th>
 
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="">Accommodation Check In </td>
-                                                                    <td>Wednesday, 30 June</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>New Student Orientation </td>
-                                                                    <td>Thursday, 1 – Thursday 2 July</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Term Start</td>
-                                                                    <td>Monday, 5 July</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Term End </td>
-                                                                    <td>Friday 17 September</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Recess </td>
-                                                                    <td>Monday 20 September – Friday 1 October
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="">Accommodation Check In </td>
+                                                                        <td>Wednesday, 30 June</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>New Student Orientation </td>
+                                                                        <td>Thursday, 1 – Thursday 2 July</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Term Start</td>
+                                                                        <td>Monday, 5 July</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Term End </td>
+                                                                        <td>Friday 17 September</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Recess </td>
+                                                                        <td>Monday 20 September – Friday 1 October
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
                                                     <!------------------------criteria & eligibility section---------->
                                                     <div class="tab-bg mt-5">
@@ -2810,7 +3541,7 @@
                                                             Fusce
                                                             semper,
                                                             magna a ultricies volutpat, mi eros viverra massa, vitae
-                                                            consequa   nisi
+                                                            consequa nisi
                                                             justo in tortor. Proin accumsan felis ac felis dapibus, non
                                                             iaculis
                                                             mi
@@ -3212,7 +3943,9 @@
                                                 <tr>
                                                     <th scope="row">B.Tech Electrical Engineering</th>
                                                     <td class="px-4 px-md-0 text-center">20</td>
-                                                    <td class="px-5 px-md-0 text-center"><div class="td-width">20</div></td>
+                                                    <td class="px-5 px-md-0 text-center">
+                                                        <div class="td-width">20</div>
+                                                    </td>
 
                                                 </tr>
                                                 <tr>
@@ -3594,84 +4327,95 @@
                                                 <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
                                                 </div>
                                             </div>
-                                            <video height="161px" width="248px" 
-                                                poster="assets/images/Rectangle 28.png" class="video-bg video">
-                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                                            <video height="161px" width="248px" poster="assets/images/Rectangle 28.png"
+                                                class="video-bg video">
+                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                                                    type="video/mp4">
 
                                             </video>
-                                            <button><i class="fa fa-play-circle play-btn" aria-hidden="true"></i></button> 
+                                            <button><i class="fa fa-play-circle play-btn"
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                         <div class="col-lg-4  text-center mt-lg-0 mt-3 ">
                                             <div class="row video-logo"><img
-                                                src="assets/images/video-logo-Rectangle 23.png" alt="">College
-                                            Campus
-                                            <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                    src="assets/images/video-logo-Rectangle 23.png" alt="">College
+                                                Campus
+                                                <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                            <video height="161px" width="248px" 
+                                            <video height="161px" width="248px"
                                                 poster="assets/images/Rectangle 28-1.png" class=" video-bg video">
-                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                                                    type="video/mp4">
 
                                             </video>
-                                          <button> <i class="fa fa-play-circle play-btn" aria-hidden="true"></i></button> 
+                                            <button> <i class="fa fa-play-circle play-btn"
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                         <div class="col-lg-4  text-center my-3">
                                             <div class="row video-logo"><img
-                                                src="assets/images/video-logo-Rectangle 23.png" alt="">College
-                                            Campus
-                                            <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                    src="assets/images/video-logo-Rectangle 23.png" alt="">College
+                                                Campus
+                                                <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                </div>
                                             </div>
-                                        </div>
-                                            <video height="161px" width="248px" 
+                                            <video height="161px" width="248px"
                                                 poster="assets/images/Rectangle 28-2.png" class="video-bg video">
-                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                                                    type="video/mp4">
 
                                             </video>
-                                          <button>  <i class="fa fa-play-circle play-btn" aria-hidden="true"></i></button>
+                                            <button> <i class="fa fa-play-circle play-btn"
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                         <div class="col-lg-4  text-center my-3">
                                             <div class="row video-logo"><img
-                                                src="assets/images/video-logo-Rectangle 23.png" alt="">College
-                                            Campus
-                                            <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                    src="assets/images/video-logo-Rectangle 23.png" alt="">College
+                                                Campus
+                                                <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                </div>
                                             </div>
-                                        </div>
                                             <video height="161px" width="248px"
                                                 poster="assets/images/Rectangle 28-3.png" class="video-bg video"
                                                 controls>
                                                 <source src="mov_bbb.mp4" type="video/mp4">
 
                                             </video>
-                                            <button>   <i class="fa fa-play-circle play-btn play_video" aria-hidden="true"></i></button>
+                                            <button> <i class="fa fa-play-circle play-btn play_video"
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                         <div class="col-lg-4  text-center my-3">
                                             <div class="row video-logo"><img
-                                                src="assets/images/video-logo-Rectangle 23.png" alt="">College
-                                            Campus
-                                            <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                    src="assets/images/video-logo-Rectangle 23.png" alt="">College
+                                                Campus
+                                                <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                </div>
                                             </div>
-                                        </div>
                                             <video height="161px" width="248px"
                                                 poster="assets/images/Rectangle 28-4.png" class="video-bg video"
                                                 controls>
-                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                                                    type="video/mp4">
 
                                             </video>
-                                            <button> <i class="fa fa-play-circle play-btn play_video" aria-hidden="true"></i></button>
+                                            <button> <i class="fa fa-play-circle play-btn play_video"
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                         <div class="col-lg-4   text-center my-3">
                                             <div class="row video-logo"><img
-                                                src="assets/images/video-logo-Rectangle 23.png" alt="">College
-                                            Campus
-                                            <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                    src="assets/images/video-logo-Rectangle 23.png" alt="">College
+                                                Campus
+                                                <div><i class="fa fa-ellipsis-v ml-5 text-white" aria-hidden="true"></i>
+                                                </div>
                                             </div>
-                                        </div>
                                             <video class="video-bg video" height="161px" width="248px"
                                                 poster="assets/images/Rectangle 28-5.png" class="video-bg" controls>
-                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                                                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+                                                    type="video/mp4">
 
                                             </video>
-                                            <button>   <i class="fa fa-play-circle play-btn play_video " aria-hidden="true"></i></button>
+                                            <button> <i class="fa fa-play-circle play-btn play_video "
+                                                    aria-hidden="true"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -3681,10 +4425,9 @@
                             <div class="col-lg-3">
                                 <div id="trending-bg" class=" mt-lg-0 mt-5">
                                     <div class="d-flex head-bg justify-content-center pt-3"><img
-                                            src="assets/images/school 1.png" style="height: 22px;" class="px-3"
-                                            alt="">
+                                            src="assets/images/school 1.png" style="height: 22px;" class="px-3" alt="">
                                         <span>
-                                            <h3>Recently  Updated Colleges</h3>
+                                            <h3>Recently Updated Colleges</h3>
                                         </span>
                                     </div>
                                     <div class="row justify-content-center py-3">
@@ -3913,7 +4656,8 @@
                                                     </div>
                                                     <h4 class="mx-2 my-1">2 day ago </h4>
                                                 </div>
-                                                <p class="my-3 px-3 px-md-0" style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                <p class="my-3 px-3 px-md-0" style="font-size: 13px;">Lorem ipsum dolor
+                                                    sit amet, consectetuer adipiscing
                                                     elit.
                                                     Aenean
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -3946,7 +4690,8 @@
                                                     </div>
                                                     <h4 class="mx-2 my-1">3 day ago </h4>
                                                 </div>
-                                                <p class="my-3 px-3 px-md-0" style="font-size: 13px;">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                <p class="my-3 px-3 px-md-0" style="font-size: 13px;">Lorem ipsum dolor
+                                                    sit amet, consectetuer adipiscing
                                                     elit.
                                                     Aenean
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -3979,7 +4724,8 @@
                                                     </div>
                                                     <h4 class="mx-2 my-1">4 day ago </h4>
                                                 </div>
-                                                <p class="my-3 px-3 px-md-0 style="font-size: 13px;"">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                <p class="my-3 px-3 px-md-0 style=" font-size: 13px;"">Lorem ipsum dolor
+                                                    sit amet, consectetuer adipiscing
                                                     elit.
                                                     Aenean
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -4012,7 +4758,8 @@
                                                     </div>
                                                     <h4 class="mx-2 my-1">1 Week ago </h4>
                                                 </div>
-                                                <p class="my-3 px-3 px-md-0 style="font-size: 13px;"">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                <p class="my-3 px-3 px-md-0 style=" font-size: 13px;"">Lorem ipsum dolor
+                                                    sit amet, consectetuer adipiscing
                                                     elit.
                                                     Aenean
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -4046,7 +4793,8 @@
                                                     </div>
                                                     <h4 class="mx-2 my-1">2 Week ago </h4>
                                                 </div>
-                                                <p class="my-3 style="font-size: 13px;"">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                <p class="my-3 style=" font-size: 13px;"">Lorem ipsum dolor sit amet,
+                                                    consectetuer adipiscing
                                                     elit.
                                                     Aenean
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -4663,30 +5411,550 @@
 
                     </div>
                     <!------------------placement-------------------->
-                    <div class="col-9 tab-pane fade  my-4" id="nav-placement" role="tabpanel"
+                    <div class="row tab-pane fade  my-4  " id="nav-placement" role="tabpanel"
                         aria-labelledby="nav-placement-tab">
-                        <div class="tab-pane-overview">
-                            <h6 class="px-5 pt-4">Overview</h6>
-                            <p class="mx-5 my-4">
-                                Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat
-                                qui
-                                minim
-                                occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est
-                                aute
-                                sit
-                                dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non
-                                esse
-                                consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est
-                                eiusmod
-                                tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi
-                                culpa
-                                non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad
-                                duis
-                                occaecat ex.
-                            </p>
-                        </div>
+                        <div class="d-lg-flex">
+                            <div class="col-lg-9 ">
+                                <div class="tab-pane-overview">
+                                    <div class="row">
+                                        <div class="pt-5 pl-5"><img src="assets/images/placement-hightlight.png"
+                                                class="img-fluid img-bg" alt=""></div>
+                                        <h6 class="px-2 pt-5">Placement Highlight</h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-3 pl-md-4 mt-md-3 ">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                                        eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                                        montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                                        eu, pretium quis.
+                                    </p>
+                                    <div>
+                                        <div class="table-responsive">
+                                            <table class="table text-center">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class="px-5">Batch</th>
+                                                        <th scope="col" class="px-5">
+                                                            <div class="row"><span class="total-offer">
+                                                                    <img src="assets/images/total-offer.png"
+                                                                        class="px-2" alt="">
+                                                                    Total Offers</span>
+                                                            </div>
+                                                        </th>
+                                                        <th scope="col" class="px-5">
+                                                            <div class="row"><span class="total-offer">
+                                                                    <img src="assets/images/applied.png" class="px-2"
+                                                                        alt="">
+                                                                    Applied</span>
+                                                            </div>
+                                                        </th>
+                                                        <th scope="col" class="px-5">
+                                                            <div class="row"><span class="total-offer">
+                                                                    <img src="assets/images/get-jobs.png" class="px-2"
+                                                                        alt="">
+                                                                    Get Jobs</span>
+                                                            </div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2020</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">50</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">45</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">35</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2019</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">45</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">43</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">32</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2018</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">100</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">60</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">40</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2017</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">50</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">45</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">35</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2016</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">45</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">43</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">32</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="responsiv-th-1">2015</div>
+                                                        </th>
+                                                        <td>
+                                                            <div class="responsiv-td-1">45</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-2">60</div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="responsiv-td-3">32</div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----------------selector--------------->
+                                <div class="tab-pane-overview my-5 py-5">
+                                    <div class="row">
+                                        <div class=" pl-5"><img src="assets/images/slector-placement.png"
+                                                class="img-fluid img-bg" alt=""></div>
+                                        <h6 class="px-2">Sector | Placement</h6>
+                                    </div>
+                                    <div class="selector-placement-bg mx-lg-5 mx-1 mt-4">
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Commerce & Banking </h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="100"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">100%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Agriculture </h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="98"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">98%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Engineering</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="98"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">98%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Hotels Management</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="56"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">56%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Sciences</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="72"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">72%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Commerce & Banking</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="100"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">100%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Medical</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="100"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">100%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Information Technology </h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="90"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">90%</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="row px-4 py-4">
+                                            <div class="col-lg-6">
+                                                <h3 class="text-lg-left text-center">Design</h3>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-lg-left text-center"><span class="num-place"><img
+                                                            src="assets/images/Vector (2).png" class="px-2" alt="">
+                                                        No Of Placement</span>
+                                                    <input type="range" min="1" max="100" value="80"
+                                                        style="width: 272px; pointer-events: none;">
+                                                    <span class="num-place">80%</span></div>
+                                            </div>
+                                        </div>
 
+                                    </div>
+                                </div>
+                                <!----------------end selection------->
+                                <div class="tab-pane-overview my-5 py-5" id="companies">
+                                    <div class="row">
+                                        <div class=" pl-md-5 pl-3"><img src="assets/images/comapnies-placement.png"
+                                                class="img-fluid img-bg" alt=""></div>
+                                        <h6 class="px-2 ">Companies | No of Placements</h6>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table table-borderless ">
+                                            <thead>
+                                                <tr>
+
+                                                    <th scope="col" class="px-5">Companies</th>
+                                                    <th scope="col" class="px-5">CTC Offered</th>
+                                                    <th scope="col" class="px-5">No of Placements</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                <tr class="row-bg ">
+
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/Ellipse 89 (2).png" class="px-1"
+                                                                alt="">Amazon</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 4.8 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>96</span></div>
+                                                    </td>
+
+                                                </tr>
+
+                                                <tr class="row-bg my-2">
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/ta-Ellipse 96.png" class="px-1"
+                                                                alt="">HCL</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 5.3 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>55</span></div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr class="row-bg">
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/ta-Ellipse 97.png" class="px-1"
+                                                                alt="">Microsoft</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 3.0 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>45</span></div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="row-bg">
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/ta-Ellipse 98.png" class="px-1"
+                                                                alt="">Google</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 2.5 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>23</span></div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="row-bg">
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/Ellipse 99.png" class="px-1"
+                                                                alt="">Luminous Power</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 1.2 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>22</span></div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="row-bg placement-toggle">
+                                                    <td class="row px-5"> <span class="text"><img
+                                                                src="assets/images/Ellipse 99.png" class="px-1"
+                                                                alt="">Luminous Power</span>
+                                                    </td>
+                                                    <td class="px-5 pt-4">INR 1.2 Lacs</td>
+                                                    <td class="px-5 d-flex justify-content-center">
+                                                        <div class="score-bg mt-2"><span>22</span></div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="my-3 view-placement-more text-center">
+                                        <a href=""><span class="view-more-change-text" style="color: #29ABE2;">View
+                                                more</span><img src="assets/images/Vector 1.png" alt=""
+                                                class="mx-2"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div id="trending-bg" class="mt-lg-0 mt-5">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/Group 794.png" style="height: 15px;" class="px-3 mt-2"
+                                            alt="">
+                                        <span>
+                                            <h3>Trending Admissions</h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 5.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>B.A , BBA , BCA , B.Com , </h4>
+                                            <h4> B.sc IT , B.sc </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">3 Years | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 mx-md-5">
+                                            <h4>Bachelor of technology </h4>
+
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 4.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                                    <h6 class="px-2">Chandigarh</h6>
+                                                </div>
+                                                <div>
+                                                    <span class="add-place">Admission | Placement</span>
+                                                </div>
+                                        </div>
+                                        <div class="d-flex py-1 px-3">
+                                            <h4>Bachelor of technology , </h4>
+                                            <h4>Master of technology </h4>
+                                        </div>
+                                        <div class="fee-detail mt-lg-0 mt-2 mx-lg-0 mx-2">Total fees: 6.5lakh | 4 Years
+                                            | On Campus | Fulltime
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-------------------------end of trending-------------->
+                                <div class="mt-5" id="trending-bg">
+                                    <div class="d-flex head-bg justify-content-center pt-3"><img
+                                            src="assets/images/graduated (1) 1.png" style="height: 20px;" class="px-3"
+                                            alt="">
+                                        <span>
+                                            <h3>STUDENTS ALSO VISITED </h3>
+                                        </span>
+                                    </div>
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 88.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Chandigarh University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Chandigarh</h6>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 89.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Lovely Professional University</h2>
+                                            <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                    alt="" style="height: 16px;">
+                                                <h6 class="px-2 py-2" style="color: #a8a8a8;">Jalandhar</h6>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 90.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology Bombay </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Indian Institute of Technology</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Adesh University</h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Patiala</h6>
+
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <hr class="mx-3 py-0">
+                                    <div class="row justify-content-center py-3">
+                                        <div class="col-3 text-right"><img src="assets/images/Ellipse 92.png"
+                                                class="img-fluid" alt=""></div>
+                                        <div class="px-2 col-8">
+                                            <h2>Amity University of Delhi </h3>
+                                                <div class="d-flex"><img src="assets/images/location.png" class="mt-2"
+                                                        alt="" style="height: 16px;">
+                                                    <h6 class="px-2 py-2" style="color: #a8a8a8;">Delhi</h6>
+
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
+                    <!-----------------end of placement-------------------------------->
                     <div class=" col-9  tab-pane  my-4 fade" id="nav-fees" role="tabpanel"
                         aria-labelledby="nav-fees-tab">
                         <div class="tab-pane-overview">

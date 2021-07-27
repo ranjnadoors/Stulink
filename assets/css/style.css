@@ -992,6 +992,11 @@ nav > .nav.nav-tabs{
     border-radius: 50%;
     padding: 5px;
 }
+.img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
 #FAQ .question{
     background: #F4F4F4;
 box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
@@ -1421,6 +1426,12 @@ color: #000000;
         border-radius: 2px;
         width: 48px;
        }
+       .score-bg{
+        text-align: center;
+        background: rgba(41, 171, 226, 0.2);
+        border-radius: 2px;
+        width: 48px;
+       }
     #nav-ranking .score-bg span{
     font-family: Inter;
     font-style: normal;
@@ -1429,6 +1440,14 @@ color: #000000;
     line-height: 17px;
     color: #035577;
     }
+    .score-bg span{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #035577;
+        }
     #nav-ranking .visit-web{
         border: 1px solid #FFA319;
         box-sizing: border-box;
@@ -1828,6 +1847,212 @@ color: #000000;
     font-weight: 600;
 }
 /********************************************end of Gallery**************************/
+/********************************************Placement**************************/
+#nav-placement .tab-pane-overview{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+#nav-placement h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-placement p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #3B3A40;
+}
+#nav-placement .total-offer{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #29ABE2;
+}
+#nav-placement .table {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: inherit !important;
+}
+#nav-placement .table thead, tbody tr th{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1DB954;
+}
+#nav-placement .selector-placement-bg{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+#nav-placement .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  #nav-placement .slider:hover {
+    opacity: 1;
+  }
+  
+  #nav-placement .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  #nav-placement .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  #nav-placement h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1DB954;
+  }
+  #nav-placement .num-place{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #7C7B80;
+  }
+  #nav-placement #companies .table thead{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #29ABE2;
+  }
+  #nav-placement #companies .table .row-bg{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+  }
+  #companies .row-bg .text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+/********************************************end of Placement**************************/
+/******************************************courses************************************/
+#btech .tab-bg{
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11) !important;
+    border-radius: 10px !important; 
+    background: #FFFFFF;
+    position: relative;
+}
+#nav-courses #btech h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-courses #btech h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFA319;
+}
+#nav-courses #btech .regular{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: justify;
+    color: #1DB954;
+    }
+    #nav-courses #btech .exam-accepted{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: justify;
+        color: #565656;
+    }
+    #nav-courses #btech thead{
+        background:#797979;
+        
+    }
+    #nav-courses #btech  th{
+       color: white;
+    }
+    #nav-courses #btech  table td{
+        border: 0px !important;
+     }
+    #nav-courses #btech  table{
+        width: 70%;
+        margin: auto;
+        border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+     }
+    #nav-courses #btech  .table-bg{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    #nav-courses #btech .fee-detail{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #1DB954;
+}
+#nav-courses #btech .avi-courses{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: justify;
+    color: #2E2E2E;
+}
+#nav-courses #btech .Brochures-btn{
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+/****************************************end of courses*****************************/
 /****************************************media queries**************************************/
 @media (min-width: 357px) and (max-width: 767px) {
     .item.list-group-item .img-event {
@@ -1884,6 +2109,33 @@ color: #000000;
     #nav-addmission .table{
         width: 300px;
     }
+    #nav-placement .tab-pane-overview{
+        width: 375px;
+    }
+    #nav-placement h6{
+        font-size: 20px;
+    }
+    #nav-placement .table {
+        width: 100%;
+    }
+    #nav-placement .responsiv-th-1{
+        margin-left: 30px;
+    }
+    #nav-placement .responsiv-td-1{
+        margin-left: 165px;
+    }
+    #nav-placement .responsiv-td-2{
+        margin-left: 145px;
+    }
+    #nav-placement .responsiv-td-3{
+        margin-left: 140px;
+    }
+      .vertical-tab .nav-tabs{
+width: 350px !important;
+    }
+    #btech{
+        width: 340px;
+    }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
   
@@ -1922,6 +2174,12 @@ color: #000000;
     }
     #nav-addmission .table{
         width: 449px;
+    }
+    #nav-placement .tab-pane-overview{
+        width: 711px;
+    }
+     #btech .tab-bg{
+       width: 525px;
     }
   }
   
@@ -1963,6 +2221,9 @@ color: #000000;
     font-size: 15px ;
     margin-left: 9px;
 }
+  .vertical-tab .nav-tabs{
+    width: 350px;
+        }
 }
 .table {
     display: block;
