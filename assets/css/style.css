@@ -726,9 +726,17 @@ nav > .nav.nav-tabs{
     border-radius: 20px;
 }
 .overall-rating{
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.12);
-    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+#nav-info .overall-rating h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+   color: #29ABE2;
 }
 .tab-pane-overview p{
     font-size: 20px;
@@ -746,12 +754,28 @@ nav > .nav.nav-tabs{
     text-decoration: underline;
     font-family: "inter";
 }
+#overview-module p{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #3B3A40;
+}
 
-
-#overview-module #overview-collpase.collapse:not(.show) {
+/**#overview-module #overview-collpase.collapse:not(.show) {
     display: block;
     height: 6rem;
     overflow: hidden;
+  }
+  #overview-module h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
   }
   
   #overview-module #overview-collpase.collapsing {
@@ -766,7 +790,7 @@ nav > .nav.nav-tabs{
   #overview-module a:not(.collapsed)::after {
     content: ' View Less';
     text-decoration: none !important;
-  }
+  }**/
 
   #overview-module a:hover{
     text-decoration: none !important;
@@ -782,20 +806,47 @@ nav > .nav.nav-tabs{
     font-size: 25px;
     font-weight: 600;
     color:rgba(43, 43, 43, 1);
+}
+
+.course-fee h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+    
     
 }
 .fee-courses-bg{
-    background-color:  rgba(250, 250, 250, 1);
-   box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.1);
-   border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
 
 }
 .fee-courses-bg h2{
-    font-family: "inter"; 
-    font-weight: 600;
-    font-size: 19px;
-    font-style: normal;
-
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #1DB954 !important;
+}
+.fee-courses-bg h6{
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 11px !important;
+    line-height: 22px !important;
+    color: #4f4f4f !important;
+}
+.fee-courses-bg h5{
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    line-height: 22px !important;
+    color: #29ABE2 !important;
 }
 .fee-courses-bg a{
     font-size: 11px;
@@ -832,6 +883,11 @@ nav > .nav.nav-tabs{
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 600;
+}
+.info-img-bg{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 .overall-slider .ui-widget-content {
     color: #333333;
@@ -1263,7 +1319,7 @@ font-family: "Poppins";
 }
 
 .progress.blue .progress-bar {
-    border-color: #FFD600;
+    border-color: #1DB954;
 }
 
 .progress.blue .progress-left .progress-bar {
@@ -1271,7 +1327,7 @@ font-family: "Poppins";
 }
 
 .progress.yellow .progress-bar {
-    border-color: #fdba04
+    border-color: #1DB954;
 }
 
 .progress.yellow .progress-right .progress-bar {
@@ -2019,7 +2075,7 @@ color: #000000;
         border: 0px !important;
      }
     #nav-courses #btech  table{
-        width: 70%;
+        width: 72%;
         margin: auto;
         border-top-style: none;
     border-left-style: none;
@@ -2053,6 +2109,51 @@ color: #000000;
     border: 1px solid black;
 }
 /****************************************end of courses*****************************/
+/****************************************scholarship********************************/
+#nav-scholarship h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-scholarship p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #3B3A40;
+}
+#nav-scholarship thead th{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #29ABE2;
+}
+#nav-scholarship tbody td{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #3B3A40;
+}
+#nav-scholarship tbody td p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 28px;
+    color: #3B3A40;
+}
+/****************************************end of scholarship*****************************/
 /****************************************media queries**************************************/
 @media (min-width: 357px) and (max-width: 767px) {
     .item.list-group-item .img-event {
@@ -2136,6 +2237,12 @@ width: 350px !important;
     #btech{
         width: 340px;
     }
+    #nav-scholarship .tab-pane-overview{
+        width: 343px;
+    }
+    #nav-scholarship table{
+        width: 90%;
+    }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
   
@@ -2180,6 +2287,12 @@ width: 350px !important;
     }
      #btech .tab-bg{
        width: 525px;
+    }
+    #nav-scholarship .tab-pane-overview{
+        width: 720px;
+    }
+    #nav-scholarship table{
+        width: 79%;
     }
   }
   

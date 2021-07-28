@@ -273,7 +273,14 @@ $(document).ready(function () {
 $(".cou-fee-toggle").hide();
 $(".cou-fee-toggle-click").on('click', function(){
   $(".cou-fee-toggle").toggle(500); 
-  $(".toggle-text-view").text($(".toggle-text-view").text() == 'View more courses' ? 'View less courses' : 'View more courses');
+  $(".toggle-text-view").text($(".toggle-text-view").text() == 'View all courses' ? 'View less courses' : 'View all courses');
+})
+
+$(".info-img-toggle").hide();
+$(".info-img-toggle-click").on('click', function(){
+  
+  $(".info-img-toggle").toggle(500); 
+  $(".toggle-img-view").text($(".toggle-img-view").text() == 'View All Images' ? 'View less Images' : 'View All Images');
 })
 /************************************view more or less colleges**************************** */
 $(".View-more-colleges-toggle").hide();
