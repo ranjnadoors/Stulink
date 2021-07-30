@@ -2243,9 +2243,14 @@ width: 350px !important;
     #nav-scholarship table{
         width: 90%;
     }
+    #nav-ranking .tab-pane-overview{
+        width: 340px;
+    }
   }
   @media (min-width: 768px) and (max-width: 1024px) {
-  
+    #nav-ranking .tab-pane-overview{
+        width: 720px;
+    }
     #college-bg .data-center{
         position: absolute; 
         top: 15%; 
