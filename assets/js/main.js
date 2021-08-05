@@ -1,5 +1,15 @@
 $(".list-show-grid-hide").hide();
 $(document).ready(function () {
+  //for smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
   /*--------------------- Add active class to the current button (highlight it) start-------------------------------------------*/
   var header = document.getElementById("myDIV");
   var btns = header.getElementsByClassName("nav-link");
