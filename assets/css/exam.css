@@ -50,6 +50,7 @@ body{
 #college-info .img-bg{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
     border-radius: 20px;
+    border: 0px;
 }
 #college-info h2{
     font-family: Poppins;
@@ -196,7 +197,7 @@ body{
      color:rgba(59, 58, 64, 1);
      
  }
- #nav-overview #jee-main-overview{
+  #jee-main-overview{
     background: #FFFFFF;
     mix-blend-mode: normal;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
@@ -449,3 +450,207 @@ body{
     margin-top: -11px;
     z-index: -1;
 }
+/****************************************apply navbar**************************/
+#how-apply p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    color: #1E1E1E;
+}
+#how-apply h1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #1DB954;
+}
+#how-apply h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#how-apply h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #29ABE2;
+}
+#how-apply h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    color: #202020;
+}
+#Application-Form a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #1DB954;
+}
+#JEE-Main-Registration-Dates h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #141414;
+}
+#JEE-Main-Registration-Dates .btn{
+    background: #1DB954;
+    border-radius: 10px;
+    width: 210px;
+
+}
+#JEE-Main-Registration-Dates .btn-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+#Application-fee-in-offline-mode p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #636363;
+}
+#Application-fee-in-online-mode p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #636363;
+}
+#Registration-Dates .btn{
+    background: #1DB954;
+    border-radius: 10px;
+    width: 210px;
+
+}
+#Registration-Dates .btn-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+#Registration-Dates h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #141414;
+}
+#Registration-Dates h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#Eligibility-Criteria p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    color: #1E1E1E;
+}
+#Eligibility-Criteria h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #1DB954;
+}
+#Eligibility-Criteria h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#Documents-Required h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+}
+#JEE-Main-Registration-Fee h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+}
+
+#Form-Correction-Window h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+}
+#JEE-Main-Registration-Fee th{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1DB954;
+}
+#JEE-Main-Registration-Fee .btn{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1DB954;
+    border-radius: 5px;
+}
+.table-data{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: #29ABE2;
+}
+
