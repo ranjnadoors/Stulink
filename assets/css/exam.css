@@ -387,12 +387,12 @@ body{
     color: #2B2B2B;
 } 
 #trending  h6{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 11px;
-    color: #FFD600;
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 9px !important;
+    line-height: 11px !important;
+    color: #FFD600 !important;
 }
 #trending  .add-place{
     font-family: Inter;
@@ -653,4 +653,440 @@ body{
     line-height: 32px;
     color: #29ABE2;
 }
+/*******************************syllabus*****************************/
+#Syllabus-PDF h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+    }
+    #Syllabus-PDF p{
+        font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: justify;
+    color: #1E1E1E;
+}
+#Syllabus-PDF h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    color: #29ABE2;
+    }
+    #Syllabus-PDF .btn{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: #1DB954;
+        border-radius: 5px;
+    }
+    #JEE-Main-Physics-Syllabus h6{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #29ABE2;  
+    }
+    #JEE-Main-Physics-Syllabus p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: justify;
+        color: #000000; 
+    }
+    #JEE-Main-Physics-Syllabus h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+       
+        color: #1DB954; 
+    }
+    #JEE-Main-Physics-Syllabus h5{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+    }
+    #JEE-Main-Physics-Syllabus h5::before{
+        content: "";
+        display: inline-block;
+        background-color: #1DB954;
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        margin-right: 4px;
+    }
+    #JEE-Main-Chemistry-Syllabus h6{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #29ABE2;  
+    }
+    #JEE-Main-Chemistry-Syllabus p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+        color: #000000;
+    }
+    #JEE-Main-Chemistry-Syllabus .syllabus-bg{
+        background: #FEFEFE;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+    }
+    #JEE-Main-Chemistry-Syllabus h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1DB954; 
+    }
+    #JEE-Main-Chemistry-Syllabus h5{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+    }
+    #JEE-Main-Chemistry-Syllabus h5::before{
+        content: "";
+        display: inline-block;
+        background-color: #1DB954;
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        margin-right: 4px;
+    }
+    #JEE-Main-Math-Syllabus  h6{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #29ABE2;  
+    }
+    #JEE-Main-Math-Syllabus p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: justify;
+        color: #000000;
+    }
+    #JEE-Main-Math-Syllabus .syllabus-bg{
+        background: #FEFEFE;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+    }
+    #JEE-Main-Math-Syllabus h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1DB954; 
+    }
+    #JEE-Main-Math-Syllabus h5{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+    }
+    #JEE-Main-Math-Syllabus h5::before{
+        content: "";
+        display: inline-block;
+        background-color: #1DB954;
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        margin-right: 4px;
+    }
+    /**********************************mock test***********************/
+    #nav-Mock  h6{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #29ABE2;  
+    }
+    #nav-Mock  p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        color: #202020;  
+    }
+    #Official-NTA-Mock-Test  h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+        color: #1DB954;  
+    }
+    #Official-NTA-Mock-Test  h2{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        color: #29ABE2;  
+    }
+    #JEE-Main-2021-Mock-Test h3{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+
+    }
+    #JEE-Main-2021-Mock-Test th{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        color: #1DB954;
+    }
+    #JEE-Main-2021-Mock-Test td{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+    }
+    #JEE-Main-2021-Mock-Test .btn{
+        background: #1DB954;
+        border-radius: 5px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    /**********************************admit card***********************/
+    #Admit-Card-2021-Dates th{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        color: #1DB954;
+    }
+    #Admit-Card-2021-Dates td{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: justify;
+        color: #29ABE2;
+    }
+    #Admit-Card-2021-Dates .btn{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        background: #1DB954;
+        border-radius: 5px;
+    }
+    #nav-admit h6{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #29ABE2;
+}
+    #nav-admit p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: justify;
+        color: #1E1E1E;
+}
+
+#Steps-download-Admit-Card h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        color: #1DB954;
+    }
+#Admit-Card-Highlights .btn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    color: #FFFFFF;
+    background: #1DB954;
+    border-radius: 5px;
+    }
+    #Points-to-Remember p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        color: #636363;
+    }
+
+    /*************************************rank***************************/
+    #nav-rank h6{
+     font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#Rank-Predictor label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #131313;
+}
+#Rank-Predictor .btn{
+    background: #29ABE2;
+    border: 1px solid #29ABE2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+#nav-rank p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+/***************************************media queries********************/
+@media (min-width: 357px) and (max-width: 767px) {
+    .tab-pane-overview{
+        width: 326px;
+    }
+    .jee-main-overview{
+        width: 326px;
+    }
+    #JEE-Main-Math-Syllabus  h6{
+       font-size: 20px;
+          }
+#JEE-Main-Physics-Syllabus  h6{
+font-size: 20px;
+    }
+#JEE-Main-Chemistry-Syllabus  h6{
+font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
 
