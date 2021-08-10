@@ -225,6 +225,20 @@ body{
     font-size: 16px;
     line-height: 19px;
     color: #29ABE2;
+    text-decoration: none;
+ }
+ #jee-main-overview a:hover{
+    background: #EFEFEF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.13);
+    border-radius: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1F1F1F;
+    padding: 15px 5px;
  }
  #jee-main-overview a.active{
     background: #EFEFEF;
@@ -234,13 +248,10 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 30px;
     color: #1F1F1F;
-    padding: 15px;
- }
- #jee-main-overview a.active{
-    
+    padding: 15px 15px;
  }
   .tab-pane-overview{
     background: #FFFFFF;
@@ -1019,12 +1030,306 @@ body{
     text-align: justify;
     color: #000000;
 }
+/***********************************cutoff**********************/
+#nav-cuttoff h6{
+    font-family: Poppins;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 25px;
+       line-height: 37px;
+       color: #29ABE2;
+   }
+   #nav-cuttoff p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+   }
+   #Expected-Cutoff th, #Cutoff-Dates th{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #1DB954;
+   }
+   #Expected-Cutoff td, #Cutoff-Dates td{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    color: #29ABE2;
+   }
+   #Expected-Cutoff .btn, #Cutoff-Dates .btn{
+    background: #1DB954;
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+   }
+   .blue-para{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: justify;
+    color: #29ABE2 !important;
+   }
+   /**************************************faq**********************************/
+   #FAQ{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+#FAQ h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+    text-align: center;
+}
+#FAQ .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+.img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#FAQ .question{
+    background: #F4F4F4;
+box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+}
+#FAQ .question h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+    text-align: left;
+}
+#FAQ #addsymbol{
+    text-align: end;
+    font-size: 28px;
+    /* font-weight: 600; */
+    color: white;
+    cursor: pointer;
+}
+#FAQ .card{
+    box-shadow: 0 0 0px 0 !important;
+    border: 0px;
+}
+
+#FAQ .answer{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+    color: #3B3A40;
+    }
+#FAQ .question1{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+#FAQ button:focus {
+     outline: 0px !important;
+     border: 0px !important;
+     box-shadow: 0px !important;
+}
+#FAQ button:hover {
+    outline: 0px !important;
+    border: 0px !important;
+    box-shadow: 0px !important;
+}
+#FAQ .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 !important;
+}
+#FAQ .card-header{
+    background-color: white !important;
+    border-bottom:0px !important
+}
+#FAQ .card-body{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -11px;
+    z-index: -1;
+}
+/******************************rating*****************/
+#college-rating h2{
+    color:rgba(43, 43, 43, 1) ;
+    font-family: "Poppins";
+    font-size:25px ;
+    font-weight: 600;
+}
+#college-rating h6{
+    color:#29ABE2 ;
+    font-family: "Poppins";
+    font-size:20px ;
+    font-weight: 600;
+}
+#college-rating .checked{
+    color: orange;
+}
+#college-rating .text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#college-rating .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#college-rating .component-rating{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+}
+.college-review{
+background-color: rgba(196, 196, 196, 1);
+border-radius: 50px;   
+color: rgba(0, 0, 0, 1);
+font-size: 16px;
+font-family: "Poppins"; 
+}
+.text-review{
+    margin-left: -58px;
+}
+.view-more-rating a:hover{
+    text-decoration: none;
+}
+/* bubble box */
+
+.comment__arrow {
+    left: 43px;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent #c4c4c4;
+    position: absolute;
+    top: -20px;
+  }
+  
+  #comment__bubble {
+    background: #c4c4c4;
+    padding: 9px 24px 5px 24px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    position: relative;
+  }
+  #comment__bubble p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .comment__bubble--write {
+    background: transparent;
+    border: 1px solid #EDF1EE;
+    padding: 19px 24px 0 24px;
+  }
+  
+  .comment__bubble--write .comment__arrow {
+    border-color: transparent;
+  }
+  #text-review .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;  
+  }
+  #text-review h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+  }
+  #text-review span{
+    font-size: 15px;
+    color: rgba(168, 168, 168, 1);
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  /****************************footer*******************************/
+  .footer h5{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+  }
+  .footer ul{
+      list-style: none;
+  }
+  .footer a{
+      text-decoration: none;
+      color: rgba(100, 98, 106, 1);
+      font-size: 14px;
+      font-family: "inter";
+      
+  }
+  .footer span {
+      font-size: 12px;
+      color:rgba(100, 98, 106, 1);
+  }
+  .footer label {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.footer option {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.centered{
+    border: 1px solid #29ABE2;
+    height: 30px;
+    width: 30px;
+    border-radius: 31px; 
+    text-decoration: none;
+    background-color: #29ABE2;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    transition: transform .2s;
+}
+.centered:hover{
+    transform: scale(1.2);
+}
 /***************************************media queries********************/
 @media (min-width: 357px) and (max-width: 767px) {
     .tab-pane-overview{
         width: 326px;
     }
-    .jee-main-overview{
+    #jee-main-overview{
         width: 326px;
     }
     #JEE-Main-Math-Syllabus  h6{
@@ -1036,9 +1341,15 @@ font-size: 20px;
 #JEE-Main-Chemistry-Syllabus  h6{
 font-size: 20px;
     }
+    #Expected-Cutoff .table-responsive{
+        width: 82%;
+    }
 }
-
-
+@media (min-width: 768px) and (max-width: 1024px) {
+#jee-main-overview{
+    width: 720px;
+}
+}
 
 
 

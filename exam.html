@@ -136,7 +136,7 @@
                 <div class="row ml-1 justify-content-md-start justify-content-center">
                     <h6 class="">Online</h6>
                 </div>
-                <div class="row ml-1">
+                <div class="row ml-1 justify-content-center justify-content-md-start">
                     <h4>Last Updated: <span>9th Jun, 2021</span>
                     </h4>
                 </div>
@@ -177,7 +177,7 @@
                 <div class="col-12 pl-0 pr-0">
                     <nav style="background-color: rgba(245, 245, 245, 1);">
                         <div class="nav nav-tabs nav-fill px-5  mt-4" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link" id="nav-overview-tab" data-toggle="tab" href="#nav-overview"
+                            <a class="nav-item nav-link active" id="nav-overview-tab" data-toggle="tab" href="#nav-overview"
                                 role="tab" aria-controls="nav-overview" aria-selected="true">Overviews</a>
 
                             <a class="nav-item nav-link" id="nav-apply-tab" data-toggle="tab" href="#nav-apply"
@@ -198,12 +198,13 @@
                             <a class="nav-item nav-link " id="nav-admit-tab" data-toggle="tab" href="#nav-admit"
                                 role="tab" aria-controls="nav-admit" aria-selected="false">Admit Card </a>
 
-                            <a class="nav-item nav-link active " id="nav-rank-tab" data-toggle="tab" href="#nav-rank"
-                                role="tab" aria-controls="nav-rank" aria-selected="false">Rank Predictor
+                            <a class="nav-item nav-link  " id="" data-toggle="tab" href="#nav-rank" role="tab"
+                                aria-controls="nav-rank" aria-selected="false">Rank Predictor
                             </a>
 
-                            <a class="nav-item nav-link " id="nav-cuttoff-tab" data-toggle="tab" href="#nav-cuttoff"
-                                role="tab" aria-controls="nav-cuttoff" aria-selected="false">Cut off </a>
+                            <a class="nav-item nav-link " id="nav-cuttoff-tab" data-toggle="tab"
+                                href="#nav-cuttoff" role="tab" aria-controls="nav-cuttoff" aria-selected="false">Cut off
+                            </a>
                     </nav>
                 </div>
             </div>
@@ -213,9 +214,11 @@
     <div class="container-fluid">
         <div class=" row tab-content  pb-0 px-md-3   " id="nav-tabContent ">
             <!------------------------------overview tab--------------------------------->
-            <div class="row fade  tab-pane" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab ">
+            <div class="row fade  tab-pane active show" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab ">
                 <div class="d-lg-flex mx-4">
-                    <div class="col-lg-2 px-2" id="jee-main-overview">
+                <div class="col-lg-9">
+                    <div class="row">
+                    <div class="col-lg-3 mx-md-0 mx-3" id="jee-main-overview">
                         <div>
                             <div class="px-2 py-3">
                                 <h6>JEE Mains <span style="color: #29ABE2;">Overview</span> </h6>
@@ -233,8 +236,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-7 mt-md-0 mt-5" id="jee-main-detail">
-                        <div class="tab-pane-overview  mt-lg-0 mt-5" id="What-is-JEE-Main">
+                    <div class="col-lg-9 mt-md-0 mt-5" id="jee-main-detail">
+                        <div class="tab-pane-overview " id="What-is-JEE-Main">
                             <div class="row">
                                 <div class="py-3 pl-5"><img src="assets/images/University.png" class="img-fluid img-bg"
                                         alt=""></div>
@@ -541,7 +544,7 @@
                                                 <td>1</td>
                                                 <td>
                                                     <div class="row">
-                                                        <div class="col-3">
+                                                        <div class="col-md-3">
                                                             <img src="assets/images/ta-Ellipse 89.png" class="img-fluid"
                                                                 alt=""></div>
                                                         <div class="">
@@ -567,7 +570,7 @@
                                                 <td>2</td>
                                                 <td>
                                                     <div class="row">
-                                                        <div class="col-3">
+                                                        <div class="col-md-3">
                                                             <img src="assets/images/ta-Ellipse 96.png" class="img-fluid"
                                                                 alt=""></div>
                                                         <div class="">
@@ -593,7 +596,7 @@
                                                 <td>3</td>
                                                 <td>
                                                     <div class="row">
-                                                        <div class="col-3">
+                                                        <div class="col-md-3">
                                                             <img src="assets/images/ta-Ellipse 97.png" class="img-fluid"
                                                                 alt=""></div>
                                                         <div class="">
@@ -619,7 +622,7 @@
                                                 <td>4</td>
                                                 <td>
                                                     <div class="row">
-                                                        <div class="col-3">
+                                                        <div class="col-md-3">
                                                             <img src="assets/images/ta-Ellipse 98.png" class="img-fluid"
                                                                 alt=""></div>
                                                         <div class="">
@@ -646,7 +649,7 @@
                                                 <td>5</td>
                                                 <td>
                                                     <div class="row">
-                                                        <div class="col-3">
+                                                        <div class="col-md-3">
                                                             <img src="assets/images/ta-Ellipse 99.png" class="img-fluid"
                                                                 alt=""></div>
                                                         <div class="">
@@ -675,12 +678,13 @@
                             </div>
                         </div>
                     </div>
-
+                </div>
+                </div>
                     <div class="col-lg-3">
                         <div class="tab-pane-overview mt-lg-0 mt-5" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -718,7 +722,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview mt-5" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -728,7 +732,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -750,7 +754,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -770,7 +774,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -791,7 +795,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -842,7 +846,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-9 mt-md-0 mt-5" id="">
-                                <div class="tab-pane-overview ml-md-0  ml-3 mt-lg-0 mt-5" id="How-to-Apply-Online">
+                                <div class="tab-pane-overview ml-md-0 " id="How-to-Apply-Online">
                                     <div class="row">
                                         <div class="py-3 pl-5"><img src="assets/images/apply-vector.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
@@ -857,7 +861,7 @@
                                         </p>
                                         <h1 class="px-5 py-4">How to Fill JEE Main Application Form 2021?</h1>
                                         <div class="d-flex px-5 py-2">
-                                            <h3>Step 1 - </h3>
+                                            <h3>Step1- </h3>
                                             <h4 class="px-2">JEE Advanced 2021 registration using JEE Main 2021
                                                 Application
                                                 Number and Password</h4>
@@ -865,12 +869,12 @@
 
                                         <div class="d-flex px-5 w-100 py-2">
 
-                                            <h3>Step 2 - </h3>
+                                            <h3>Step2- </h3>
                                             <h4 class="px-2">Document Uploading</h4>
                                         </div>
                                         <div>
                                             <div class="d-flex px-5 py-2">
-                                                <h3>Step 3 - </h3>
+                                                <h3>Step3- </h3>
                                                 <h4 class="px-2">Payment of Registration Fee</h4>
                                             </div>
                                         </div>
@@ -1082,7 +1086,7 @@
                         <div class="tab-pane-overview mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -1120,7 +1124,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -1130,7 +1134,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -1152,7 +1156,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1172,7 +1176,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1193,7 +1197,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1246,7 +1250,7 @@
                             <div class="col-lg-9">
                                 <div class="tab-pane-overview mt-lg-0 mt-5" id="Registration-Dates">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/date_range.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Registration Dates</h6>
@@ -1299,7 +1303,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Eligibility-Criteria">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/cast_for_education.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Eligible to Fill
                                             JEE Main Application</h6>
@@ -1385,7 +1389,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Documents-Required">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (5).png"
                                                 class="img-fluid img-bg py-2" alt="">
                                         </div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Documents
@@ -1436,7 +1440,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="JEE-Main-Registration-Fee">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/feedback.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Registration Dates</h6>
@@ -1503,7 +1507,7 @@
 
                                 <div class="tab-pane-overview mt-5" id="Form-Correction-Window">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group 963.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main
                                             Application Form Correction 2021</h6>
@@ -1558,7 +1562,7 @@
                         <div class="tab-pane-overview mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -1596,7 +1600,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -1606,7 +1610,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -1628,7 +1632,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1648,7 +1652,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1669,7 +1673,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -1719,7 +1723,7 @@
                             <div class="col-lg-9">
                                 <div class="tab-pane-overview mt-lg-0 mt-5" id="Syllabus-PDF">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/cast_for_education (2).png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Registration Dates</h6>
@@ -1772,7 +1776,7 @@
                                 </div>
                                 <div class="tab-pane-overview  mt-5" id="JEE-Main-Physics-Syllabus">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/noun_subject_3858302 2.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Registration Dates</h6>
@@ -1865,7 +1869,7 @@
                                 </div>
                                 <div class="tab-pane-overview  mt-5 py-3" id="JEE-Main-Chemistry-Syllabus">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/noun_subject_3858302 2.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main Syllabus
                                             2021 Chemistry
@@ -1962,7 +1966,7 @@
                                 </div>
                                 <div class="tab-pane-overview  mt-5 py-3" id="JEE-Main-Math-Syllabus">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/exam-date.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/noun_subject_3858302 2.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main Syllabus
                                             2021 Maths
@@ -2028,7 +2032,7 @@
                         <div class="tab-pane-overview mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -2066,7 +2070,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -2076,7 +2080,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -2098,7 +2102,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2118,7 +2122,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2139,7 +2143,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2195,7 +2199,7 @@
                             <div class="col-lg-9">
                                 <div class="tab-pane-overview mt-lg-0 mt-5" id="Official-NTA-Mock-Test">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (6).png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Official NTA Mock Test
@@ -2303,7 +2307,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="JEE-Main-2021-Mock-Test">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/noun_subject_3858302 2.png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Syllabus PDF
@@ -2361,7 +2365,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Mock-Test-with-Solutions">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (6).png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Syllabus PDF
@@ -2459,7 +2463,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Importance-of-Mock-Test">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (6).png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Importance of JEE
                                             Main Mock Test</h6>
@@ -2519,7 +2523,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Benefits-of-Mock-Tests">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/syllabus-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (6).png"
                                                 class="img-fluid img-bg py-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Benefits of JEE
                                             Main 2021 Online Mock Test</h6>
@@ -2599,7 +2603,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview  mt-5 mt-lg-0 ml-lg-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -2609,7 +2613,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -2631,7 +2635,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2651,7 +2655,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2672,7 +2676,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -2691,7 +2695,7 @@
                         <div class="tab-pane-overview  mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -2766,7 +2770,7 @@
                             <div class="col-lg-9">
                                 <div class="tab-pane-overview mt-lg-0 mt-5" id="Admit-Card-2021-Dates">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/date_range.png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main Admit
                                             Card 2021 Dates
@@ -2826,7 +2830,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Steps-download-Admit-Card">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group-1.png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">How to Download
                                             JEE Main 2021 Admit Card?</h6>
@@ -2888,7 +2892,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Admit-Card-Highlights">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group 973.png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Admit Card Highlights
@@ -2936,7 +2940,7 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Details-Mentioned ">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (4).png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Points to
                                             Remember Regard Admit Card</h6>
@@ -3163,7 +3167,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview  mt-5 mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -3173,7 +3177,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -3195,7 +3199,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3215,7 +3219,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3236,7 +3240,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3255,7 +3259,7 @@
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -3296,7 +3300,7 @@
             </div>
             <!--------------------------------end ofhow to nav-admit tab----------------------------->
             <!------------------------------nav-rank tab--------------------------------->
-            <div class="row fade  tab-pane active show " id="nav-rank" role="tabpanel" aria-labelledby="nav-rank-tab">
+            <div class="row fade  tab-pane  " id="nav-rank" role="tabpanel" aria-labelledby="nav-rank-tab">
                 <div class="d-lg-flex">
                     <div class="col-lg-9">
                         <div class="row pl-4">
@@ -3329,7 +3333,7 @@
                             <div class="col-lg-9">
                                 <div class="tab-pane-overview mt-lg-0 mt-5" id="Rank-Predictor">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/noun_rank_2154427 1.png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
                                             Rank Predictor
@@ -3361,14 +3365,15 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6 my-4">
-                                            <div class="text-md-left text-center"><button class="btn px-4 py-2">Apply Now</button></div>
+                                            <div class="text-md-left text-center"><button class="btn px-4 py-2">Apply
+                                                    Now</button></div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="tab-pane-overview mt-5" id="calculate-estimate">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/admit-card-1.png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group (7).png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
                                         <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Steps to
                                             Calculate Your Estimated 2021 Rank</h6>
@@ -3475,14 +3480,19 @@
                                 </div>
                                 <div class="tab-pane-overview mt-5" id="Details-Required ">
                                     <div class="row justify-content-center justify-content-md-start">
-                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group of Projects (2).png"
+                                        <div class="py-md-3 py-1 pl-md-5"><img
+                                                src="assets/images/Group of Projects (2).png"
                                                 class="img-fluid img-bg py-2 mx-2" alt=""></div>
-                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Details Required for  Rank Predictor
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Details Required
+                                            for Rank Predictor
 
                                         </h6>
                                     </div>
                                     <p class="mx-lg-5 mx-3 pb-5">
-                                        Once the registration process is complete, candidates need to log in and go to the JEE Main 2021 Rank Predictor page. On the page, you will see a box where you need to enter the total number of attempts out of the total number of questions as well as the total number of correct attempts.
+                                        Once the registration process is complete, candidates need to log in and go to
+                                        the JEE Main 2021 Rank Predictor page. On the page, you will see a box where you
+                                        need to enter the total number of attempts out of the total number of questions
+                                        as well as the total number of correct attempts.
 
                                     </p>
                                 </div>
@@ -3494,7 +3504,7 @@
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview  mt-5 mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -3504,7 +3514,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -3526,7 +3536,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="" height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3546,7 +3556,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3567,7 +3577,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3586,7 +3596,7 @@
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -3626,14 +3636,272 @@
             </div>
             <!--------------------------------end ofhow to nav-rank tab----------------------------->
             <!------------------------------nav-cuttoff tab--------------------------------->
-            <div class="row fade  tab-pane " id="nav-cuttoff" role="tabpanel" aria-labelledby="nav-cuttoff-tab">
+            <div class="row fade  tab-pane  " id="nav-cuttoff" role="tabpanel"
+                aria-labelledby="nav-cuttoff-tab">
                 <div class="d-lg-flex">
-                    <div class="col-lg-9"></div>
+                    <div class="col-lg-9">
+                        <div class="row pl-4">
+                            <div class="col-lg-3 mx-lg-0 mx-3 " id="jee-main-overview">
+                                <div>
+                                    <div class="px-2 py-3">
+                                        <h6>JEE Mains <span style="color: #29ABE2;">Cut off</span> </h6>
+                                        <hr style="color:#29ABE2 !important; " class="mx-2">
+                                    </div>
+                                    <ul>
+                                        <li class="px-2 py-3 "><a href="#JEE-Main-2021-Cut-off" class="active">JEE Main
+                                                2021 Cut-off
+                                            </a>
+                                        </li>
+                                        <li class="px-2 py-3"><a href="#Expected-Cutoff">Expected Cutoff</a>
+                                        </li>
+                                        <li class="px-2 py-3"><a href="#Factors-Affecting-Cut-Off">Factors Affecting Cut
+                                                Off
+                                            </a></li>
+                                        <li class="px-2 py-3"><a href="#Cutoff-Dates ">Cutoff Dates
+                                            </a>
+                                        </li>
+                                        <li class="px-2 py-3"><a href="#Tips-to-clear-JEE-Main-Cutoff ">Tips to clear
+                                                JEE Main Cutoff </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="tab-pane-overview mt-lg-0 mt-5" id="JEE-Main-2021-Cut-off">
+                                    <div class="row justify-content-center justify-content-md-start">
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Brief.png"
+                                                class="img-fluid img-bg py-2 mx-2" alt=""></div>
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
+                                            Cut-off
+
+                                        </h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-5 pb-4">
+                                        The qualifying cut-off for JEE Main will be published along with JEE Main Result
+                                        (Phase 4). With the announcement of JEE Main Result and AIR (short for All India
+                                        Rank), authorities will publish the list of qualified candidates eligible for
+                                        taking JEE Advanced 2021.
+                                    </p>
+
+                                </div>
+                                <div class="tab-pane-overview mt-5" id="Expected-Cutoff">
+                                    <div class="row justify-content-center justify-content-md-start">
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Delete Document.png"
+                                                class="img-fluid img-bg py-2 mx-2" alt=""></div>
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021
+                                            Expected Cutoff</h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-5 pb-4">
+                                        The expected JEE Main cutoff 2021 has been given below for the aspirants. The
+                                        cut-off has been as per the defined categories of JEE Main. The data mentioned
+                                        below is prepared on the basis of previous year trends.
+                                    </p>
+                                    <div class="table-responsive ml-5">
+                                        <table class="table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Category</th>
+                                                    <th scope="col">Cutoff Marks</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Common Rank List (CRL)</td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">90.3765335</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>GEN-EWS
+                                                    </td>
+
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">90.3765335
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Other Backward Classes (OBC-NCL)
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">90.3765335</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Scheduled Caste (SC)</td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">90.3765335</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Scheduled Tribe (ST)</td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">90.3765335</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PwD</td>
+                                                    <td>
+                                                        <div>
+                                                            <button class="btn px-4 py-2">90.3765335</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane-overview mt-5" id="Factors-Affecting-Cut-Off">
+                                    <div class="row justify-content-center justify-content-md-start">
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/cast_for_education (2).png"
+                                                class="img-fluid img-bg py-2 mx-2" alt=""></div>
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Factors Affecting JEE Main Cut Off</h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-5 pb-4">
+                                        JEE Main Cutoff is calculated on the basis of a number of factors. Here are the most important factors that help derive JEE Main Cut off each year:
+                                    </p>
+                                    
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p style="color: #636363;">Total number of candidates appeared for the exam
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p style="color: #636363;">Level of difficulty of the exam
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p style="color: #636363;">Number of available seats
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p style="color: #636363;">Overall performance of the candidate
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane-overview mt-5" id="Cutoff-Dates">
+                                    <div class="row justify-content-center justify-content-md-start">
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Group.png"
+                                                class="img-fluid img-bg py-2 mx-2" alt=""></div>
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">JEE Main 2021 Expected Cutoff
+                                        </h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-5 pb-4">
+                                        The dates pertaining to JEE Main 2021 cutoff are as follows - 
+                                    </p>
+                                    <div class="table-responsive ml-md-5">
+                                        <table class="table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">JEE Main 2021 Events
+                                                    </th>
+                                                    <th scope="col">Dates</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>JEE Main 2021 Result for May Exam
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">by June 02, 2021</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JEE Main 2021 Cut-off Release Date
+                                                    </td>
+                                                    <td>
+                                                        <div class="">
+                                                            <button class="btn px-4 py-2">To be Notified</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane-overview mt-5" id="Tips-to-clear-JEE-Main-Cutoff">
+                                    <div class="row justify-content-center justify-content-md-start">
+                                        <div class="py-md-3 py-1 pl-md-5"><img src="assets/images/Delete Document.png"
+                                                class="img-fluid img-bg py-2 mx-2" alt=""></div>
+                                        <h6 class="px-md-2 px-4 text-center text-md-left py-md-3 py-1">Tips to clear JEE Main 2021 Cutoff 
+                                        </h6>
+                                    </div>
+                                    <p class="mx-lg-5 mx-5 pb-4">
+                                        With the increasing competition in JEE Main, it is a must for the candidates to set specific targets. Here are some section-wise tips which can assist you in finding the accurate paper attempting approach: 
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p><b>Mathematics:</b>With the increasing competition in JEE Main, it is a must for the candidates to set specific targets. Here are some section-wise tips which can assist you in finding the accurate paper attempting approach: 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="blue-para  mx-lg-5 mx-3 pl-lg-5">A person is likely to score 45-50 marks if he/she attempts 20 questions in Mathematics with 60% accuracy provided the candidate attempts all integer questions(non-negative questions). More emphasis should be laid on attempting integer questions rather than single choice questions.</p>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p><b>Physics:</b>For the last 5 years, Physics has been the toughest section of all which includes a lot of lengthy questions. The numerical part of the paper is generally asked from 11th standard whereas the conceptual part is mostly from 12th standard. One must concentrate more on the latter as it is a comparatively scoring part. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="blue-para mx-lg-5 mx-3 pl-lg-5">With a 70% accuracy, if a candidate attempts 15 questions of Physics section, he/she can score more than 30 marks.</p>
+                                    <div class="row">
+                                        <div class="col-2 pr-0" style="text-align: end;"><img src="assets/images/Vector.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-10 pr-5 ">
+                                            <p><b>The Chemistry:</b> section is believed to be the easiest one where organic and inorganic questions are more of conceptual type. These questions should be given more focus due to direct correspondence with respective options.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="blue-para  mx-lg-5 mx-3 pl-lg-5 pb-4">If a candidate is able to attempt 22 Chemistry questions with 80% accuracy, he/she can score more than 60 marks.</p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-3">
                         <!------------------------trending colleges------------->
                         <div class="tab-pane-overview  mt-5 mt-lg-0 mt-5 ml-md-0  ml-3" id="trending">
                             <div class="d-flex top-ranked justify-content-center pt-3"><img
-                                    src="assets/images/school 1.png" style="height: 15px;" class="px-3 mt-2" alt="">
+                                    src="assets/images/other-coll.png" style="height: 15px;" class="px-3 mt-2" alt="">
                                 <span>
                                     <h1>Other Colleges</h1>
                                 </span>
@@ -3643,7 +3911,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Chandigarh University</h2>
-                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                    <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                         <h6 class="px-2">Chandigarh</h6>
                                     </div>
                                     <div>
@@ -3665,7 +3933,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Lovely Professional University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3685,7 +3953,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Indian Institute of Technology Bombay </h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3706,7 +3974,7 @@
                                         alt=""></div>
                                 <div class="px-2 col-8">
                                     <h2>Adesh University</h3>
-                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt="">
+                                        <div class="d-flex"><img src="assets/images/map-pin.png" alt=""  height="11px">
                                             <h6 class="px-2">Chandigarh</h6>
                                         </div>
                                         <div>
@@ -3725,7 +3993,7 @@
                         <div class="tab-pane-overview mt-5 ml-md-0  ml-3" id="trending">
                             <div class="top-ranked">
                                 <div class="row justify-content-center py-3">
-                                    <img src="assets/images/school 1.png" class="img-fluid pt-1" style="height: 20px;"
+                                    <img src="assets/images/upcoming.png" class="img-fluid pt-1" style="height: 20px;"
                                         alt="">
                                     <h1 class="px-3">Upcoming Exams</h1>
                                 </div>
@@ -3766,6 +4034,531 @@
             <!--------------------------------end ofhow to nav-cuttoff tab----------------------------->
         </div>
     </div>
+    <!----------------------------------faq questions-------------------------------->
+    <div class="container-fluid py-4 mt-lg-0 mt-3 ">
+        <div class="col-lg-9" id="FAQ">
+            <div class="d-flex justify-content-center">
+                <img src="assets/images/conversation 1.png" class="img-fluid img-bg mt-4 mx-3"
+                    style="height: 42px;" alt="">
+                <h2 class="py-4 px-2"> FAQs About IIT MADRAS</h2>
+            </div>
+            <div class="accordion pb-4" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0 question1">
+                            <div class=" row question mx-md-0">
+                                <div class="col-10 pt-3 pb-2 px-3">
+                                    <h2>1. Does IIT have management quota?</h2>
+                                </div>
+                                <div class="col-2 text-right mt-md-2 mt-3  pr-2"> <button
+                                        type="button" class="btn btn-link" data-toggle="collapse"
+                                        data-target="#collapseOne" style="color: black;"><i
+                                            class="fa fa-plus text-black"></i></button>
+                                </div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample" >
+                        <div class="card-body mb-3 mx-md-4 mx-2">
+                            <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser"> No, there
+                                is
+                                No, there is no management quota at IIT. Students are selected
+                                either on
+                                the
+                                basis of their performance in entrance exams or through direct
+                                admission
+                                based on their qualifying marks. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0 question1">
+                            <div class=" row question mx-md-0">
+                                <div class="col-10 pt-3 pb-2 px-3">
+                                    <h2>2. Which extracurricular activities are provided for
+                                        students at
+                                        IIT?
+                                    </h2>
+                                </div>
+                                <div class="col-2 text-right mt-md-2 mt-5 pr-2"> <button
+                                        type="button" class="btn btn-link" data-toggle="collapse"
+                                        data-target="#collapseTwo" style="color: black;"><i
+                                            class="fa fa-plus text-black"></i></button>
+                                </div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo"
+                        data-parent="#accordionExample">
+                        <div class="card-body mb-3  mx-md-4 mx-2">
+                            <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there
+                                is
+                                no
+                                management
+                                quota at IIT.
+                                Students are selected
+                                either on the basis of their performance in entrance exams or
+                                through
+                                direct
+                                admission
+                                based on their qualifying marks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0 question1">
+                            <div class=" row question mx-md-0">
+                                <div class="col-10 pt-3 pb-2 px-3">
+                                    <h2>3. What are the rankings of IIT?</h2>
+                                </div>
+                                <div class="col-2 text-right mt-2 pr-2"> <button type="button"
+                                        class="btn btn-link collapsed" data-toggle="collapse"
+                                        data-target="#collapseThree" style="color: black;"><i
+                                            class="fa fa-plus text-black"></i></button>
+                                </div>
+                            </div>
+                        </h2>
+
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body  mb-3  mx-md-4 mx-2">
+                            <p class=" answer  py-2 px-md-5 px-2 mx-md-0" id="FAQawnser2"> No, there
+                                is
+                                no
+                                management
+                                quota at IIT.
+                                Students are selected
+                                either on the basis of their performance in entrance exams or
+                                through
+                                direct
+                                admission
+                                based on their qualifying marks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0 question1">
+                            <div class=" row question mx-md-0">
+                                <div class="col-10 pt-3 pb-2 px-3">
+                                    <h2>4. How is it to study at IIT?</h2>
+                                </div>
+                                <div class="col-2 text-right mt-md-2 mt-3 pr-2"> <button
+                                        type="button" class="btn btn-link collapsed"
+                                        data-toggle="collapse" data-target="#collapseFour"
+                                        style="color: black;"><i
+                                            class="fa fa-plus text-black"></i></button>
+                                </div>
+                            </div>
+                        </h2>
+
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body mb-3  mx-md-4 mx-2">
+                            <p class=" answer  py-2  px-md-5 px-2 mx-md-0" id="FAQawnser2"> No,
+                                there is
+                                no
+                                management
+                                quota at IIT.
+                                Students are selected
+                                either on the basis of their performance in entrance exams or
+                                through
+                                direct
+                                admission
+                                based on their qualifying marks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------end of faq questions-------------------------------->
+    <!------------------------college rating------------------------->
+    <div class="container-fluid bg-white  my-5 py-3">
+        <div class="col-lg-9" id="college-rating">
+
+            <div class="row justify-content-center">
+                <img src="assets/images/review 1.png" class="img-fluid img-bg mt-4 mx-3" style="height: 42px;"
+                    alt="">
+                <h2 class="my-4  text-lg-left text">COLLEGE RATING</h2>
+            </div>
+            <div class="row mt-4">
+
+                <div class="col-lg-3   ">
+                    <div class="row justify-content-center justify-content-lg-start">
+                        <h6 class="">COLLEGE RATING
+                        </h6><span style="font-size:20px;">(out of 5)</span>
+                    </div>
+
+                    <div class=" pt-lg-5  text-lg-left text-center">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                        <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                        <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                        <div class="ml-3 pt-2"
+                            style="font-size: 18px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                            (4.0)
+                            Review</div>
+                    </div>
+                </div>
+                <div class="col-lg-5 pl-md-5">
+                    <div class="row justify-content-center justify-content-lg-start mt-5 mt-lg-0">
+                        <h6 class="pl-4">Component Ratings
+                        </h6><span>(out of 5)</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <div class="pt-3 pl-1 component-rating">Placements</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-lg-start justify-content-center">
+                                <div class=" pt-3" style="height: 44px;">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                                    <span class="ml-1 pt-2"
+                                        style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                        (4.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="pt-3 pl-1 component-rating">Infrastructure</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-lg-start justify-content-center">
+                                <div class=" pt-3" style="height: 44px;">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                                    <span class="ml-1 pt-2"
+                                        style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                        (4.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="pt-3 pl-1 component-rating">Faculty & Course Curriculum</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-lg-start justify-content-center">
+                                <div class=" pt-3" style="height: 44px;">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                                    <span class="ml-1 pt-2"
+                                        style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                        (4.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="pt-3 pl-1 component-rating">Crowd & Campus Life</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-lg-start justify-content-center">
+                                <div class=" pt-3" style="height: 44px;">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                                    <span class="ml-1 pt-2"
+                                        style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                        (4.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="pt-3 pl-1 component-rating">Value for Money</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-lg-start justify-content-center">
+                                <div class=" pt-3" style="height: 44px;">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="checked h-50" alt="">
+                                    <img src="assets/images/yellow-star.png" class="h-50" alt="">
+                                    <img src="assets/images/yellow-star-5.png" class="h-50" alt="">
+
+                                    <span class="ml-1 pt-2"
+                                        style="font-size: 14px; font-family: inter; color: rgba(0, 0, 0, 1);">
+                                        (4.0)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5 text-left">
+                    <p style="color: rgba(151, 151, 151, 1); font-size: 16px;">The Verified badge indicates
+                        that the reviewer's details have been verified by
+                        Stulink,
+                        and reviewers are bona fide students of this college. These reviews and ratings have
+                        been given by students.
+                        Stulink does not endorsed the same. Out of 276 published reviews, 253 reviews are
+                        verified.</p>
+                </div>
+               
+            </div>
+        </div>
+        <hr>
+        <!------------------text-review--------------------------------->
+        <div class="container-fluid">
+            <div class="col-lg-9" id="text-review">
+                <div class="row">
+                    <div>
+                        <div class="row justify-content-center my-4">
+                            <img src="assets/images/reviews 1.png" class="img-fluid img-bg mt-4 mx-3"
+                                style="height: 42px;" alt="">
+                            <h2 class="py-4 ">Student Reviews</h2>
+                        </div>
+
+                        <div class="row ">
+                            <span class=" col-md-1 text-center text-md-left"><img
+                                    src="assets/images/Ellipse 4.png" alt=""></span>
+                            <div class="col-md-10  text-center ml-3 text-md-left text-review"> <span
+                                    style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">Ramanakanth
+                                    Reddy</span>
+                                <span class="mt-4">| B.Tech. in Electrical Engineering (Power and
+                                    Automation) -
+                                    Batch of 2021</span><br>
+                                <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
+                            </div>
+                        </div>
+                        <div class="comment__container comment__container--response pl-md-3 mt-4 mr-md-5">
+
+                            <div id="comment__bubble">
+                                <span class="comment__arrow"></span>
+                                <p class="py-lg-3 px-lg-5">It is one of the best ranked engineering college in
+                                    india.
+                                    It has huge campus with clean green environment and provides lot of
+                                    opportunities to the students.
+                                    I had given manpial University entrance exam to take admission here.This
+                                    exam was tough but i cracked it (lot of determination need).
+                                    You can no doubt opt for this college as it is one of the best.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row  my-4">
+                    <span class=" col-md-1 ml-md-3 text-center text-md-left"><img
+                            src="assets/images/Ellipse 4 (1).png" alt=""></span>
+                    <div class="col-10 text-review ml-3 text-center text-md-left"> <span
+                            style=" color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
+                            Deeplakanth Kumar</span>
+                        <span class="mt-4 ">| B.Tech. in Electrical Engineering (Power and Automation) -
+                            Batch of 2021</span><br>
+                        <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
+                    </div>
+                </div>
+
+                <div class="comment__container comment__container--response pl-md-3 mt-4 mr-md-5">
+
+                    <div id="comment__bubble">
+                        <span class="comment__arrow"></span>
+                        <p class="py-lg-3 px-lg-5">It is one of the best ranked engineering college in
+                            india.
+                            It has huge campus with clean green environment and provides lot of
+                            opportunities to the students.
+                            I had given manpial University entrance exam to take admission here.This
+                            exam was tough but i cracked it (lot of determination need).
+                            You can no doubt opt for this college as it is one of the best.</p>
+                    </div>
+                </div>
+
+
+                <div class="row  my-4">
+                    <span class="col-md-1 ml-md-3 text-center text-md-left"><img
+                            src="assets/images/Ellipse 4 (2).png" alt=""></span>
+                    <div class="col-md-10 text-center ml-3 text-md-left text-review"> <span
+                            style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
+                            Anil Sharma</span>
+                        <span class="mt-4">| B.Tech. in Electrical Engineering (Power and Automation) -
+                            Batch of
+                            2021</span>
+                        <br>
+                        <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
+                    </div>
+                </div>
+                <div class="comment__container comment__container--response  pl-md-3 mt-4 mr-md-5">
+
+                    <div id="comment__bubble">
+                        <span class="comment__arrow"></span>
+                        <p class="py-lg-3 px-lg-5">It is one of the best ranked engineering college in
+                            india.
+                            It has huge campus with clean green environment and provides lot of
+                            opportunities to the students.
+                            I had given manpial University entrance exam to take admission here.This
+                            exam was tough but i cracked it (lot of determination need).
+                            You can no doubt opt for this college as it is one of the best.</p>
+                    </div>
+                </div>
+                <div class="text-review-toggle">
+                    <div class="row  my-4">
+                        <span class="col-md-1 ml-md-3 text-center text-md-left"><img
+                                src="assets/images/Ellipse 4.png" alt=""></span>
+                        <div class="col-md-10 text-center ml-3 text-md-left text-review"> <span
+                                style="color:#2B2B2B ; font-size:16px ;" class="mt-4 ml-2">
+                                Anil Sharma</span>
+                            <span class="mt-4">| B.Tech. in Electrical Engineering (Power and Automation) -
+                                Batch of
+                                2021</span>
+                            <br>
+                            <div class="col"> <span>Reviewed on 27 Feb 2021</span></div>
+                        </div>
+                    </div>
+                    <div class="comment__container comment__container--response  pl-md-3 mt-4 mr-md-5">
+
+                        <div id="comment__bubble">
+                            <span class="comment__arrow"></span>
+                            <p class="py-lg-3 px-lg-5">It is one of the best ranked engineering college in
+                                india.
+                                It has huge campus with clean green environment and provides lot of
+                                opportunities to the students.
+                                I had given manpial University entrance exam to take admission here.This
+                                exam was tough but i cracked it (lot of determination need).
+                                You can no doubt opt for this college as it is one of the best.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-3 text-review-more text-center">
+                    <a href=""><span class="view-more-change-review">View more Review</span><img
+                            src="assets/images/Vector 1.png" alt="" class="mx-2"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--------------------------end of text review----------->
+    <div class="conatiner-fluid footer mx-lg-5 px-lg-5 px-2">
+        <div class="conatiner row px-5 py-lg-5 text-md-left text-center">
+            <div class="col-md-3">
+                <h5 class="mb-3">Best Colleges</h5>
+                <ul>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                    <li class="my-1"><a href="">How it works</a></li>
+                    <li class="my-1"><a href="">Pricing</a></li>
+                    <li class="my-1"><a href="">Reviews</a> </li>
+                    <li class="my-1"> <a href="">Stories</a></li>
+
+                </ul>
+                <h5 class="pt-4 pb-3">others</h5>
+                <ul>
+                    <li class="my-1"><a href="">FAQ</a></li>
+                    <li class="my-1"><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">OUR GROUPS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Infoedge.in</a></li>
+                    <li class="my-1"><a href="">Naukri.com</a> </li>
+                    <li class="my-1"><a href="">Firstnaukri.com</a> </li>
+                </ul>
+                <h5 class="pt-4 pb-3">RESOURCES</h5>
+                <ul>
+                    <li class="my-1"><a href="">Guides</a></li>
+                    <li class="my-1"><a href=""> Help Center</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">About</h5>
+                <ul>
+                    <li class="my-1"><a href="">Company</a></li>
+                    <li class="my-1"><a href="">Career</a></li>
+                    <li class="my-1"><a href="">Press</a></li>
+                    <li class="my-1"><a href="">Contact</a></li>
+                </ul>
+                <h5 class="pt-4 pb-3">OFFERS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Make an offer</a></li>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h5>Download App</h5>
+                    <div class="mt-4">
+                        <a href=""><img src="assets/images/appplaystore.png" alt="" class="img-fluid w-50"></a>
+                        <a href=""><img src="assets/images/playstore.png" alt="" class="img-fluid w-50 my-2"></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <h5>Social Media</h5>
+                    <div class="row my-4 justify-content-center justify-content-md-start">
+                        <div class="centered mx-2">
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 1.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="centered  mx-2" style="background-color: rgba(59, 89, 152, 1);">
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 4.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="centered mx-2">
+                            <div class="text-center"><a href=""><i class="fab fa-linkedin-in" style="color: white;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col-2">
+                    <div class="my-md-5"><span class="mr-lg-5 pr-lg-5 ">© 2021 stulink</span></div>
+                </div>
+                <div class="col-6 my-md-5"><span class="mx-lg-l-4">Terms of Service</span>
+                    <span class="mx-4"> Privacy Policy</span>
+                    <span class="mx-lg-4">Trust & Safety</span></div>
+                <div class="col-4 my-md-5"> <label for="language-picker-select" class="ml-lg-5 pl-lg-5 ">Language
+                        :</label>
+                    <select name="language-picker-select" id="language-picker-select" class="select">
+                        <option lang="de" value="deutsch">Deutsch</option>
+                        <option lang="en" value="english" selected>EN</option>
+                        <option lang="fr" value="francais">Français</option>
+                        <option lang="it" value="italiano">Italiano</option>
+
+                    </select></div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------------end of footer-------------------->
+
+
+
 </body>
 
 </body>

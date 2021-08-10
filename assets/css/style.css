@@ -107,8 +107,11 @@ body{
     color: white;
     font-weight: 700;
     font-size: 19px;
+    transition: transform .2s;
 }
-
+.centered:hover{
+    transform: scale(1.2);
+}
 .ui-state-active{
     border: 5px solid #ffffff !important;
 border-radius: 10px !important;
