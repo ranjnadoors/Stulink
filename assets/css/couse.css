@@ -661,6 +661,134 @@ border-radius: 50px;
     color: white;
     border: transparent;
 }
+/*******************************question answer*****************************/
+#nav-ques-tab h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2;
+}
+#nav-ques-tab p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A2A2A2;
+}
+#nav-ques-tab label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1DB954;
+}
+#nav-ques-tab span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A2A2A2;
+}
+#nav-ques-tab .form-control::placeholder{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A2A2A2;
+}
+#nav-ques-tab .btn{
+    background: #29ABE2;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+#nav-ques-tab .btn1{
+    border: 1px solid #424242;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #424242;
+    background: transparent;
+}
+.link {
+    background: #29ABE2;
+    border-radius: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.verify{
+    background: #29ABE2;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+}
+.verify-1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #29ABE2;
+}
+#nav-ques-tab .b-tech{
+    background: #29ABE2;
+    border-radius: 2px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 77px;
+    height:29px ;
+}
+#nav-ques-tab h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #242424
+}
+#nav-ques-tab h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #131313;
+}
+#nav-ques-tab .like-btn{
+    background: #FFFFFF;
+    border: 1px solid #1DB954;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
 /****************************************media queries**************************************/
 @media (min-width: 357px) and (max-width: 767px) {
     .tab-bg{
@@ -676,6 +804,7 @@ border-radius: 50px;
     #nav-Entrance-Exams h6 {
         font-size: 20px;
     
+}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     #nav-Top-Courses h6{
