@@ -1347,7 +1347,7 @@ font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 #jee-main-overview{
-    width: 720px;
+    height: 720px;
 }
 }
 
