@@ -2321,9 +2321,7 @@ color: #000000;
     .video-logo{
         left: 23%;
     }
-    #nav-gallery .tab-pane-overview{
-        width: 340px;
-    }
+    
     .td-width{
         width: 172px;
     }
@@ -2342,7 +2340,7 @@ color: #000000;
         width: 300px;
     }
     #nav-placement .tab-pane-overview{
-        width: 375px;
+        width: 360px;
     }
     #nav-placement h6{
         font-size: 20px;
@@ -2369,7 +2367,7 @@ width: 350px !important;
         width: 340px;
     }
     #nav-scholarship .tab-pane-overview{
-        width: 343px;
+        width: 314px;
     }
     #nav-scholarship table{
         width: 90%;
@@ -2393,6 +2391,9 @@ width: 350px !important;
     
   }
   @media (min-width: 768px) and (max-width: 1024px) {
+    #nav-courses #btech  table{
+        width: 91%;
+    }
     #nav-ranking .tab-pane-overview{
         width: 720px;
     }
@@ -2426,9 +2427,7 @@ width: 350px !important;
     .video-logo{
         left: 35%;
     }
-    #nav-gallery .tab-pane-overview{
-        width: 710px;
-    }
+    
     #nav-addmission .table{
         width: 449px;
     }
@@ -2439,7 +2438,7 @@ width: 350px !important;
        width: 525px;
     }
     #nav-scholarship .tab-pane-overview{
-        width: 720px;
+        width: 676px;
     }
     #nav-scholarship table{
         width: 79%;
