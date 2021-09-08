@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/jobs.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!--link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'-->
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.js">
+    <link rel="stylesheet" href="assets/css/owl.theme.green.css">
+</head>
+
+<body>
+    <div class="conatiner-fluid">
+
+        <!----------------navbar-------------->
+        <div class="col-12 mt-3 my-3 college-nav-shadow">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="col-lg-3 col-8">
+                    <a class="navbar-brand" href="#"><img src="assets/images/imgpsh_fullsize_anim (6).png"
+                            class="img-fluid" alt=""></a></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-lg-8">
+                        <ul class="navbar-nav justify-content-center" id="myDIV">
+
+                            <li class="nav-item dropdown  px-3">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    College
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Multi-channel Management</a>
+                                    <a class="dropdown-item" href="#"> Merchant Program</a>
+                                    <a class="dropdown-item" href="#"> Order Feedback Management</a>
+                                    <a class="dropdown-item" href="#"> Warehousing & 3PL</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown  px-3">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Exam
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Multi-channel Management</a>
+                                    <a class="dropdown-item" href="#"> Merchant Program</a>
+                                    <a class="dropdown-item" href="#"> Order Feedback Management</a>
+                                    <a class="dropdown-item" href="#"> Warehousing & 3PL</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown  px-3">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Multi-channel Management</a>
+                                    <a class="dropdown-item" href="#"> Merchant Program</a>
+                                    <a class="dropdown-item" href="#"> Order Feedback Management</a>
+                                    <a class="dropdown-item" href="#"> Warehousing & 3PL</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown  px-3">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Jobs
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Multi-channel Management</a>
+                                    <a class="dropdown-item" href="#"> Merchant Program</a>
+                                    <a class="dropdown-item" href="#"> Order Feedback Management</a>
+                                    <a class="dropdown-item" href="#"> Warehousing & 3PL</a>
+                                </div>
+                            </li>
+                            <li class="nav-item  px-3">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Help Center</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="row float-right">
+                            <div>
+                                <button class="login-btn mx-3"> <span class="pr-1">Log In</span>
+                                    <i class="fas fa-user" style="color:#000;"></i></button>
+                            </div>
+
+                            <button class="signup-btn"><span class="pr-3">Sign Up</span>
+                                <img src="assets/images/signup-logo.png" alt="">
+                                <img src="assets/images/signup+.png" alt="" class="mt-2"
+                                    style="margin-left: -6px;"></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!---------------------end of navbar---------------------->
+    <!-------------------------Search the courses------------------------------->
+    <div class="container-fluid py-4" id="search-jobs">
+        <div class="container">
+            <div class="row justify-content-center pt-4 pb-3">
+                <img src="assets/images/noun_course_3857539 2.png" class="img-fluid py-3" alt="">
+                <h1 class="ml-3">SEARCH OVER 10000 JOBS</h1>
+            </div>
+            <!---------filter----->
+            <div class="px-2 mx-2 my-4">
+                <div class="row filter-bg pt-3 ">
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="form-group row mx-3">
+                            <input type="text" class="form-control" id="text" aria-describedby="emailHelp"
+                                placeholder="skills , designation, qualification">
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="form-group mx-3">
+
+                            <select class="form-control" id="Course">
+                                <option>Choose city</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="form-group mx-3">
+
+                            <select class="form-control" id="Location">
+                                <option>Companies</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="form-group row mx-3">
+                            <div class="col-8"></div>
+                            <select class="form-control" id="Location">
+                                <option>location</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="form-group mx-3">
+                            <select class="form-control" id="Course">
+                                <option>By catagories</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div><button class="btn">Search Job</button></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------newest opening-->
+    <div class="container-fluid" id="newest">
+        <div class="container my-4">
+            <div class="row justify-content-center">
+                <img src="" alt="">
+                <h1>Newest Openings</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-3">
+                    <div class="opening-bg">
+                        <div class="d-flex justify-content-end mt-3">
+                            <h2 class="px-2 py-1">Newest Openings</h2>
+                        </div>
+
+                        <div class="row ml-3">
+                            <img src="assets/images/job/surface1-3.png" class="img-fluid px-2 py-2" alt="">
+                            <h3>Engineer Jobs</h3>
+                        </div>
+                        <div class="ml-5">
+                            <h4 class="">43,5749 Vacancies</h4>
+
+                            <div class="row py-2">
+                                <img src="assets/imagesjob/map-pin.png" class="img-fluid px-2 " alt="">
+                                <h5>All India</h5>
+                            </div>
+                            <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="opening-bg">
+                        <div class="d-flex justify-content-end mt-3">
+                            <h2 class="px-2 py-1">Newest Openings</h2>
+                        </div>
+
+                        <div class="row ml-3 ">
+                            <img src="assets/images/job/noun_Inspector_60885 1.png" class="img-fluid px-2 py-2" alt="">
+                            <h3>Inspector Jobs</h3>
+                        </div>
+                        <div class="ml-5">
+                            <h4 class="">43,5749 Vacancies</h4>
+
+                            <div class="row py-2">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid px-2 " alt="">
+                                <h5>All India</h5>
+                            </div>
+                            <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="opening-bg">
+                        <div class="d-flex justify-content-end mt-3">
+                            <h2 class="px-2 py-1">Newest Openings</h2>
+                        </div>
+
+                        <div class="row ml-3">
+                            <img src="assets/images/job/noun_manager_3038581 1.png" class="img-fluid px-2 py-2" alt="">
+                            <h3>Manager Jobs</h3>
+                        </div>
+                        <div class="ml-5">
+                            <h4 class="">43,5749 Vacancies</h4>
+
+                            <div class="row py-2">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid px-2 " alt="">
+                                <h5>All India</h5>
+                            </div>
+                            <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------popular jobs------------------------------------------>
+    <div class="container-fluid my-5" id="popular-jobs">
+        <div class="container">
+            <div class="row justify-content-center py-3">
+                <span class=" img-bg">
+                    <img src="assets/images/job/Vector (4).png" class="img-fluid " alt=""></span>
+                <h6>Most Popular Jobs</h6>
+            </div>
+            <div class="row border-bottom">
+                <div class="col-lg-4 col-md-6 text-center border-right b-tech py-5">
+                    <img src="assets/images/job/noun_Engineering_4050972 2.png" class="img-fluid" alt="">
+                    <h1 class="py-2">B.tech</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center border-right b-tech py-5">
+                    <img src="assets/images/job/Vector-1.png" class="img-fluid" alt="">
+                    <h1 class="py-2">Dental</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center  b-tech py-5">
+                    <img src="assets/images/job/noun_Engineering_4050972 2.png" class="img-fluid" alt="">
+                    <h1 class="py-2">B.tech</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 text-center border-right b-tech py-5">
+                    <img src="assets/images/job/noun_Engineering_4050972 2.png" class="img-fluid" alt="">
+                    <h1 class="py-2">B.tech</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center border-right b-tech py-5">
+                    <img src="assets/images/job/surface1-1.png" class="img-fluid" alt="">
+                    <h1 class="py-2">Law</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center  b-tech py-5">
+                    <img src="assets/images/job/Vector-1.png" class="img-fluid" alt="">
+                    <h1 class="py-2">Dental</h1>
+                    <h2>43,5749 Vacancies</h2>
+                    <div class="py-2"><a href="">VIEW DETAIL</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------state jobs-------------------------->
+    <div class="container-fluid my-5" id="state-jobs">
+        <div class="container">
+            <div class="row justify-content-center py-3">
+                <span class="img-bg">
+                    <img src="assets/images/job/Vector (5).png" class="img-fluid pt-2" alt=""></span>
+                <h6>State Jobs</h6>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <h3 class="px-3 pt-2">Search</h3>
+                        <div class="input-group md-form form-sm form-2 pl-0">
+                            <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search"
+                                aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text amber lighten-3" id="basic-text1"><i
+                                        class="fas fa-search text-grey" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center justify-content-md-end">
+                        <h3 class="mx-2 mt-lg-1 pt-2">SORT BY:</h3>
+                        <div class="default-order py-2 mr-md-4" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" style="cursor: pointer;"><span class="pl-2 pr-5 py-3"
+                                style="color:rgba(39, 39, 39, 1);">Default
+                                Order</span>
+                            <i class="fas fa-bars pl-md-5 pr-md-2 icon-color"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-5" id="states">
+                <div class="row">
+                    <div class="col-lg col-md-4 mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Andhra Pradesh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-md-0 mx-3">Arunachal Pradesh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Assam</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Bihar</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Chhattisgarh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Goa</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Gujarat</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Haryana</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-md-0 mx-3">Himachal Pradesh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Jharkhand</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Karnataka</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Kerala</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-md-0 mx-3">Madhya Pradesh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Maharashtra</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Manipur</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Meghalaya</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Mizoram</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Nagaland</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Odisha</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Punjab</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Rajasthan</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Sikkim</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Tamil Nadu</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Telangana</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Tripura</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Uttarakhand</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">Uttar Pradesh</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4  mt-3 border-bottom-1">
+                        <div class="row">
+                            <a href="">
+                                <h1 class="mx-3">West Bengal</h1>
+                            </a>
+                            <span class="arrow-bg">
+                                <i class="fa fa-arrow-right px-1" style="color: #fff;" aria-hidden="true"></i>
+                        </div></span>
+                        <div>
+                            <h3>(122 Jobs)</h3>
+                        </div>
+                    </div>
+                    <div class="col" style="border-bottom: none;"></div>
+                    <div class="col" style="border-bottom: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------qualification wise jobs---------------------------->
+    <div class="container-fluid my-5" id="qualification-jobs">
+        <div class="container">
+            <div class="row justify-content-center py-3">
+                <span class="img-bg">
+                    <img src="assets/images/job/Vector (2).png" class="img-fluid pt-2" alt=""></span>
+                <h6>Qualification-wise jobs</h6>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <h3 class="px-3 pt-2">Search</h3>
+                        <div class="input-group md-form form-sm form-2 pl-0">
+                            <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search"
+                                aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text amber lighten-3" id="basic-text1"><i
+                                        class="fas fa-search text-grey" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center justify-content-md-end">
+                        <h3 class="mx-2 mt-lg-1 pt-2">SORT BY:</h3>
+                        <div class="default-order py-2 mr-md-4" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" style="cursor: pointer;"><span class="pl-2 pr-5 py-3"
+                                style="color:rgba(39, 39, 39, 1);">Default
+                                Order</span>
+                            <i class="fas fa-bars pl-md-5 pr-md-2 icon-color"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="quali-jobs">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class="">
+                                    <img src="assets/images/job/noun_education_3961884 1.png"
+                                        class="img-fluid img-bg-2 py-2 pl-2" alt=""></span>
+                                <h2>10th Jobs</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class="">
+                                    <img src="assets/images/job/noun_education_3961884 1.png"
+                                        class="img-fluid img-bg-2 py-2 pl-2" alt=""></span>
+                                <h2>12th Jobs</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class="">
+                                    <img src="assets/images/job/noun_Engineering_4050972 1.png"
+                                        class="img-fluid img-bg-2 py-1 px-2" alt=""></span>
+                                <h2>B.tech</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class="">
+                                    <img src="assets/images/job/noun_It engineering_3659542 1.png"
+                                        class="img-fluid img-bg-2 py-1 px-2" alt=""></span>
+                                <h2>M.tech</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class=" my-4">
+                                    <img src="assets/images/job/Group.png" class="img-fluid img-bg-2 py-2 px-2"
+                                        alt=""></span>
+                                <h2>Agriculture
+                                </h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class=" my-4">
+                                    <img src="assets/images/job/Group 1120.png" class="img-fluid img-bg-2 py-2 px-2"
+                                        alt=""></span>
+                                <h2>Nursing</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class=" my-4">
+                                    <img src="assets/images/job/surface1.png" class="img-fluid img-bg-2 py-2 px-2"
+                                        alt=""></span>
+                                <h2>Law</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="bg">
+                            <div class="row py-3">
+                                <div class="col-6">
+                                    <div class="feature">
+                                        <h1 class="text-center py-2">Featured</h1>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="feature mx-3" style="border-radius: 30px;">
+                                        <h1 class="text-center py-2">Full Time</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center"> <span class="my-4">
+                                    <img src="assets/images/job/Vector.png" class="img-fluid img-bg-2 py-2 px-2"
+                                        alt=""></span>
+                                <h2>Dental</h2>
+                                <h3>43,5749 Vacancies</h3>
+                            </div>
+                            <div class="row justify-content-center py-4">
+                                <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                                <h4 class="">All India</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="">
+                    <div class="row justify-content-center py-4">
+                        <h6>See More</h6> <img src="assets/images/Vector 1.png" class="img-fluid h-25 my-3 mx-2" alt="">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!----------------------------desination-jobs---------------------------->
+    <div class="container-fluid my-5" id="desination-jobs">
+        <div class="container">
+            <div class="row justify-content-center py-3">
+                <span class="img-bg">
+                    <img src="assets/images/course.png" class="img-fluid pt-2" alt=""></span>
+                <h6>Designation-wise jobs</h6>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <h3 class="px-3 pt-2">Search</h3>
+                        <div class="input-group md-form form-sm form-2 pl-0">
+                            <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search"
+                                aria-label="Search">
+                            <div class="input-group-append">
+                                <span class="input-group-text amber lighten-3" id="basic-text1"><i
+                                        class="fas fa-search text-grey" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center justify-content-md-end">
+                        <h3 class="mx-2 mt-lg-1 pt-2">SORT BY:</h3>
+                        <div class="default-order py-2 mr-md-4" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false" style="cursor: pointer;"><span class="pl-2 pr-5 py-3"
+                                style="color:rgba(39, 39, 39, 1);">Default
+                                Order</span>
+                            <i class="fas fa-bars pl-md-5 pr-md-2 icon-color"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-5" id="designation">
+                <div class="row bg py-3 px-3">
+                    <div class="col-md-6 px-5">
+                        <div class="row ">
+                            <img src="assets/images/job/surface1-3.png" class="img-fluid h-75 mx-2" alt="">
+                            <h1>Engineer Jobs</h1>
+                            <button class="btn mx-5">Full Time</button>
+                        </div>
+                        <h2>43,5749 Vacancies</h2>
+                        <div class="row mt-3">
+                            <button class="btn-1">Diploma</button>
+                            <button class="btn-1 mx-3">B.tech</button>
+                            <button class="btn-1 mx-2">M.tech</button>
+
+                        </div>
+                        <div class="row justify-content-start pt-4 px-3">
+                            <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                            <h3 class="">All India</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 view-more">
+                        <div><button class="btn-2">View Detail</button></div>
+                    </div>
+                </div>
+                <div class="row bg  mt-5 py-3 px-3">
+                    <div class="col-md-6 px-5">
+                        <div class="row ">
+                            <img src="assets/images/job/noun_assistant_4133042 1.png" class="img-fluid h-75 mx-2" alt="">
+                            <h1>Assistant Jobs</h1>
+                            <button class="btn mx-5">Full Time</button>
+                        </div>
+                        <h2>43,5749 Vacancies</h2>
+                        <div class="row mt-3">
+                            <button class="btn-1">Diploma</button>
+                            <button class="btn-1 mx-3">Bachelors </button>
+                            <button class="btn-1 mx-2">MBA</button>
+
+                        </div>
+                        <div class="row justify-content-start pt-4 px-3">
+                            <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                            <h3 class="">All India</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 view-more">
+                        <div><button class="btn-2">View Detail</button></div>
+                    </div>
+                </div>
+                <div class="row py-3 px-3 bg  mt-5">
+                    <div class="col-md-6 px-5">
+                        <div class="row ">
+                            <img src="assets/images/job/noun_Inspector_60885 1.png" class="img-fluid h-75 mx-2" alt="">
+                            <h1>Inspector Jobs</h1>
+                            <button class="btn mx-5">Full Time</button>
+                        </div>
+                        <h2>43,5749 Vacancies</h2>
+                        <div class="row mt-3">
+                            <button class="btn-1">Diploma</button>
+                            <button class="btn-1 mx-3">Bachelors</button>
+                            <button class="btn-1 mx-2">Masters</button>
+
+                        </div>
+                        <div class="row justify-content-start pt-4 px-3">
+                            <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                            <h3 class="">All India</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 view-more">
+                        <div><button class="btn-2">View Detail</button></div>
+                    </div>
+                </div>
+                <div class="row py-3 px-3 bg  mt-5">
+                    <div class="col-md-6 px-5">
+                        <div class="row ">
+                            <img src="assets/images/job/noun_manager_3038581 1.png" class="img-fluid h-75 mx-2" alt="">
+                            <h1>Manager Jobs</h1>
+                            <button class="btn mx-5">Full Time</button>
+                        </div>
+                        <h2>43,5749 Vacancies</h2>
+                        <div class="row mt-3">
+                            <button class="btn-1">Bachelors</button>
+                            <button class="btn-1 mx-3">Masters</button>
+                        </div>
+                        <div class="row justify-content-start pt-4 px-3">
+                            <img src="assets/images/job/map-pin.png" class="img-fluid h-25" alt="">
+                            <h3 class="">All India</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 view-more">
+                        <div><button class="btn-2">View Detail</button></div>
+                    </div>
+                </div>
+                <a href="">
+                    <div class="row justify-content-center py-4">
+                        <h6>See More</h6> <img src="assets/images/Vector 1.png" class="img-fluid h-25 my-3 mx-2" alt="">
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <!------------------------------footer------------------------->
+    <div class="conatiner-fluid footer mx-lg-5 px-lg-5 px-2">
+        <div class="conatiner row px-5 py-lg-5 text-md-left text-center">
+            <div class="col-md-3">
+                <h5 class="mb-3">Best Colleges</h5>
+                <ul>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                    <li class="my-1"><a href="">How it works</a></li>
+                    <li class="my-1"><a href="">Pricing</a></li>
+                    <li class="my-1"><a href="">Reviews</a> </li>
+                    <li class="my-1"> <a href="">Stories</a></li>
+
+                </ul>
+                <h5 class="pt-4 pb-3">others</h5>
+                <ul>
+                    <li class="my-1"><a href="">FAQ</a></li>
+                    <li class="my-1"><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">OUR GROUPS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Infoedge.in</a></li>
+                    <li class="my-1"><a href="">Naukri.com</a> </li>
+                    <li class="my-1"><a href="">Firstnaukri.com</a> </li>
+                </ul>
+                <h5 class="pt-4 pb-3">RESOURCES</h5>
+                <ul>
+                    <li class="my-1"><a href="">Guides</a></li>
+                    <li class="my-1"><a href=""> Help Center</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">About</h5>
+                <ul>
+                    <li class="my-1"><a href="">Company</a></li>
+                    <li class="my-1"><a href="">Career</a></li>
+                    <li class="my-1"><a href="">Press</a></li>
+                    <li class="my-1"><a href="">Contact</a></li>
+                </ul>
+                <h5 class="pt-4 pb-3">OFFERS</h5>
+                <ul>
+                    <li class="my-1"><a href="">Make an offer</a></li>
+                    <li class="my-1"><a href="">Request an offer</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h5>Download App</h5>
+                    <div class="mt-4">
+                        <a href=""><img src="assets/images/appplaystore.png" alt="" class="img-fluid w-50"></a>
+                        <a href=""><img src="assets/images/playstore.png" alt="" class="img-fluid w-50 my-2"></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <h5>Social Media</h5>
+                    <div class="row my-4 justify-content-center justify-content-md-start">
+                        <div class="centered mx-2">
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 1.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="centered  mx-2" style="background-color: rgba(59, 89, 152, 1);">
+                            <div class="text-center"><a href=""><img src="assets/images/Fill 4.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="centered mx-2">
+                            <div class="text-center"><a href=""><i class="fab fa-linkedin-in" style="color: white;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col">
+            <div class="row">
+                <div class="col-2">
+                    <div class="my-md-5"><span class="mr-lg-5 pr-lg-5 ">© 2021 stulink</span></div>
+                </div>
+                <div class="col-6 my-md-5"><span class="mx-lg-l-4">Terms of Service</span>
+                    <span class="mx-4"> Privacy Policy</span>
+                    <span class="mx-lg-4">Trust & Safety</span></div>
+                <div class="col-4 my-md-5"> <label for="language-picker-select" class="ml-lg-5 pl-lg-5 ">Language
+                        :</label>
+                    <select name="language-picker-select" id="language-picker-select" class="select">
+                        <option lang="de" value="deutsch">Deutsch</option>
+                        <option lang="en" value="english" selected>EN</option>
+                        <option lang="fr" value="francais">Français</option>
+                        <option lang="it" value="italiano">Italiano</option>
+
+                    </select></div>
+            </div>
+        </div>
+
+    </div>
+    <!-------------------------------end of footer-------------------->
+
+</body>
+<!-- Popper JS-->
+<script src="assets/bootstrap/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script src="assets//bootstrap/js/jquery-ui.js"></script>
+<script src="assets/js/main.js"> </script>
+<Script src="assets/js/owl.carousel.min.js"></Script>
+
+</html>

@@ -1,0 +1,148 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+body{
+    cursor: pointer;
+}
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    } 
+.login-btn{
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
+    padding: 5px 17px;
+    background: white;
+}
+
+.signup-btn{
+    border: 1px solid #2D2D2D;
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 5px 17px;
+}
+.nav-item a{
+    color: rgba(11, 11, 11, 1) !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+   }
+ .nav-item a:hover{
+    color: #29ABE2 !important;
+   
+
+}
+ .nav-item .active {
+    color: #29ABE2 !important;
+  
+}
+.college-nav-shadow {
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 7%);
+}
+******************************college-info****************************/
+#college-info .img-bg{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+    border: 0px;
+}
+#college-info h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2B2B2B;
+}
+#college-info h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2B2B2B;
+}
+#college-info h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A7A7A7;
+    }
+#college-info h6::before{
+    content: "";
+    display: inline-block;
+    background-color: #1DB954;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    margin-right: 4px;
+}
+#college-info h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2B2B2B;
+    }
+#college-info .write-review-btn{
+    background: #FFD600;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    border: transparent;
+}
+#college-info .follow-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FF0000;
+}
+#college-info .icon-border{
+    border: 1px solid #29ABE2;
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+}
+#college-info .Brochures-btn{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #FFA31A;
+    border-radius: 10px;
+    border: transparent;
+}
+#college-info .apply-now{
+    background: #29ABE2;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: transparent;
+}
+#college-info .img-bg{
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.13));
+border-radius: 20px;
+}
+/***********************end of college info****************************/
