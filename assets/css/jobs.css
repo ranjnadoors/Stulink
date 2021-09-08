@@ -1,0 +1,484 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    
+} 
+body{
+   
+}
+
+.login-btn{
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
+    padding: 5px 17px;
+    background: white;
+}
+
+.signup-btn{
+    border: 1px solid #2D2D2D;
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 5px 17px;
+}
+.nav-item a{
+    color: rgba(11, 11, 11, 1) !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+   }
+ .nav-item a:hover{
+    color: #29ABE2 !important;
+}
+.college-nav-shadow{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+}
+/*********************end of navbar****************/
+#search-jobs {
+    background-color: rgba(245, 245, 245, 1);
+}
+#search-jobs h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+color: #29ABE2;
+}
+#search-jobs .filter-bg{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#search-jobs .btn{
+background: #29ABE2;
+border-radius: 6px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/*****************newest******************/
+#newest h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #29ABE2;
+}
+#newest .opening-bg{
+    background: rgba(41, 171, 226, .1);
+    border: 1px solid rgba(41, 171, 226, .1);;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+#newest h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    color: #29ABE2;
+    display: flex;
+    justify-content: end;
+    background: #fff;
+    width: 116px;
+    /* border: 1px solid; */
+    margin-right: -7px;
+    background: #FFFFFF;
+border-radius: 30px 0px 0px 30px;
+
+}
+#newest h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+}
+#newest h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #29ABE2;
+}
+#newest h5{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+#newest a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+/**************************popular-jobs********************/
+#popular-jobs{
+    background-color: rgba(245, 245, 245,0.2);
+}
+#popular-jobs h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #29ABE2;
+    }
+#popular-jobs h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+#popular-jobs h2{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #29ABE2;
+}
+#popular-jobs a{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #000000;
+}
+#popular-jobs .b-tech:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+    padding: 3px 0px;
+}
+.border-right, .border-bottom{
+    border: #000000 !important;
+}
+/****************************state-jobs*********************/
+#state-jobs h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;    
+    color: #29ABE2;
+}
+#state-jobs h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #9F9EA4;
+}
+#state-jobs .input-group{
+width: auto;
+
+}
+#state-jobs .form-control{
+    background: #EFEFEF;
+    border-radius: 5px;
+    border: 0px;
+}
+.input-group-text{
+    background: #EFEFEF;
+    border-radius: 5px;
+    border: 0px !important;  
+}
+.default-order{
+    border: 1px solid rgba(239, 239, 239, 1);
+    background: rgba(239, 239, 239, 1);
+    border-radius: 4px;
+}
+.img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    }
+#states h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}    
+.arrow-bg{
+    background-color: #29ABE2;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#states h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #29ABE2;
+}
+#states a{
+    text-decoration: none;
+}
+#states .border-bottom-1{
+    border-bottom: 1px solid  #848484;
+    margin: 0px 5px;
+}
+/*************************qualification-jobs****************/
+#qualification-jobs{
+    background-color: 
+    rgba(89, 89, 89, 0.04);
+}
+#qualification-jobs h6{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #29ABE2;
+}
+#qualification-jobs .input-group{
+    width: auto;
+}
+#qualification-jobs .form-control{
+background: #EFEFEF;
+border-radius: 5px;
+border: 0px;
+}
+#qualification-jobs h3{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #9F9EA4;
+}
+#quali-jobs .bg{
+background: #FFFFFF;
+box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+}
+#quali-jobs .feature{
+    background: rgba(41, 171, 226, 0.15);
+   
+    border-radius: 0px 30px 30px 0px;
+}
+#quali-jobs h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #29ABE2;
+}
+.img-bg-2{
+    border: 2px solid #29ABE2;
+    border-radius: 50%;
+    text-align: center;
+}
+#quali-jobs h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+#quali-jobs h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #737373;
+}
+#quali-jobs h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #969696;
+}
+#quali-jobs h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #29ABE2;
+}
+/*******************designation jobs*****************/
+#desination-jobs h6{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #29ABE2;
+}
+#desination-jobs .input-group{
+    width: auto;
+}
+#desination-jobs .form-control{
+background: #EFEFEF;
+border-radius: 5px;
+border: 0px;
+}
+#desination-jobs h3{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #9F9EA4;
+}
+#desination-jobs .bg{
+background: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+border-radius: 10px;
+}
+#designation h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 37px;
+color: #000000;
+}
+#designation .btn{
+font-family: Poppins;
+view-morefont-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+background: #666666;
+border-radius: 2px;
+}
+#designation .btn-1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+padding: 7px 9px;
+line-height: 19px;
+color: #7B7B7B;
+border: 1px solid #7B7B7B;
+box-sizing: border-box;
+border-radius: 2px;
+background: transparent;
+}
+#designation .btn-2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+background: #29ABE2;
+border-radius: 40px;
+color: #FFFFFF;
+border: none;
+padding: 8px 26px;
+}
+#designation .view-more{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#designation h2{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #29ABE2;
+}
+#designation h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #969696;
+}
+#designation h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #29ABE2;
+}
+/****************************footer*******************************/
+.footer h5{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+  }
+  .footer ul{
+      list-style: none;
+  }
+  .footer a{
+      text-decoration: none;
+      color: rgba(100, 98, 106, 1);
+      font-size: 14px;
+      font-family: "inter";
+      
+  }
+  .footer span {
+      font-size: 12px;
+      color:rgba(100, 98, 106, 1);
+  }
+  .footer label {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.footer option {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.centered{
+    border: 1px solid #29ABE2;
+    height: 30px;
+    width: 30px;
+    border-radius: 31px; 
+    text-decoration: none;
+    background-color: #29ABE2;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    transition: transform .2s;
+}
+.centered:hover{
+    transform: scale(1.2);
+}
