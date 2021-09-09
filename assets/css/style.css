@@ -2303,7 +2303,7 @@ color: #000000;
         font-size: 22px;
         }
     #nav-cutoff .tab-pane-overview{
-        width: 352px;
+       /* width: 352px;*/
     }
     #nav-cutoff p{
         font-size: 15px !important;
@@ -2340,7 +2340,7 @@ color: #000000;
         width: 300px;
     }
     #nav-placement .tab-pane-overview{
-        width: 360px;
+        /*width: 360px;*/
     }
     #nav-placement h6{
         font-size: 20px;
@@ -2367,13 +2367,13 @@ width: 350px !important;
         width: 340px;
     }
     #nav-scholarship .tab-pane-overview{
-        width: 314px;
+        /*width: 314px;*/
     }
     #nav-scholarship table{
         width: 90%;
     }
     #nav-ranking .tab-pane-overview{
-        width: 340px;
+        /*width: 340px;*/
     }
 
     #nav-qes-ans h6{
@@ -2395,7 +2395,7 @@ width: 350px !important;
         width: 91%;
     }
     #nav-ranking .tab-pane-overview{
-        width: 720px;
+        /*width: 720px;*/
     }
     #college-bg .data-center{
         position: absolute; 
@@ -2416,7 +2416,7 @@ width: 350px !important;
         font-size: 22px;
         }
     #nav-cutoff .tab-pane-overview{
-        width: 700px;
+        /*width: 700px;*/
     }
     #nav-cutoff p{
         font-size: 17px !important;
@@ -2432,13 +2432,13 @@ width: 350px !important;
         width: 449px;
     }
     #nav-placement .tab-pane-overview{
-        width: 711px;
+       /* width: 711px;*/
     }
      #btech .tab-bg{
        width: 525px;
     }
     #nav-scholarship .tab-pane-overview{
-        width: 676px;
+        /*width: 676px*/;
     }
     #nav-scholarship table{
         width: 79%;
@@ -2470,7 +2470,7 @@ width: 350px !important;
     font-size: 22px;
     }
    #nav-ranking .tab-pane-overview{
-       width: 350px;
+       /*width: 350px;*/
    }
    table tbody {
     display: table;
