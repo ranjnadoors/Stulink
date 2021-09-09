@@ -1327,10 +1327,10 @@ font-family: "Poppins";
 /***************************************media queries********************/
 @media (min-width: 357px) and (max-width: 767px) {
     .tab-pane-overview{
-        width: 326px;
+       
     }
     #jee-main-overview{
-        width: 326px;
+      
     }
     #JEE-Main-Math-Syllabus  h6{
        font-size: 20px;
@@ -1347,7 +1347,7 @@ font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 #jee-main-overview{
-    height: 720px;
+   
 }
 }
 

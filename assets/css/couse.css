@@ -1036,7 +1036,7 @@ font-family: "Poppins";
 /****************************************media queries**************************************/
 @media (min-width: 357px) and (max-width: 767px) {
     .tab-bg{
-        width: 347px;
+       
     }
     #nav-Overview h6{
        font-size: 20px;
