@@ -1,0 +1,155 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    
+} 
+body{
+   
+}
+
+.login-btn{
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
+    padding: 5px 17px;
+    background: white;
+}
+
+.signup-btn{
+    border: 1px solid #2D2D2D;
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 5px 17px;
+}
+.nav-item a{
+    color: rgba(11, 11, 11, 1) !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+   }
+ .nav-item a:hover{
+    color: #29ABE2 !important;
+}
+.college-nav-shadow{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+}
+/*********************end of navbar****************/
+#home h1 , #home span{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+text-decoration:1px solid underline #000;
+text-underline-position: under;
+text-underline-offset: 4px;
+}
+#home p{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+text-align: center;
+}
+/**********************************form-detail******************/
+#form-detail .steps{
+background: #FFFFFF;
+box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.12);
+border-radius: 20px;
+}
+#form-detail p{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4A4A4A;
+}
+#form-detail h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 37px;
+color: #000000;
+}
+
+/* Steps */
+.step {
+    position: relative;
+    min-height: 1em;
+    color: gray;
+  }
+  .step + .step {
+    margin-top: 1.5em
+  }
+  .step > div:first-child {
+    position: static;
+    height: 0;
+  }
+  .step > div:not(:first-child) {
+    margin-left: 1.5em;
+    padding-left: 1em;
+  }
+  .step.step-active {
+    color: #29ABE2
+  }
+  .step.step-active .circle {
+    border: 1px solid #29ABE2;
+    background: none;
+    color: #29ABE2;
+  }
+  
+  /* Circle */
+  .circle {
+    background: gray;
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 3px #fff;
+  }
+  
+  /* Vertical Line */
+  .circle:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 50%;
+    bottom: 1px;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    transform: scale(1, 2);
+    transform-origin: 50% -100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+  }
+  .step:last-child .circle:after {
+    display: none
+  }
+  
+  /* Stepper Titles */
+  .title {
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+  .caption {
+    font-size: 0.8em;
+  }
