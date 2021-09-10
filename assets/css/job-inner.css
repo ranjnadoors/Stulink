@@ -1,0 +1,324 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+body{
+    cursor: pointer;
+}
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    } 
+.login-btn{
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
+    padding: 5px 17px;
+    background: white;
+}
+
+.signup-btn{
+    border: 1px solid #2D2D2D;
+    color: white;
+    background: black;
+    border-radius: 15px;
+    padding: 5px 17px;
+}
+.nav-item a{
+    color: rgba(11, 11, 11, 1) !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins" !important;
+   }
+ .nav-item a:hover{
+    color: #29ABE2 !important;
+   }
+ .nav-item .active {
+    color: #29ABE2 !important;
+  }
+  .college-nav-shadow {
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 7%);
+}
+/*****************************college info***********************/
+#college-info .img-bg{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+    border: 0px;
+}
+#college-info h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2B2B2B;
+}
+#college-info h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #565656;
+}
+#college-info .img-bg{
+    background: #1DB954;
+border-radius: 50px;
+}
+#college-info span{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #808080;
+}
+
+#college-info .write-review-btn{
+    background: #FFD600;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    border: transparent;
+}
+#college-info .follow-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FF0000;
+}
+#college-info .icon-border{
+    border: 1px solid #29ABE2;
+    box-sizing: border-box;
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+}
+#college-info .Brochures-btn{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #FFA31A;
+    border-radius: 10px;
+    border: transparent;
+    position: relative;
+}
+
+#college-info .apply-now{
+    background: #29ABE2;
+    border-radius: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: transparent;
+    transition: transform 2s;
+}
+.globle-earth{
+animation:animate-globe 2s linear infinite;
+}
+.globle-earth:hover{
+animation-play-state: paused;
+}
+@keyframes animate-globe{
+    from {
+     
+        transform: rotateY(0deg);
+      }
+      to {
+        
+        transform: rotateY(360deg);
+      }
+}
+/***********************end of college info****************************/
+/*************************bank jobs****************************/
+#bank-jobs{
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+}
+#bank-jobs h1{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #8A8A8A;
+}
+.default-order{
+border: 1px solid rgba(239, 239, 239, 1);
+background: rgba(239, 239, 239, 1);
+}
+#job-detail .bg{
+background: #FEFEFE;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 11px;
+}
+#job-detail h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #29ABE2;
+}
+#job-detail h2{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}
+#job-detail span{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+color: #8C8C8C;
+}
+.fa-link{
+background: #29ABE2;
+border-radius: 50%;
+height: 28px;
+width: 28px;
+color: #fff;
+text-align: center;
+}
+#job-detail .btn-1{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+color: #000000;
+background: rgba(159, 159, 159, 0.2);
+border: none;
+border-radius: 62.5px;
+}
+#job-detail .btn-2{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+color: #29ABE2;
+background:  rgba(41, 171, 226, 0.2);
+border-radius: 33.5px;
+border: none;
+}
+#bank-jobs h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #29ABE2;
+}
+
+#trending h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    #trending h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #29ABE2;
+    }
+    #trending h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    }
+    #trending h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    }
+    #trending .img-bg-1{
+        border: 1px solid #29ABE2;
+        border-radius: 50%;
+    }
+    .top-ranked {
+        background: #1DB954;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+    }
+    .tab-pane-overview {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 12px rgb(0 0 0 / 12%);
+        border-radius: 10px;
+    }
+    ****************************footer*******************************/
+.footer h5{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+  }
+  .footer ul{
+      list-style: none;
+  }
+  .footer a{
+      text-decoration: none;
+      color: rgba(100, 98, 106, 1);
+      font-size: 14px;
+      font-family: "inter";
+      
+  }
+  .footer span {
+      font-size: 12px;
+      color:rgba(100, 98, 106, 1);
+  }
+  .footer label {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.footer option {
+    font-size: 12px;
+    color:rgba(100, 98, 106, 1);
+}
+.centered{
+    border: 1px solid #29ABE2;
+    height: 30px;
+    width: 30px;
+    border-radius: 31px; 
+    text-decoration: none;
+    background-color: #29ABE2;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    transition: transform .2s;
+}
+.centered:hover{
+    transform: scale(1.2);
+}
