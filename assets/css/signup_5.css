@@ -107,6 +107,8 @@ color: #8D8D8D;
 }
  .active{
   color: #29ABE2 !important;
+  font-size: 16px;
+  font-weight: 600;
 }
 .form-bg{
 background: #FFFFFF;
@@ -163,12 +165,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 18px;
-color: #818181;
-background: #E1E1E1;
+color: #fff;
+background: #000000;
 border-radius: 5px;
 border: none;
 }
-.next {
+.next{
   font-family: Inter;
 font-style: normal;
 font-weight: 500;
@@ -207,6 +209,26 @@ border: none;
   transform: translate(1px,-85%) scale(0.80);
   opacity: .8;
   font-size: 14px;
+}
+.signup{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+background: #29ABE2;
+border-radius: 74px;
+color: #FFFFFF;
+border: none;
+width: 380px;
+}
+#form-detail h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
 }
 /****************************footer*******************************/
 .footer h5{
@@ -252,8 +274,32 @@ border: none;
 .centered:hover{
   transform: scale(1.2);
 }
+.btns{
+border: 1px solid #4A4A4A;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #4A4A4A;
+padding: 7px 32px;
+background: transparent;
+}
+.btns:hover{
+/*box-shadow: 0px 0px 14px rgba(54, 195, 255, 0.5);*/
+border-radius: 4px;
+background: rgba(41, 171, 226, 0.2);
+border: none;
+color: #29ABE2;
+}
+
 @media (min-width: 357px) and (max-width: 767px) {
   .form-bg{
     position: initial;
+  }
+  .signup{
+      width: 333px;
   }
 }

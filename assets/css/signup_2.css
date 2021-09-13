@@ -163,12 +163,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 18px;
-color: #818181;
-background: #E1E1E1;
+color: #fff;
+background: #000000;
 border-radius: 5px;
 border: none;
 }
-.next {
+.next{
   font-family: Inter;
 font-style: normal;
 font-weight: 500;
