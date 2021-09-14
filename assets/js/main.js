@@ -562,5 +562,6 @@ inputRange.addEventListener('input', function() {
     }
 });
 
+//like and dislike button
 
 

@@ -1,0 +1,350 @@
+@font-face{
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-family: Inter;
+}
+@font-face{
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    font-family: Poppins;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter";
+    
+} 
+body{
+   
+}
+#upper-header{
+    background: #000000;
+    
+}
+#upper-header h1{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+/**********logo menu**************/
+#logo-menu{
+    background: #131921;
+}
+#logo-menu h5,#logo-menu h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+}
+#logo-menu h6{
+    font-size: 10px;
+}
+.input-group.md-form.form-sm.form-2 input {
+border: 1px solid #bdbdbd;
+border-top-left-radius: 0.25rem;
+border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+border: 1px solid #ef9a9a;
+}
+.input-group-text{
+background-color: #fff !important;
+color: #29ABE2 !important;
+}
+.form-control{
+background-color: #fff !important;
+border: 1px solid #fff !important;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04) !important;
+border-radius: 6px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+/*********************main-navbar********************/
+#main-navbar li a{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+padding: 10px 31px;
+}
+.dropdown-menu{
+    background: #131921 !important;
+    color: #fff;
+}
+/**************************profile-post*********/
+#profile-post .profile-bg{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+border-top: 3px solid #29ABE2;
+border-radius: 10px 10px 0px 0px;
+}
+#profile-post .profile-bg h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 37px;
+color: #000000;
+}
+#profile-post .profile-bg span{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: #A5A5A5;
+}
+#profile-post .profile-bg h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+#profile-post .profile-bg .link{
+background: #29ABE2;
+border-radius: 5px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+
+border: 0px;
+color: #FFFFFF;
+}
+#profile-post .profile-bg .msg{
+background: #5C5C5C;
+border-radius: 5px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+
+border: 0px;
+color: #FFFFFF;
+}
+.align-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*****************************about-profile*************/
+#about-profile{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+#about-profile h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color: #000000;
+}
+#about-profile h2{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #5B5B5B;
+}
+#about-profile h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #29ABE2;
+}
+#about-profile p{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: #818181;
+}
+ul{
+list-style: none;
+}
+.notification {
+
+color: white;
+text-decoration: none;
+padding: 4px 13px;
+position: relative;
+display: inline-block;
+border-radius: 2px;
+}
+
+.notification:hover {
+background: red;
+}
+
+.notification .badge {
+position: absolute;
+top: -10px;
+right: -10px;
+padding: 5px 7px;
+border-radius: 50%;
+background-color: #29ABE2;
+color: white;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+color: #29ABE2 !important;
+border: none;
+border-bottom: 2px solid #29ABE2 !important;
+}
+#tabs a{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #2E2E2E;
+}
+.nav-tabs{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+border-bottom: none !important;
+}
+.nav-tabs .nav-link{
+border: none !important;
+}
+#tabs .tab-pane-1{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+#tabs h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+#tabs h2{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #A5A5A5;
+}
+#tabs h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #0E0E0E;
+}
+#tabs h4{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #989898;
+}
+#tabs p{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #515151;
+}
+/******************recomend***************/
+#recomend{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+#recomend h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+#recomend h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+}
+#recomend h6{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 7px;
+color: #A5A5A5;
+}
+#recomend h5{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 12px;
+color: #29ABE2;
+}
+#recomend .link{
+background: #29ABE2;
+border-radius: 50px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+color: #FFFFFF;
+}
+#trending{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+#trending h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+#trending h2{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #2B2B2B;
+}
+#trending h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #8B8989;
+}
