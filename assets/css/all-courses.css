@@ -64,6 +64,10 @@ body{
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+   
+}
+select{
+   
 }
 #search-courses .form-control{
     height: 45px;
@@ -71,6 +75,8 @@ body{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
     border-radius: 6px;
     border: 0;
+  background-position-x: 30px;
+    
 }
 #search-courses .form-control::placeholder{
     font-family: Poppins;
@@ -81,14 +87,24 @@ line-height: 21px;
 text-transform: uppercase;
 color: #9E9E9E;
 text-indent: 20px;
-padding-left: 4px;
-background-image: url(../images/call-center\ 2.png);
 background-repeat: no-repeat;
 }
+.inputWithIcon {
+    position: relative;
+  }
+  
+  .inputWithIcon img {
+    position: absolute;
+    left: 28px;
+    top: 7px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
 #search-courses .filter{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #29ABE2;
@@ -115,12 +131,14 @@ background-repeat: no-repeat;
 .img-bg{
     border: 1px solid #29ABE2;
     border-radius: 50%;
+    height: 35px;
+    padding: 3px;
     
 }
 #feature-course h3{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 45px;
     color: #29ABE2;
@@ -153,13 +171,27 @@ background-repeat: no-repeat;
     color: #9F9EA4;
 }
 /********************************course-list**********************/
+#course-list .course-list-bg{
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+#course-list .course-list-bg:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(104, 128, 138, 0.12);
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+#course-list .course-list-bg:hover h1{
+    color: #29ABE2;
+}
 #course-list h1{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    color: #29ABE2;
+    color: #000;
 }
 #course-list h2{
     font-family: Inter;
@@ -194,6 +226,7 @@ background-repeat: no-repeat;
     width: 50px;
     border-radius: 50%;
 }
+
 /********************************under gradulate***************************/
 #undergraduate h3{
     font-family: Poppins;
@@ -206,7 +239,7 @@ background-repeat: no-repeat;
 #undergraduate .right-text{
     position: absolute;
     right: 6%;
-    top: 27%;
+    top: 36%;
     background: #000000;
     border-radius: 2px;
     font-family: Poppins;
@@ -218,7 +251,12 @@ background-repeat: no-repeat;
 }
 .card{
     border: 0px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
 }
+
+
 .card-title{
     font-family: Poppins;
     font-style: normal;
@@ -226,11 +264,12 @@ background-repeat: no-repeat;
     font-size: 22px;
     line-height: 33px;
     color: #29ABE2;
+    padding-top: 20px;
 }
 .card-body h6{
     font-family: Inter;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 18px;
     color: #2C2A2A;
@@ -241,6 +280,7 @@ background-repeat: no-repeat;
     font-weight: normal;
     font-size: 18px;
     line-height: 31px;
+    padding-top: 18px;
     color: #737373;
 }
 .card-body .btn{
@@ -253,6 +293,9 @@ background-repeat: no-repeat;
     font-size: 15px;
     line-height: 31px;
     color: #29ABE2;
+}
+.card-body .btn:hover{
+    border: 1px solid black;
 }
 .footer h5{
     font-size: 14px;
