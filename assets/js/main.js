@@ -562,6 +562,10 @@ inputRange.addEventListener('input', function() {
     }
 });
 
-//like and dislike button
-
+//hide and how rows
+$(document).ready(function(){
+	$('#portests').on('click',function(){	
+		$('.test').toggle();
+	});
+});
 

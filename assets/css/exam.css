@@ -206,7 +206,7 @@ body{
  #jee-main-overview{
      height: 500px;
  }
- #jee-main-overview h6{
+ #jee-main-overview h5{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -235,12 +235,12 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #1F1F1F;
     padding: 15px 5px;
  }
- #jee-main-overview a.active{
+ #jee-main-overview .jee-main-link.active a{
     background: #EFEFEF;
     mix-blend-mode: normal;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.13);
@@ -248,7 +248,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #1F1F1F;
     padding: 15px 15px;
@@ -384,7 +384,7 @@ body{
 #trending h1 {
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
@@ -393,7 +393,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     color: #2B2B2B;
 } 
@@ -401,7 +401,7 @@ body{
     font-family: Inter !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    font-size: 9px !important;
+    font-size: 13px !important;
     line-height: 11px !important;
     color: #FFD600 !important;
 }
@@ -409,7 +409,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 13px;
     color: #6F6F6F;
 }
@@ -417,7 +417,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     color: #29ABE2;
 }
@@ -425,7 +425,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 12px;
     color: #131313;
 }
@@ -433,7 +433,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     color: #1DB954;
 }
