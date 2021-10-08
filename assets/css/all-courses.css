@@ -1,85 +1,179 @@
 @font-face{
-    src: url(../font/Inter/static/Inter-Regular.ttf);
-    font-family: Inter;
+src: url(../font/Inter/static/Inter-Regular.ttf);
+font-family: Inter;
 }
 @font-face{
-    src: url(../font/Poppins/Poppins-Light.ttf);
-    font-family: Poppins;
+src: url(../font/Poppins/Poppins-Light.ttf);
+font-family: Poppins;
 }
 body{
-    cursor: pointer;
+cursor: pointer;
 }
- *{
-    padding: 0;
-    margin: 0;
-    font-family: "inter";
-    } 
-.login-btn{
-    border: 1px solid #B6B6B6;
-    border-radius: 15px;
-    padding: 5px 17px;
-    background: white;
+*{
+padding: 0;
+margin: 0;
+font-family: "inter";
+} 
+#upper-header{
+background: #000000;
+
+}
+#upper-header h1{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+}
+/**********logo menu**************/
+#logo-menu{
+background: #131921;
+}
+#logo-menu h5,#logo-menu h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+}
+#logo-menu h6{
+font-size: 10px;
+}
+.input-group.md-form.form-sm.form-2 input {
+border: 1px solid #bdbdbd;
+border-top-left-radius: 0.25rem;
+border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+border: 1px solid #ef9a9a;
+}
+.input-group-text{
+background-color: #fff !important;
+color: #29ABE2 !important;
+}
+.form-control{
+background-color: #fff !important;
+border: 1px solid #fff !important;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04) !important;
+border-radius: 6px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+/*********************main-navbar********************/
+#main-navbar li a{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+padding: 10px 31px;
+}
+.dropdown-menu{
+background: #FFFFFF !important;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.13);
+border-radius: 3px;
+color: #000;
+position: absolute;
+left: -63px !important; 
+top: 12px !important;
+border: transparent;
+width: 195px;
+}
+.dropdown-menu h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-transform: uppercase;
+color: #000000;
+}
+.dropdown-menu h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+.dropdown-menu   .online{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: #1DB954;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 27px;
+color: #fff;
+}
+.dropdown-menu h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #676767;
+}
+.notification {
+
+color: white;
+text-decoration: none;
+padding: 4px 13px;
+position: relative;
+display: inline-block;
+border-radius: 2px;
 }
 
-.signup-btn{
-    border: 1px solid #2D2D2D;
-    color: white;
-    background: black;
-    border-radius: 15px;
-    padding: 5px 17px;
-}
-.nav-item a{
-    color: rgba(11, 11, 11, 1) !important;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: "Poppins" !important;
-   }
- .nav-item a:hover{
-    color: #29ABE2 !important;
-   }
- .nav-item .active {
-    color: #29ABE2 !important;
-  }
-  .college-nav-shadow {
-    box-shadow: 0px 4px 10px rgb(0 0 0 / 7%);
+.notification .badge {
+position: absolute;
+top: -10px;
+right: -10px;
+padding: 5px 7px;
+border-radius: 50%;
+background-color: #29ABE2;
+color: white;
 }
 /*****************************search coursess**************************/
 #search-courses{
-    background-color: #F5F5F5;
+background-color: #F5F5F5;
 }
 #search-courses h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 51px;
-    color: #29ABE2;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+color: #29ABE2;
 }
 #search-courses .search{
-    background: #29ABE2;
-    border-radius: 6px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;
-   
+background: #29ABE2;
+border-radius: 6px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+
 }
 select{
-   
+
 }
 #search-courses .form-control{
-    height: 45px;
-    background: #EDEDED;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 6px;
-    border: 0;
-  background-position-x: 30px;
-    
+height: 45px;
+background: #EDEDED;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+border-radius: 6px;
+border: 0;
+background-position-x: 30px;
+
 }
 #search-courses .form-control::placeholder{
-    font-family: Poppins;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -90,264 +184,264 @@ text-indent: 20px;
 background-repeat: no-repeat;
 }
 .inputWithIcon {
-    position: relative;
-  }
-  
-  .inputWithIcon img {
-    position: absolute;
-    left: 28px;
-    top: 7px;
-    padding: 9px 8px;
-    color: #aaa;
-    transition: 0.3s;
-  }
+position: relative;
+}
+
+.inputWithIcon img {
+position: absolute;
+left: 28px;
+top: 7px;
+padding: 9px 8px;
+color: #aaa;
+transition: 0.3s;
+}
 #search-courses .filter{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #29ABE2;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #29ABE2;
 }
 #search-courses .filter-bg{
-    background: #FFFFFF;
-    border-radius: 10px;
+background: #FFFFFF;
+border-radius: 10px;
 }
 #search-courses label{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #343434;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+color: #343434;
 }
- select {
-    text-transform: uppercase !important;
-    color: #8B8B8B !important;
-    font-size: 14px !important;
+select {
+text-transform: uppercase !important;
+color: #8B8B8B !important;
+font-size: 14px !important;
 }
 /*************************************feature college*********************************/
 .img-bg{
-    border: 1px solid #29ABE2;
-    border-radius: 50%;
-    height: 35px;
-    padding: 3px;
-    
+border: 1px solid #29ABE2;
+border-radius: 50%;
+height: 35px;
+padding: 3px;
+
 }
 #feature-course h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 45px;
-    color: #29ABE2;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #29ABE2;
 }
 #feature-course h4{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
 }
 .default-order{
-    border: 1px solid rgba(239, 239, 239, 1);
-    background: rgba(239, 239, 239, 1);
-    border-radius: 4px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: #272727;
+border: 1px solid rgba(239, 239, 239, 1);
+background: rgba(239, 239, 239, 1);
+border-radius: 4px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #272727;
 }
 #feature-course h2{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #9F9EA4;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #9F9EA4;
 }
 /********************************course-list**********************/
 #course-list .course-list-bg{
-    padding: 20px 20px;
-    margin: 20px 20px;
+padding: 20px 20px;
+margin: 20px 20px;
 }
 #course-list .course-list-bg:hover{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 15px rgba(104, 128, 138, 0.12);
-    border-radius: 10px;
-    padding: 20px 20px;
-    margin: 20px 20px;
+background: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(104, 128, 138, 0.12);
+border-radius: 10px;
+padding: 20px 20px;
+margin: 20px 20px;
 }
 #course-list .course-list-bg:hover h1{
-    color: #29ABE2;
+color: #29ABE2;
 }
 #course-list h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    color: #000;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color: #000;
 }
 #course-list h2{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #696969;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #696969;
 }
 #course-list h6{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-    color: #222222;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+color: #222222;
 }
 #course-list .btn{
-    border: 1px solid #1DB954;
-    box-sizing: border-box;
-    border-radius: 2px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    color: #1DB954;
+border: 1px solid #1DB954;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #1DB954;
 }
 #course-list .img-bg-1{
-    background: #29ABE2;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+background: #29ABE2;
+height: 50px;
+width: 50px;
+border-radius: 50%;
 }
 
 /********************************under gradulate***************************/
 #undergraduate h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 45px;
-    color: #29ABE2;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #29ABE2;
 }
 #undergraduate .right-text{
-    position: absolute;
-    right: 6%;
-    top: 36%;
-    background: #000000;
-    border-radius: 2px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+position: absolute;
+right: 6%;
+top: 36%;
+background: #000000;
+border-radius: 2px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
 }
 .card{
-    border: 0px !important;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
-    border-radius: 10px;
+border: 0px !important;
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.06);
+border-radius: 10px;
 }
 
 
 .card-title{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    color: #29ABE2;
-    padding-top: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color: #29ABE2;
+padding-top: 20px;
 }
 .card-body h6{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-    color: #2C2A2A;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+color: #2C2A2A;
 }
 .card-text{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 31px;
-    padding-top: 18px;
-    color: #737373;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 31px;
+padding-top: 18px;
+color: #737373;
 }
 .card-body .btn{
-    border: 1px solid #29ABE2;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 31px;
-    color: #29ABE2;
+border: 1px solid #29ABE2;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 31px;
+color: #29ABE2;
 }
 .card-body .btn:hover{
-    border: 1px solid black;
+border: 1px solid black;
 }
 .footer h5{
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-  }
-  .footer ul{
-      list-style: none;
-  }
-  .footer a{
-      text-decoration: none;
-      color: rgba(100, 98, 106, 1);
-      font-size: 14px;
-      font-family: "inter";
-      
-  }
-  .footer span {
-      font-size: 12px;
-      color:rgba(100, 98, 106, 1);
-  }
-  .footer label {
-    font-size: 12px;
-    color:rgba(100, 98, 106, 1);
+font-size: 14px;
+font-weight: 600;
+font-family: 'Poppins';
+text-transform: uppercase;
+}
+.footer ul{
+list-style: none;
+}
+.footer a{
+text-decoration: none;
+color: rgba(100, 98, 106, 1);
+font-size: 14px;
+font-family: "inter";
+
+}
+.footer span {
+font-size: 12px;
+color:rgba(100, 98, 106, 1);
+}
+.footer label {
+font-size: 12px;
+color:rgba(100, 98, 106, 1);
 }
 .footer option {
-    font-size: 12px;
-    color:rgba(100, 98, 106, 1);
+font-size: 12px;
+color:rgba(100, 98, 106, 1);
 }
 .centered{
-    border: 1px solid #29ABE2;
-    height: 30px;
-    width: 30px;
-    border-radius: 31px; 
-    text-decoration: none;
-    background-color: #29ABE2;
-    color: white;
-    font-weight: 700;
-    font-size: 19px;
-    transition: transform .2s;
+border: 1px solid #29ABE2;
+height: 30px;
+width: 30px;
+border-radius: 31px; 
+text-decoration: none;
+background-color: #29ABE2;
+color: white;
+font-weight: 700;
+font-size: 19px;
+transition: transform .2s;
 }
 .centered:hover{
-    transform: scale(1.2);
+transform: scale(1.2);
 }
 /************************************media Queries*************************/
 @media (min-width: 357px) and (max-width: 767px) {
-    #search-courses h1{
-        font-size: 20px;
-    }
-    #course-list h1 {
-        font-size: 18px;
-    }
+#search-courses h1{
+font-size: 20px;
+}
+#course-list h1 {
+font-size: 18px;
+}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 }
