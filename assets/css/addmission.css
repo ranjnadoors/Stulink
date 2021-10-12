@@ -128,7 +128,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 30px;
-letter-spacing: 3px;
+/*letter-spacing: 3px;*/
 color: #29ABE2;
 }
 #btech p{
@@ -147,6 +147,7 @@ color: #3B3A40;
     font-size: 15px;
     line-height: 22px;
     text-align: center;
+    border-radius: 2px;
     color: #FFFFFF;
     border: transparent;
     background:#29ABE2 ;

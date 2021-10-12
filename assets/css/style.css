@@ -1903,9 +1903,12 @@ text-align: center;
 #nav-cutoff .table tbody th{
 color: #3B3A40;
 }
-.test{
+.test, .bsc, .msc, .others{
 display: none;
 }
+.mtech{
+    display: none;
+    }
 #nav-cutoff .top-ranked {
 background: #1DB954;
 border-radius: 10px 10px 0px 0px;
@@ -2312,7 +2315,7 @@ color: #1DB954;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
+font-size: 14px;
 line-height: 15px;
 text-align: justify;
 color: #565656;
