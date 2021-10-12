@@ -9,6 +9,9 @@ font-family: Poppins;
 body{
 cursor: pointer;
 }
+.conatiner{
+    max-width: 1440px !important;
+}
 *{
 padding: 0;
 margin: 0;
@@ -1244,8 +1247,11 @@ background: #FFFFFF;
 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
-margin-top: -11px;
+/*margin-top: -11px;*/
 z-index: -1;
+}
+#collapseOne{
+    background-color: #fff;
 }
 #college-rating h2{
 color:rgba(43, 43, 43, 1) ;

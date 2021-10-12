@@ -6,6 +6,9 @@
     src: url(../font/Poppins/Poppins-Light.ttf);
     font-family: Poppins;
 }
+.container{
+    max-width: 1440px !important;
+}
 #nav-ver-tab h2{
     text-align: center;
     font-size: 25px;
@@ -206,7 +209,7 @@ color: #29ABE2;
 #trending-bg h3{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
@@ -231,7 +234,7 @@ color: #29ABE2;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 15px;
     color: #29ABE2;
 }
@@ -247,8 +250,8 @@ color: #29ABE2;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 20px;
     color: #131313;
     font-weight: 600;
 }

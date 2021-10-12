@@ -13,6 +13,10 @@ cursor: pointer;
 padding: 0;
 margin: 0;
 font-family: "inter";
+}
+.container
+{
+    max-width: 1440px !important;
 } 
 #upper-header{
 background: #000000;
