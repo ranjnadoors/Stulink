@@ -568,4 +568,24 @@ $(document).ready(function(){
 		$('.test').toggle();
 	});
 });
+$(document).ready(function(){
+	$('#portest').on('click',function(){	
+		$('.mtech').toggle();
+	});
+});
+$(document).ready(function(){
+	$('#bsc-data').on('click',function(){	
+		$('.bsc').toggle();
+	});
+});
+$(document).ready(function(){
+	$('#msc-data').on('click',function(){	
+		$('.msc').toggle();
+	});
+});
+$(document).ready(function(){
+	$('#others-data').on('click',function(){	
+		$('.others').toggle();
+	});
+});
 
