@@ -1957,10 +1957,11 @@ border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 text-decoration: none;
 }
-#nav-gallery .nav-tabs .nav-item.show .nav-link{
+#nav-gallery .nav-tabs .nav-item  .nav-link .active{
 background-color: transparent !important;
 border-bottom:2px solid #29abe2 !important;
 text-decoration: none;
+color: #29abe2;
 }
 #nav-gallery .nav-link{
 font-family: Poppins !important;
@@ -1971,6 +1972,10 @@ line-height: 24px;
 text-transform: uppercase;
 color: #686868 !important;
 }
+#nav-gallery .nav-link .active{
+   color: #29abe2 !important;
+   border-bottom: 1px solid #29abe2 !important;
+    }
 #nav-gallery .nav-tabs{
 margin: 0px 285px;
 }
