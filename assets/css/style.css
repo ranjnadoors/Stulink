@@ -967,7 +967,7 @@ color: #1DB954 !important;
 font-family: Inter !important;
 font-style: normal !important;
 font-weight: 500 !important;
-font-size: 11px !important;
+font-size: 13px !important;
 line-height: 22px !important;
 color: #4f4f4f !important;
 }
@@ -2288,6 +2288,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 37px;
+letter-spacing: 0;
 color: #29ABE2;
 }
 #nav-courses #btech h4{
@@ -2350,7 +2351,7 @@ color: #1DB954;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 21px;
 text-align: justify;
 color: #2E2E2E;
