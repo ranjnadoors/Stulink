@@ -217,8 +217,8 @@ color: #29ABE2;
 #trending-bg h2{
     font-family: Inter;
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 18px;
     color: #2B2B2B;
 }
@@ -234,7 +234,7 @@ color: #29ABE2;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 15px;
     color: #29ABE2;
 }
@@ -250,10 +250,10 @@ color: #29ABE2;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
     color: #131313;
-    font-weight: 600;
+    font-weight: 500;
 }
 @media only screen and (max-width: 479px){
     #nav-ver-tab .vertical-tab .nav-tabs{
