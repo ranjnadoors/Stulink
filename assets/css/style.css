@@ -383,7 +383,7 @@ word-wrap: break-word;
 background-color: #fff;
 background-clip: border-box;
 border: 0px !important;
-box-shadow: 0 0 7px rgba(59, 58, 64, 0.08) !important;
+box-shadow: 0 0 4px rgba(59, 58, 64, 0.08) !important;
 border-radius: 1.5rem !important;
 
 }
@@ -1187,8 +1187,8 @@ padding: 5px;
 }
 #FAQ .question{
 background: #F4F4F4;
-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
-border-radius: 10px;
+/*box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+border-radius: 10px;*/
 }
 #FAQ .question h2{
 font-family: Poppins;
@@ -1207,7 +1207,7 @@ color: white;
 cursor: pointer;
 }
 #FAQ .card{
-box-shadow: 0 0 0px 0 !important;
+/*box-shadow: 0 0 0px 0 !important;*/
 }
 
 #FAQ .answer{
@@ -1220,9 +1220,9 @@ text-align: justify;
 color: #3B3A40;
 }
 #FAQ .question1{
-background-color: rgba(255, 255, 255, 1);
+/*background-color: rgba(255, 255, 255, 1);
 box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
-border-radius: 20px;
+border-radius: 20px;*/
 }
 #FAQ button:focus {
 outline: 0px !important;
@@ -1240,11 +1240,12 @@ box-shadow: 0 0 0 0 !important;
 }
 #FAQ .card-header{
 background-color: white !important;
-border-bottom:0px !important
+border-bottom:0px !important;
+padding: 0px !important;
 }
 #FAQ .card-body{
-background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+/*background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
 /*margin-top: -11px;*/
@@ -1661,6 +1662,7 @@ font-weight: 500;
 font-size: 10px;
 line-height: 12px;
 color: #FFA319;
+width: 96px;
 text-align: center;
 }
 #nav-ranking .link{
@@ -1805,7 +1807,7 @@ color: #FFFFFF;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 16px;
 line-height: 19px;
 color: #2B2B2B;
 text-align: left;
@@ -1814,7 +1816,7 @@ text-align: left;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 18px;
 color: #8B8989;
 }
@@ -1972,7 +1974,7 @@ line-height: 24px;
 text-transform: uppercase;
 color: #686868 !important;
 }
-#nav-gallery .nav-link .active{
+#nav-gallery a.nav-link.active{
    color: #29abe2 !important;
    border-bottom: 1px solid #29abe2 !important;
     }
@@ -1984,7 +1986,7 @@ position: relative;
 display: inline-block;
 }
 .main-garden-class .main-garden{
-background: rgba(29, 185, 84, 1);;
+background: #29abe2;
 height: 100%;
 z-index: 99;
 position: absolute;
@@ -2031,7 +2033,7 @@ line-height: 24px;
 color: #fff;
 }
 .main-enterence-class .main-enterence{
-background: rgba(29, 185, 84, 1);;
+background: #29abe2;
 height: 100%;
 z-index: 99;
 position: absolute;
@@ -2042,7 +2044,7 @@ display: none;
 display: inline;
 }
 .main-enterence-class .main-enterence-2{
-background: rgba(29, 185, 84, 1);
+background: #29abe2;
 height: 100%;
 width: 50%;
 position: absolute;
@@ -2054,7 +2056,7 @@ color: #fff;
 display: inline;
 }
 .main-enterence-class .main-enterence-3{
-background: rgba(29, 185, 84, 1);
+background: #29abe2;
 height: 100%;
 width: 50%;
 position: absolute;
@@ -2066,7 +2068,7 @@ color: #fff;
 display: inline;
 }
 .main-enterence-class .main-enterence-4{
-background: rgba(29, 185, 84, 1);
+background: #29abe2;
 height: 100%;
 width: 50%;
 position: absolute;
@@ -2078,7 +2080,7 @@ color: #fff;
 display: inline;
 }
 .main-enterence-class .main-enterence-5{
-background: rgba(29, 185, 84, 1);
+background: #29abe2;
 height: 100%;
 width: 50%;
 position: absolute;
@@ -2090,7 +2092,7 @@ color: #fff;
 display: inline;
 }
 .main-enterence-class .main-enterence-6{
-background: rgba(29, 185, 84, 1);
+background: #29abe2;
 height: 100%;
 width: 50%;
 position: absolute;
@@ -2132,7 +2134,7 @@ color: #FFFFFF;
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 text-align: left;
 color: #2B2B2B;
@@ -2141,7 +2143,7 @@ color: #2B2B2B;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 13px;
 line-height: 16px;
 color: #29ABE2;
 }
