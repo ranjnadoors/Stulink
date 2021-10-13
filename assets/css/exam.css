@@ -9,6 +9,9 @@
 body{
     cursor: pointer;
 }
+.container{
+    max-width: 1440px !important;
+}
  *{
     padding: 0;
     margin: 0;
@@ -322,27 +325,19 @@ body{
     background: #EFEFEF;
     mix-blend-mode: normal;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.13);
-    border-radius: 6px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+    
+   
     color: #1F1F1F;
-    padding: 15px 5px;
+    padding: 10px 5px;
  }
- #jee-main-overview .jee-main-link.active a{
+ #jee-main-overview li a.active {
     background: #EFEFEF;
     mix-blend-mode: normal;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.13);
+   /* box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.13);*/
     border-radius: 6px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+   
     color: #1F1F1F;
-    padding: 15px 15px;
+    padding: 10px 15px;
  }
   .tab-pane-overview{
     background: #FFFFFF;
@@ -484,7 +479,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 18px;
     color: #2B2B2B;
 } 
@@ -504,11 +499,11 @@ body{
     line-height: 13px;
     color: #6F6F6F;
 }
-#trending  h4{
+#trending h4{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 15px;
     color: #29ABE2;
 }
@@ -516,7 +511,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 12px;
     color: #131313;
 }
@@ -1203,10 +1198,10 @@ body{
 }
 #FAQ .question{
     background: #F4F4F4;
-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
-border-radius: 10px;
-}
-#FAQ .question h2{
+    /*box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;*/
+    }
+    #FAQ .question h2{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -1214,19 +1209,19 @@ border-radius: 10px;
     line-height: 24px;
     color: #3E3E3E;
     text-align: left;
-}
-#FAQ #addsymbol{
+    }
+    #FAQ #addsymbol{
     text-align: end;
     font-size: 28px;
     /* font-weight: 600; */
     color: white;
     cursor: pointer;
-}
-#FAQ .card{
-    box-shadow: 0 0 0px 0 !important;
-}
-
-#FAQ .answer{
+    }
+    #FAQ .card{
+    /*box-shadow: 0 0 0px 0 !important;*/
+    }
+    
+    #FAQ .answer{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -1235,37 +1230,56 @@ border-radius: 10px;
     text-align: justify;
     color: #3B3A40;
     }
-#FAQ .question1{
-    background-color: rgba(255, 255, 255, 1);
+    #FAQ .question1{
+    /*background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
-}
-#FAQ button:focus {
-     outline: 0px !important;
-     border: 0px !important;
-     box-shadow: 0px !important;
-}
-#FAQ button:hover {
+    border-radius: 20px;*/
+    }
+    #FAQ button:focus {
     outline: 0px !important;
     border: 0px !important;
     box-shadow: 0px !important;
-}
-#FAQ .btn.focus, .btn:focus {
+    }
+    #FAQ button:hover {
+    outline: 0px !important;
+    border: 0px !important;
+    box-shadow: 0px !important;
+    }
+    #FAQ .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0 !important;
-}
-#FAQ .card-header{
+    }
+    #FAQ .card-header{
     background-color: white !important;
-    border-bottom:0px !important
-}
-#FAQ .card-body{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom:0px !important;
+    padding: 0px !important;
+    }
+    #FAQ .card-body{
+    /*background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: -11px;
+    /*margin-top: -11px;*/
     z-index: -1;
-}
+    }
+    #collapseOne{
+        background-color: #fff;
+    }
+    #FAQ .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px !important;
+        box-shadow: 0 0 4px rgba(59, 58, 64, 0.08) !important;
+        border-radius: 1.5rem !important;
+        
+        }
 /******************************rating*****************/
 #college-rating h2{
     color:rgba(43, 43, 43, 1) ;
@@ -1317,18 +1331,20 @@ font-family: "Poppins";
     text-decoration: none;
 }
 /* bubble box */
-
+.view-more-change-review {
+    color: #29abe2 !important;
+}
 .comment__arrow {
     left: 43px;
     border-style: solid;
     border-width: 20px 0 0 20px;
-    border-color: transparent transparent transparent #c4c4c4;
+    border-color: transparent transparent transparent rgba(196, 196, 196, 0.2);
     position: absolute;
     top: -20px;
   }
   
   #comment__bubble {
-    background: #c4c4c4;
+    background: rgba(196, 196, 196, 0.2);
     padding: 9px 24px 5px 24px;
     margin-bottom: 12px;
     border-radius: 50px;
@@ -1339,7 +1355,7 @@ font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 23px;
     color: #000000;
   }
   .comment__bubble--write {
