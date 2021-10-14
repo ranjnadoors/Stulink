@@ -406,7 +406,7 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 26px;
     text-align: justify;
     color: #3B3A40;
@@ -553,7 +553,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 25px;
     text-align: justify;
     color: #1E1E1E;
 }
@@ -676,8 +676,8 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
-    text-align: justify;
+    line-height: 22px;
+   
     color: #1E1E1E;
 }
 #Eligibility-Criteria h3{
@@ -765,16 +765,16 @@ body{
     font-weight: normal;
     font-size: 15px;
     line-height: 23px;
-    text-align: justify;
+   
     color: #1E1E1E;
 }
 #Syllabus-PDF h3{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 22px;
-    text-align: justify;
+   
     color: #29ABE2;
     }
     #Syllabus-PDF .btn{
@@ -801,7 +801,7 @@ body{
         font-weight: normal;
         font-size: 15px;
         line-height: 24px;
-        text-align: justify;
+       
         color: #000000; 
     }
     #JEE-Main-Physics-Syllabus h3{
@@ -819,7 +819,7 @@ body{
         font-weight: 600;
         font-size: 15px;
         line-height: 22px;
-        text-align: justify;
+        
         color: #29ABE2;
     }
     #JEE-Main-Physics-Syllabus h5::before{
@@ -845,7 +845,7 @@ body{
         font-weight: normal;
         font-size: 15px;
         line-height: 18px;
-        text-align: justify;
+       
         color: #000000;
     }
     #JEE-Main-Chemistry-Syllabus .syllabus-bg{
@@ -985,7 +985,7 @@ body{
     #JEE-Main-2021-Mock-Test td{
         font-family: Poppins;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 15px;
         line-height: 22px;
         text-align: justify;
@@ -1014,7 +1014,7 @@ body{
     #Admit-Card-2021-Dates td{
         font-family: Poppins;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 15px;
         line-height: 22px;
         text-align: justify;
@@ -1156,7 +1156,7 @@ body{
    #Expected-Cutoff td, #Cutoff-Dates td{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     text-align: justify;
