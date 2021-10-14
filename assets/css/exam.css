@@ -1095,6 +1095,16 @@ body{
     line-height: 18px;
     color: #131313;
 }
+#Rank-Predictor .form-control{
+    background: #EFEFEF !important;
+    border-radius: 10px !important;
+    box-shadow: none;
+    border: none !important;
+}
+#Rank-Predictor input::placeholder{
+    font-size: 13px !important;
+    color: #B3B1B7 !important;
+}
 #Rank-Predictor .btn{
     background: #29ABE2;
     border: 1px solid #29ABE2;
