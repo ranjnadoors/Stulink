@@ -14,6 +14,9 @@ body{
     margin: 0;
     font-family: "inter";
     } 
+    .container{
+        max-width: 1440px !important;
+    }
     #upper-header{
         background: #000000;
         
@@ -247,6 +250,7 @@ border-radius: 20px;
     mix-blend-mode: normal;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    height: 450px;
 }
 #tab-list h2{
 font-family: Poppins;
@@ -531,8 +535,8 @@ color: #969696;
 /**************************************faq**********************************/
 #FAQ{
     background: #FFFFFF;
-    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
 }
 #FAQ h2{
     font-family: Poppins;
@@ -555,10 +559,10 @@ color: #969696;
 }
 #FAQ .question{
     background: #F4F4F4;
-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
-border-radius: 10px;
-}
-#FAQ .question h2{
+    /*box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;*/
+    }
+    #FAQ .question h2{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -566,20 +570,19 @@ border-radius: 10px;
     line-height: 24px;
     color: #3E3E3E;
     text-align: left;
-}
-#FAQ #addsymbol{
+    }
+    #FAQ #addsymbol{
     text-align: end;
     font-size: 28px;
     /* font-weight: 600; */
     color: white;
     cursor: pointer;
-}
-#FAQ .card{
-    box-shadow: 0 0 0px 0 !important;
-    border: 0px;
-}
-
-#FAQ .answer{
+    }
+    #FAQ .card{
+    /*box-shadow: 0 0 0px 0 !important;*/
+    }
+    
+    #FAQ .answer{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -588,37 +591,56 @@ border-radius: 10px;
     text-align: justify;
     color: #3B3A40;
     }
-#FAQ .question1{
-    background-color: rgba(255, 255, 255, 1);
+    #FAQ .question1{
+    /*background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
-}
-#FAQ button:focus {
-     outline: 0px !important;
-     border: 0px !important;
-     box-shadow: 0px !important;
-}
-#FAQ button:hover {
+    border-radius: 20px;*/
+    }
+    #FAQ button:focus {
     outline: 0px !important;
     border: 0px !important;
     box-shadow: 0px !important;
-}
-#FAQ .btn.focus, .btn:focus {
+    }
+    #FAQ button:hover {
+    outline: 0px !important;
+    border: 0px !important;
+    box-shadow: 0px !important;
+    }
+    #FAQ .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0 !important;
-}
-#FAQ .card-header{
+    }
+    #FAQ .card-header{
     background-color: white !important;
-    border-bottom:0px !important
-}
-#FAQ .card-body{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom:0px !important;
+    padding: 0px !important;
+    }
+    #FAQ .card-body{
+    /*background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: -11px;
+    /*margin-top: -11px;*/
     z-index: -1;
-}
+    }
+    #collapseOne{
+        background-color: #fff;
+    }
+    #FAQ .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px !important;
+        box-shadow: 0 0 4px rgba(59, 58, 64, 0.08) !important;
+        border-radius: 1.5rem !important;
+        
+        }
 /****************************footer*******************************/
 .footer h5{
     font-size: 14px;
