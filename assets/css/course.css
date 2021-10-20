@@ -9,6 +9,9 @@
 body{
     cursor: pointer;
 }
+.container{
+    max-width: 1440px !important;
+}
  *{
     padding: 0;
     margin: 0;
@@ -367,11 +370,11 @@ animation-play-state: paused;
     line-height: 18px;
     color: #2B2B2B;
 } 
-#trending  h6{
+#trending h6{
     font-family: Inter !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    font-size: 9px !important;
+    font-size: 11px !important;
     line-height: 11px !important;
     color: #29ABE2 !important;
 }
@@ -516,9 +519,9 @@ animation-play-state: paused;
         color: #29ABE2;
     }
     #nav-Top-Courses .form-control{
-        background: #EFEFEF;
+        background: #EFEFEF !important;
         border-radius: 5px;
-        border: none;
+        border: none !important;
     }
     #nav-Top-Courses .button{
         background: #EFEFEF;
@@ -596,7 +599,7 @@ animation-play-state: paused;
      left: 0;
     transform: rotate(90deg);
     transform-origin: top left;
-     background-color: #1DB954;
+     background-color: #29ABE2;
      position:absolute;
      width: 100%;
      height: 100%;
@@ -642,7 +645,7 @@ animation-play-state: paused;
 #nav-Entrance-Exams .form-control{
     background: #EFEFEF !important;
     border-radius: 5px;
-    border: none;
+    border: none !important;
 }
 #nav-Entrance-Exams .apply-now{
     background: #29ABE2;
@@ -887,12 +890,13 @@ animation-play-state: paused;
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    width: 140px;
 }
 /**************************************faq**********************************/
 #FAQ{
     background: #FFFFFF;
-    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
 }
 #FAQ h2{
     font-family: Poppins;
@@ -915,10 +919,10 @@ animation-play-state: paused;
 }
 #FAQ .question{
     background: #F4F4F4;
-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
-border-radius: 10px;
-}
-#FAQ .question h2{
+    /*box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;*/
+    }
+    #FAQ .question h2{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -926,20 +930,19 @@ border-radius: 10px;
     line-height: 24px;
     color: #3E3E3E;
     text-align: left;
-}
-#FAQ #addsymbol{
+    }
+    #FAQ #addsymbol{
     text-align: end;
     font-size: 28px;
     /* font-weight: 600; */
     color: white;
     cursor: pointer;
-}
-#FAQ .card{
-    box-shadow: 0 0 0px 0 !important;
-    border: 0px;
-}
-
-#FAQ .answer{
+    }
+    #FAQ .card{
+    /*box-shadow: 0 0 0px 0 !important;*/
+    }
+    
+    #FAQ .answer{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -948,97 +951,56 @@ border-radius: 10px;
     text-align: justify;
     color: #3B3A40;
     }
-#FAQ .question1{
-    background-color: rgba(255, 255, 255, 1);
+    #FAQ .question1{
+    /*background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
-    border-radius: 20px;
-}
-#FAQ button:focus {
-     outline: 0px !important;
-     border: 0px !important;
-     box-shadow: 0px !important;
-}
-#FAQ button:hover {
+    border-radius: 20px;*/
+    }
+    #FAQ button:focus {
     outline: 0px !important;
     border: 0px !important;
     box-shadow: 0px !important;
-}
-#FAQ .btn.focus, .btn:focus {
+    }
+    #FAQ button:hover {
+    outline: 0px !important;
+    border: 0px !important;
+    box-shadow: 0px !important;
+    }
+    #FAQ .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0 !important;
-}
-#FAQ .card-header{
+    }
+    #FAQ .card-header{
     background-color: white !important;
-    border-bottom:0px !important
-}
-#FAQ .card-body{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom:0px !important;
+    padding: 0px !important;
+    }
+    #FAQ .card-body{
+    /*background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: -11px;
+    /*margin-top: -11px;*/
     z-index: -1;
-}
-.text-review{
-    margin-left: -58px;
-}
-.view-more-rating a:hover{
-    text-decoration: none;
-}
-/* bubble box */
-
-.comment__arrow {
-    left: 43px;
-    border-style: solid;
-    border-width: 20px 0 0 20px;
-    border-color: transparent transparent transparent #c4c4c4;
-    position: absolute;
-    top: -20px;
-  }
-  
-  #comment__bubble {
-    background: #c4c4c4;
-    padding: 9px 24px 5px 24px;
-    margin-bottom: 12px;
-    border-radius: 50px;
-    position: relative;
-  }
-  #comment__bubble p{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-  }
-  .comment__bubble--write {
-    background: transparent;
-    border: 1px solid #EDF1EE;
-    padding: 19px 24px 0 24px;
-  }
-  
-  .comment__bubble--write .comment__arrow {
-    border-color: transparent;
-  }
-  #text-review .img-bg{
-    border: 1px solid #29ABE2;
-    border-radius: 50%;
-    padding: 5px;  
-  }
-  #text-review h2{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 37px;
-    color: #29ABE2; 
-  }
-  #text-review span{
-    font-size: 15px;
-    color: rgba(168, 168, 168, 1);
-    font-weight: 500;
-    font-family: "Poppins";
-  }
+    }
+    #collapseOne{
+        background-color: #fff;
+    }
+    #FAQ .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px !important;
+        box-shadow: 0 0 4px rgba(59, 58, 64, 0.08) !important;
+        border-radius: 1.5rem !important;
+        
+        }
 /******************************rating*****************/
 #college-rating h2{
     color:rgba(43, 43, 43, 1) ;
@@ -1083,6 +1045,59 @@ color: rgba(0, 0, 0, 1);
 font-size: 16px;
 font-family: "Poppins"; 
 }
+
+.comment__arrow {
+    left: 43px;
+    border-style: solid;
+    border-width: 20px 0 0 20px;
+    border-color: transparent transparent transparent rgba(196, 196, 196, 0.2);
+    position: absolute;
+    top: -20px;
+  }
+  
+  #comment__bubble {
+    background: rgba(196, 196, 196, 0.2);
+    padding: 9px 24px 5px 24px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    position: relative;
+  }
+  #comment__bubble p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+  }
+  .comment__bubble--write {
+    background: transparent;
+    border: 1px solid #EDF1EE;
+    padding: 19px 24px 0 24px;
+  }
+  
+  .comment__bubble--write .comment__arrow {
+    border-color: transparent;
+  }
+  #text-review .img-bg{
+    border: 1px solid #29ABE2;
+    border-radius: 50%;
+    padding: 5px;  
+  }
+  #text-review h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #29ABE2; 
+  }
+  #text-review span{
+    font-size: 15px;
+    color: rgba(168, 168, 168, 1);
+    font-weight: 500;
+    font-family: "Poppins";
+  }
 /****************************footer*******************************/
 .footer h5{
     font-size: 14px;
