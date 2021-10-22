@@ -15,6 +15,9 @@
 body{
    
 }
+.container{
+    max-width: 1440px !important;
+}
 #upper-header{
     background: #000000;
     
@@ -357,7 +360,7 @@ color: #A5A5A5;
 font-family: Inter;
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: 13px;
 line-height: 16px;
 color: #29ABE2;
 }
