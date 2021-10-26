@@ -133,7 +133,7 @@ border-radius: 2px;
 }
 
 .notification:hover {
-background: red;
+background: #29ABE2;
 }
 
 .notification .badge {
@@ -145,6 +145,90 @@ border-radius: 50%;
 background-color: #29ABE2;
 color: white;
 }
+.form-control{
+    border: 1px solid #A8A8A8 !important;
+box-sizing: border-box;
+border-radius: 64px !important;
+}
+.comment-btn{
+    background: #29ABE2;
+border-radius: 64px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+#posts h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+#posts h2{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #A5A5A5;
+}
+#posts .btn{
+    background: #ECECEC;
+    border-radius: 3px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+border: none;
+    }
+#posts h4{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #4F4F4F;
+    }
+#posts p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 26px;
+color: #898989;
+}
+.other-courses{
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    }
+    .other-courses h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    }
+    .other-courses h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222222;
+    }
 /****************************footer*******************************/
 .footer h5{
 font-size: 14px;
@@ -200,152 +284,44 @@ top: -14px;
 transform: rotate(
 -91deg);
 }
-/*****************help center*****************/
-#help-center h1{
+.course h1{
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 25px;
-line-height: 37px;
+font-size: 23px;
+line-height: 34px;
 color: #000000;
 }
-#help-center h2{
+.btn-1{
+background: #ECECEC;
+border-radius: 30px;
+border: 0;
 font-family: Poppins;
 font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 37px;
-color: #262626;
-}
-#help-center .question-bg{
-background: #FFFFFF;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
-border-radius: 10px;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #464646;
 }
 .question-bg{
-background: #FFFFFF;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
-border-radius: 10px;
-}
-#help-center .question-bg  span{
-font-family: Inter;
-
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
-text-align: center;
-color: #878787;
-}
-span{
-font-family: Inter;
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
-text-align: center;
-color: #878787;
-}
-#help-center .question-bg p{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
-color: #222222;
-}
-p{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
-color: #222222;
-}
-#categories{
-background: #FFFFFF;
+    background: #FFFFFF;
 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
 border-radius: 10px;
 }
-#categories h1{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 37px;
-color: #000000;
+.question-bg span{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #878787;
 }
-#categories .btn-1{
-background: #ECECEC;
-border-radius: 30px;
-color: #000;
-}
-#course-exam h1{
-font-family: Poppins;
+.question-bg p{
+    font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
-line-height: 30px;
-color: #000000;
-}
-#course-exam p{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-color: #898989;
-}
-#course-exam .course{
-border: 1px solid #466EB6;
-box-sizing: border-box;
-box-sizing: border-box;
-filter: drop-shadow(0px 0px 18px rgba(81, 81, 81, 0.05));
-border-radius: 10px;
-transform: matrix(1, 0, 0, 1, 0, 0);
-}
-/**************************help-center-inner********************/
-#help-center-course{
-background: #FFFFFF;
-border: 1px solid #F5F5F5;
-box-sizing: border-box;
-border-radius: 10px;
-}
-#help-center-course h1{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 37px;
-color: #000000;
-}
-.see-more{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-color: #000000;
-}
-#other-courses{
-background: #FFFFFF;
-border: 1px solid #F5F5F5;
-box-sizing: border-box;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-}
-#other-courses h1{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
-}
-#other-courses h3{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 20px;
+line-height: 32px;
 color: #222222;
 }
