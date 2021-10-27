@@ -122,106 +122,71 @@ font-size: 14px;
 line-height: 19px;
 color: #676767;
 }
-/**************************profile-post*********/
-#profile-post .profile-bg{
+/******************************find-request-popup*****************/
+#find-request-popup .dropdown-menu{
+width: 50% !important;
+min-width: 400px;
 background: #FFFFFF;
-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-border-top: 3px solid #29ABE2;
-border-radius: 10px 10px 0px 0px;
+box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.13);
+border-radius: 3px;
+border: none;
 }
-#profile-post .profile-bg h2{
+#find-request-popup h2{
 font-family: Poppins;
 font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 37px;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
 color: #000000;
 }
-#profile-post .profile-bg span{
+#find-request-popup h3{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 11px;
+color: #4D4D4D;
+}
+#find-request-popup span{
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
+font-size: 11px;
+line-height: 10px;
 color: #A5A5A5;
 }
-#profile-post .profile-bg h3{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-}
-#profile-post .profile-bg .link{
+#find-request-popup .btn{
 background: #29ABE2;
-border-radius: 5px;
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-
-
-border: 0px;
-color: #FFFFFF;
-}
-#profile-post .profile-bg .msg{
-background: #5C5C5C;
-border-radius: 5px;
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-
-
-border: 0px;
-color: #FFFFFF;
-}
-.align-btn{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-/*****************************about-profile*************/
-#about-profile{
-background: #FFFFFF;
-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-}
-#about-profile h1{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 33px;
-color: #000000;
-}
-#about-profile h2{
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-color: #5B5B5B;
-}
-#about-profile h3{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 22px;
-color: #29ABE2;
-}
-#about-profile p{
+border-radius: 2px;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-color: #818181;
+font-size: 11px;
+line-height: 10px;
+color: #FFFFFF;
+border: none;
+}
+#find-request-popup .btn-1{
+background: #F6F6F6;
+border: 0.1px solid #F6F6F6;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 10px;
+color: #000000;
+}
+.view-all{
+background: #29ABE2;
+border-radius: 0px 0px 3px 3px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+color: #FFFFFF;
 }
 ul{
 list-style: none;
@@ -249,82 +214,121 @@ border-radius: 50%;
 background-color: #29ABE2;
 color: white !important;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-color: #29ABE2 !important;
-border: none;
-border-bottom: 2px solid #29ABE2 !important;
-}
-.img-2{
-display: none;
-}
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active .img-2{
-display: inline-block;
-}
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active .img-1{
-display: none;
-}
-#tabs a{
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-
-color: #2E2E2E;
-}
-.nav-tabs{
-background: #FFFFFF;
-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-border-bottom: none !important;
-}
-.nav-tabs .nav-link{
-border: none !important;
-}
-#tabs .tab-pane-1{
-background: #FFFFFF;
-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-}
-#tabs h1{
+/***********************************find-request******************/
+#find-request h1{
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
-line-height: 24px;
+font-size: 20px;
+line-height: 30px;
 color: #000000;
 }
-#tabs h2{
+.find-request-bg{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+#find-request h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+#find-request h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #A5A5A5;
+}
+#find-request span{
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
 line-height: 18px;
-color: #A5A5A5;
+color: #656565;
 }
-#tabs h3{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 12px;
-color: #0E0E0E;
-}
-#tabs h4{
+#find-request .btn{
+border: 0;
+background: #29ABE2;
+border-radius: 2px;
 font-family: Inter;
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 12px;
 line-height: 15px;
-color: #989898;
+color: #FFFFFF;
+
 }
-#tabs p{
+#profile-bg{
+background: #FFFFFF;
+box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+#profile-bg p{
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+color: #818181;
+}
+#profile-bg span{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #A5A5A5;
+}
+#profile-bg h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color: #000000;
+}
+#profile-bg h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+color: #000000;
+}
+#profile-bg h4{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
 font-size: 15px;
-line-height: 24px;
-color: #515151;
+line-height: 22px;
+color: #454545;
+}
+#profile-bg h3{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #000000;
+}
+#profile-bg .btn{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+background: #29ABE2;
+border-radius: 2px;
+border: none;
 }
 /******************recomend***************/
 #recomend{
@@ -374,115 +378,6 @@ font-size: 14px;
 line-height: 10px;
 color: #FFFFFF;
 }
-#trending{
-background: #FFFFFF;
-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-}
-#trending h1{
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
-}
-#trending h2{
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 15px;
-color: #2B2B2B;
-}
-#trending h3{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-color: #8B8989;
-}
-/**********************repost***********************/
-
-
-.repost-notification span{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 16px;
-color: #717171;
-background: #FAFAFA;
-border-radius: 5px;
-
-}
-/******************************find-request-popup*****************/
-#find-request-popup .dropdown-menu{
-width: 50% !important;
-min-width: 400px;
-background: #FFFFFF;
-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.13);
-border-radius: 3px;
-border: none;
-}
-#find-request-popup h2{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: #000000;
-}
-#find-request-popup h3{
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 11px;
-color: #4D4D4D;
-}
-#find-request-popup span{
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 10px;
-color: #A5A5A5;
-}
-#find-request-popup .btn{
-background: #29ABE2;
-border-radius: 2px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 10px;
-color: #FFFFFF;
-border: none;
-}
-#find-request-popup .btn-1{
-    background: #F6F6F6;
-border: 0.1px solid #F6F6F6;
-box-sizing: border-box;
-border-radius: 2px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 10px;
-color: #000000;
-    }
-    .view-all{
-        background: #29ABE2;
-border-radius: 0px 0px 3px 3px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-line-height: 15px;
-color: #FFFFFF;
-    }
 /****************************footer*******************************/
 .footer h5{
 font-size: 14px;
